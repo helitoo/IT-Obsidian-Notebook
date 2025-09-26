@@ -1,0 +1,464 @@
+
+```insta-toc
+---
+title:
+  name: Mục lục
+  level: 1
+  center: false
+exclude: ""
+style:
+  listType: number
+omit: []
+levels:
+  min: 1
+  max: 6
+---
+
+# Mục lục
+
+1. Các dịch vụ vận chuyển
+2. Mạch ảo và Mạch gói tin
+3. Rounter
+    1. Cấu trúc
+    2. Cơ chế forward
+    3. Cơ chế quản lý bộ nhớ đệm
+    4. Định thời gửi gói
+    5. Tính trung lập của mạng
+4. Địa chỉ IP
+    1. Định dạng địa chỉ IP
+    2. CIDR (Classless inter-domain routing)
+    3. Mạng con (Subnet)
+    4. Cấp phát địa chỉ IP
+        1. Đối với host
+        2. Đối với mạng
+5. Các thuật toán định tuyến
+    1. Phân loại thuật toán định tuyến
+    2. Thuật toán Disjkstra's link-state
+    3. Thuật toán vector khoảng cách (Distance vector routing)
+6. Định tuyến trong Internet
+    1. Phân cấp định tuyến
+    2. Các giao thức nội miền
+    3. Giao thức liên miền BGP
+    4. SDN (Software defined networking)
+    5. Các giao thức quản lý mạng
+7. Định tuyến broadcast và multicast
+    1. Định tuyến broadcast (Broadcast routing)
+    2. Định tuyến đa hướng (Multicast routing)
+```
+
+
+**[[Tổng quan về mạng máy tính#Phân tầng mạng|Network layer]]**: Định tuyến các gói dữ liệu từ nguồn đến đích (IP, các bộ định tuyến).
+
+# Các dịch vụ vận chuyển
+
+Network layer cung cấp dịch vụ truyền gói tin từ máy gửi đến máy nhận. Tùy vào kiến trúc mạng mà có các mô hình dịch vụ khác nhau [[Application layer#Các dịch vụ vận chuyển gói tin]].
+
+Có 2 loại mô hình:
+1. **Dịch vụ theo từng gói tin riêng lẻ**:
+	- Đảm bảo truyền gói tin đến đích.
+	- Độ trễ thấp (ví dụ < 40ms).
+
+2. **Dịch vụ theo từng luồng gói tin**:
+	- Truyền theo thứ tự.
+	- Đảm bảo băng thông tối thiểu cho luồng.
+	- Hạn chế dao động khoảng cách giữa các gói.
+
+Một số loại dịch vụ:
+
+| Kiến trúc mạng                        | Mô hình dịch vụ  | Băng thông      | Mất gói | Thứ tự | Thời gian |
+| ------------------------------------- | ---------------- | --------------- | ------- | ------ | --------- |
+| **Internet** (mặc định, truyền thống) | Nỗ lực tốt nhất  | --              | --      | --     | --        |
+| **ATM**                               | Tốc độ không đổi | Tỷ lệ không đổi | Có      | Có     | Có        |
+| **ATM**                               | Tốc độ khả dụng  | Tối thiểu       | --      | Có     | --        |
+| **Internet (RFC 1633)**               | Đảm bảo          | Có              | Có      | Có     | Có        |
+| **Internet (RFC 2475)**               | Phân tán         | Có thể          | Có thể  | Có thể | Có        |
+
+# Mạch ảo và Mạch gói tin
+
+Mạch ảo và Mạch gói tin là 2 phương pháp kết nối logic giữa máy gửi và nhận, không phải [[Tổng quan về mạng máy tính#Chuyển mạch kênh (Circuit switching)|Chuyển mạch kênh (Circuit switching)]].
+
+| Đặc điểm                       | Mạch ảo (Virtual circuit)          | Mạch gói tin (Datagram circuit) |
+| ------------------------------ | ---------------------------------- | ------------------------------- |
+| **Dịch vụ kết nối**            | Hướng kết nối.                     | Phi kết nối.                    |
+| **Thiết lập trước khi truyền** | Có.                                | --                              |
+| **Forward dựa trên**           | VC number (ngắn gọn hơn)           | Địa chỉ IP đích                 |
+| **Trạng thái trong router**    | Phải lưu trạng thái VC             | Không lưu trạng thái kết nối    |
+| **Cấp phát tài nguyên**        | Có thể cấp phát băng thông, buffer | Không đảm bảo, nỗ lực tốt nhất  |
+| **Thứ tự gói tin**             | Đảm bảo đúng thứ tự                | Có thể sai thứ tự               |
+| **VD**                         | ATM, X.25, Frame Relay             | Internet (IP)                   |
+
+Tại sao Internet chọn mô hình Datagram, còn ATM chọn Virtual Circuit?
+1. **Internet**:
+	- Dữ liệu giữa máy tính có thể chịu trễ, mất gói, tỷ lệ trễ, mất gói thấp.
+	- Mạng bên trong đơn giản, thông minh nằm ở thiết bị đầu cuối (PC có thể xử lý lỗi, TCP đảm bảo).
+	- Hạ tầng đa dạng (nhiều loại link), khó đồng nhất dịch vụ.
+
+2. **ATM**:
+	- Cần phục vụ thoại / video thời gian thực.
+	- Cần đảm bảo băng thông, trễ thấp, độ tin cậy cao.
+	- Điện thoại/thiết bị đầu cuối kém thông minh → mạng phải gánh trách nhiệm phức tạp.
+
+# Rounter
+
+## Cấu trúc
+
+Router gồm các thành phần:
+1. **Input Ports (cổng đầu vào)**:
+	- Nhận tín hiệu vật lý (tầng vật lý).
+	- Xử lý frame (tầng liên kết dữ liệu, ví dụ Ethernet).
+	- Tra cứu bảng forwarding để tìm cổng đầu ra.
+	- Xếp hàng (queueing) nếu có nghẽn.
+
+2. **Switching Fabric**:
+	- Là thành phần “xương sống”, kết nối input ports và output ports.
+	- Quyết định tốc độ switching.
+	- Có 3 loại fabric:
+		1. **Memory (bộ nhớ)** \[Cũ\]: Truyền gói trung gian qua bộ nhớ của hệ thống.
+		2. **Bus**: Các gói đều truyền chung bus, bị giới hạn bởi băng thông bus (*tranh chấp bus*).
+		3. **Interconnection network** \[Hiện đại\]: Các gói được truyền song song, tốc độ cao. Gồm có các dạng:
+			1. **Crossbar / Clos**: Các gói được truyền dọc theo lưới circuit.
+			2. **Switch đa tầng**: Fabric được chia thành nhiều fabric nhỏ, các gói truyền qua các fabric nhỏ trung gian.
+
+3. **Output Ports (cổng đầu ra)**:
+	- Lưu gói trong hàng đợi nếu tốc độ đến lớn hơn tốc độ gửi.
+	- Quản lý bộ đệm.
+	- Định thời gửi gói.
+
+4. **Routing Processor (Bộ xử lý chuyển tiếp)**:
+	- Nơi chạy control plane (các thuật toán định tuyến, quản lý).
+
+## Cơ chế forward
+
+Có 3 cách forward:
+1. **Destination-based forwarding**: Tra cứu theo địa chỉ IP đích (truyền thống).
+2. **Generalized forwarding**: Tra cứu theo bất kỳ trường header nào (SDN kiểu match-action).
+3. **Longest Prefix Match**: IP đích khớp với tiền tố dài nhất trong bảng forward.
+
+## Cơ chế quản lý bộ nhớ đệm
+
+Bộ nhớ đệm được dùng như là queue để đưa các gói vào.
+1. **Input queuing**:
+	- Nếu fabric không kịp, đưa gói vào queue ở input.
+	- Có thể bị Head-of-the-Line (HOL) blocking: gói đầu tiên chặn gói sau.
+
+2. **Output queuing**:
+	- Nếu tốc độ đầu ra nhỏ hơn tốc độ đến, đưa gói vào queue ở output.
+	- Có thể mất gói (buffer overflow).
+
+Kích thước bộ nhớ đệm ($M$) trong băng thông $C$:
+- Theo quy tắc ngón tay cái RFC 3439:
+$$ M \approx C.RTT $$
+- Công thức mới: Với $N$ là số luồng đồng thời qua liên kết thì:
+$$ M = \frac{C.RTT}{\sqrt{N}} $$
+
+Chú ý:
+- Quá nhiều bộ nhớ đệm -> Tăng độ trễ.
+- RTT dài -> Hiệu suất kém.
+
+Các chiến lược quản lý bộ nhớ đệm:
+1. **Drop-tail**: Bỏ gói đến khi bộ đệm đầy.
+2. **Priority drop**: Loại gói theo mức ưu tiên.
+3. **Marking**: Gắn cờ (RED, ECN) để báo hiệu tắc nghẽn thay vì drop ngay.
+
+## Định thời gửi gói
+
+Có 3 phương pháp định thời:
+1. **FCFS/FIFO**: Gói đến trước thì được gửi đi trước.
+2. **Priority queuing**: Gói có mức độ ưu tiên cao thì được gửi trước.
+3. **Round Robin (RR)**: Phân bổ các gói vào hàng đợi riêng, định thời luân phiên giữa các hàng đợi.
+4. **Weighted Fair Queuing (WFQ)**: Phân bổ băng thông theo trọng số (công bằng nhưng có thể ưu tiên).
+
+## Tính trung lập của mạng
+
+Về mặt kỹ thuật: Router không phân biệt traffic "theo ý riêng" (VD ưu tiên YouTube hơn Netflix).
+
+Về mặt xã hội: Bảo vệ tự do ngôn luận, cạnh tranh công bằng.
+
+Mỗi quốc gia có quan điểm khác nhau về trung lập mạng.
+
+# Địa chỉ IP
+
+## Định dạng địa chỉ IP
+
+Có 2 dạng địa chỉ IP:
+- **IPv4**: **32**-bit, thường viết dưới dạng thập phân chấm: `192.168.1.1`.
+    - Ví dụ: 32-bit = 4 byte, chia thành 4 octet (8-bit mỗi octet).
+    - Giá trị từ 0–255 cho mỗi octet.
+- **IPv6**: **128**-bit, viết dạng thập lục phân phân cách dấu hai chấm: `2001:0db8:85a3::8a2e:0370:7334`.
+
+**Định dạng địa chỉ IPv4**: Gồm 2 phần:
+1. **Phần mạng (Network Part)**
+    - Xác định mạng mà host thuộc về.
+    - Các host trong cùng mạng con có **các bit cao giống nhau**.
+        
+2. **Phần host (Host Part)**
+    - Xác định thiết bị cụ thể trong mạng.
+
+## CIDR (Classless inter-domain routing)
+
+**CIDR** là một phương pháp định tuyến không phân lớp để *xác định phần mạng và phần host* trong địa chỉ IP một cách linh hoạt, thay vì dựa trên các lớp A, B, C cố định như trước đây.
+
+Cú pháp: `IP/N`.
+Trong đó:
+- `N`: Là số bit phần network.
+- Số bit phần host: $32-N$ (IPv4).
+- Số lượng host: $2^N - 2$.
+
+VD: `192.168.1.0/24`:
+- Phần network có 24 bit.
+- Phần host có 8 bit.
+- Số host: 254.
+
+## Mạng con (Subnet)
+
+**Subnet** là **một phần của mạng lớn** được tách ra, gồm các thiết bị có thể giao tiếp trực tiếp mà không cần router.
+
+Subnet cũng có địa chỉ, nhưng chỉ để định dạng mạng, không được gắn cho host nào.
+
+Trong mỗi subnet, có một địa chỉ đặc biệt gọi là địa chỉ **broadcast**. Đây là địa chỉ IP cuối cùng trong subnet, dùng để đại diện cho tất cả host trong subnet đó. Khi gửi gói tin đến địa chỉ broadcast thì toàn bộ các host con trong subnet đều nhận được gói tin đó.
+
+**Các xác định subnet**: Giả sử mạng lớn có $N$ bit phần network, cần phân chia thành $m$ subnet:
+- Số lượng host mỗi subnet: $62 - 2$ (trừ đi 1 địa chỉ subnet network và 1 địa chỉ broadcast).
+- Số lượng bit phần host của mỗi subnet: $\log_2(62 + 2)$.
+- Số lượng bit phần network của mỗi subnet: $32 - \log_2(62+2)$.
+
+VD:
+Giả sử bạn có một mạng lớn `192.168.1.0/24` (tương ứng $32 - 24 = 8$ bit phần host,  $2^8 - 2 = 245$ host).
+- Bạn muốn tạo $4$ subnet nhỏ hơn để quản lý các phòng ban hoặc thiết bị.
+- Mỗi subnet cần tối đa $62$ host.
+- Mỗi host cần $\log_2(62 + 2)=6$ bit.
+- Mỗi phần network có $32 - 6 = 26$ bit.
+
+Kết quả phân chia:
+
+| Địa chỉ subnet (CIDR) | Địa chỉ subnet  | Địa chỉ IP của các host trong subnet | Địa chỉ broadcast |
+| --------------------- | --------------- | ------------------------------------ | ----------------- |
+| `192.168.1.0/26`      | `192.168.1.0`   | `192.168.1.1` đến `192.168.1.62`     | `192.168.1.63`    |
+| `192.168.1.64/26`     | `192.168.1.64`  | `192.168.1.65` đến `192.168.1.126`   | `192.168.1.127`   |
+| `192.168.1.128/26`    | `192.168.1.128` | `192.168.1.129` đến `192.168.1.190`  | `192.168.1.191`   |
+| `192.168.1.192/26`    | `192.168.1.192` | `192.168.1.193` đến `192.168.1.254`  | `192.168.1.255`   |
+
+## Cấp phát địa chỉ IP
+
+### Đối với host
+
+Có các loại:
+1. **Static IP**:
+	- Địa chỉ cố định, được sysadmin cấu hình trong file cấu hình hệ thống.
+	- Ưu: Đơn giản, không phụ thuộc DHCP.
+	- Nhược: Khó quản lý khi mạng lớn hoặc host di động.
+
+2. **Dynamic IP - DHCP (Dynamic Host Configuration Protocol)**:
+	- Cho phép **host tự động lấy địa chỉ IP** khi tham gia mạng.
+	- Quy trình:
+		1. **DHCP discover**: Host gửi yêu cầu tìm DHCP cho DHCP server (Router, server chuyên dụng,...).
+		2. **DHCP offer**: Server đề xuất địa chỉ IP.
+		3. **DHCP request**: Host xác nhận muốn sử dụng địa chỉ.
+		4. **DHCP ACK**: Server xác nhận, host nhận IP.
+	- DHCP cũng cung cấp:
+		- Default gateway (IP router).
+		- Subnet mask (xác định phần mạng vs host).
+		- DNS server (tên miền → IP).
+	- Lợi ích:
+		- Hỗ trợ host di động.
+		- Sử dụng lại địa chỉ IP khi host rời mạng.
+
+### Đối với mạng
+
+1. ISP và phân bổ khối địa chỉ:
+	1. ISP nhận khối địa chỉ từ ICANN.
+	2. ISP phân chia khối này thành nhiều subnet cho các tổ chức.
+	3. Tổ chức chia subnet này cho mạng cục bộ.
+
+2. Mạng nội bộ và NAT:
+	- Các thiết bị trong mạng cục bộ có thể dùng địa chỉ IP riêng tư: `10.0.0.0/8`, `172.16.0.0/12`,...
+	- Khi ra Internet, NAT (Network Address Translation) chuyển đổi địa chỉ IP nội bộ thành IP công cộng.
+	- Giúp tiết kiệm địa chỉ IPv4 và bảo mật mạng nội bộ.
+
+# Các thuật toán định tuyến
+
+## Phân loại thuật toán định tuyến
+
+Các khái niệm:
+- **Metric**: Là đại lượng đo chi phí của tuyến đường.
+- **Hop**: Đơn vị chi phí của metric.
+- **Advertisement**: Là gửi thông tin cấu trúc liên kết của mạng cho các router. Cả LS và DV đều dùng.
+
+Phân loại dựa trên *cách các router được cung cấp thông tin về cấu trúc liên kết của mạng*:
+1. **Thuật toán thông tin toàn cầu (Link State - LS)**:
+	- **Tất cả router đều có thông tin đầy đủ về cấu trúc liên kết của toàn bộ mạng**.
+	- Mỗi router dựa vào thông tin này để tính toán đường đi tối ưu.
+
+2. **Thuật toán phi tập trung (Distance Vector - DV)**:
+	- **Mỗi router ban đầu chỉ biết chi phí đến các router hàng xóm**.
+	- Quá trình tính toán diễn ra theo cách lặp đi lặp lại, khi các router trao đổi thông tin với hàng xóm để dần dần tìm ra đường đi tối ưu.
+
+Phân loại dựa trên *cách thức định tuyến*:
+1. **Định tuyến động**:
+	- Đường đi có thể thay đổi khi chi phí liên kết thay đổi.
+	- Thông tin được cập nhật định kỳ hoặc ngay khi có sự thay đổi trong mạng.
+
+2. **Định tuyến tĩnh**:
+	- Các đường đi thay đổi rất chậm theo thời gian, thường do con người cấu hình cố định.
+
+## Thuật toán Disjkstra's link-state
+
+**Đặc điểm**:
+- Đây là thuật toán thuộc dạng **link state (LS)**.
+- Các router biết được cấu trúc mạng nhờ vào việc các router đều phát thông tin trạng thái liên kết cho mình cho toàn mạng biết qua các gói tin **link state broadcast**.
+
+**Thuật toán**:
+1. **Khởi tạo**:
+	- Gọi $N$ là tập hợp các router mà từ router xuất phát $u$ đến mọi router trong $N$ đều là ngắn nhất.
+	- Ban đầu, $N = \{ u \}$.
+	- Kiểm tra các router $v$ của mạng, nếu $v$ là hàng xóm của $u$ thì $d(v) = c(u, v)$, không thì $d(v) = \infty$.
+
+2. **Lặp**: Kiểm tra các router trong $N$:
+	- Chọn router $w \in N$ sao cho $d(w)$ nhỏ nhất.
+	- Thêm $w$ vào $N$.
+	- Với tất cả router $v$ là hàng xóm của $w$, $d(v) = \min(d(w) + c(w, v))$.
+
+-> Nếu có một router lỗi, các router khác vẫn hoạt động bình thường vì nó biết chi phí toàn cục và tính toán cục bộ.
+
+**Độ phức tạp**:
+- Đối với cấu trúc lưu trữ thường: $O(n^2)$.
+- Đối với cấu trúc heap: $O(n.\log(n))$.
+
+**Hiện tượng dao động định tuyến (Routing oscillation)**:
+- Xảy ra khi chi phí của các liên kết phụ thuộc vào lưu lượng (băng thông).
+- Khi lưu lượng thay đổi, chi phí thay đổi, thuật toán cần được chạy lại từ đầu.
+- Có thể phòng chống bằng **Poison reverse**: Giới hạn mức trần của metric, không cho cập nhật $d$ nếu vượt ngưỡng trần.
+
+## Thuật toán vector khoảng cách (Distance vector routing)
+
+**Đặc điểm**: Đây là thuật toán thuộc dạng **phi tập trung (DV)**.
+
+**Cơ sở lý thuyết: Công thức Bellman-Ford**:
+$$ d(x, y) = \min\{ c(x, v) + d(y, v) \} $$
+Trong đó:
+- $d(x, y)$: Khoảng cách ngắn nhất từ router $x$ đến $y$.
+- $v$: Hàng xóm của $x$.
+
+**Thuật toán**:
+- Mỗi router duy trì một vector ước tính khoảng cách đến mọi router khác.
+- Nếu vector khoảng cách của 1 router thay đổi, router đó sẽ gửi vector của mình cho láng giềng.
+- Khi một router nhận được vector từ router khác, nó tự cập nhật vector của mình bằng công thức Bellman-Ford.
+- Ban đầu, mỗi router chỉ biết khoảng cách đến hàng xóm của nó. Càng về sau, nó sẽ biết lan ra các router xung quanh (**hội tụ**). Thời gian hội tụ phụ thuộc vào số lượng lần trao đổi thông tin và cấu trúc mạng.
+
+-> Nếu có một router lỗi, các router khác sẽ bị ảnh hưởng vì mỗi router đều giao tiếp với nhau để tính toán chi phí.
+
+**Hiện tượng tin xấu lan truyền chậm (Count to infinity) / Vòng lặp định tuyến (Routing loop)**: Xảy ra khi xuất hiện liên kết tăng chi phí đột ngột (như mất liên kết), nhưng tin này truyền đi quá chậm, khiến các router nhầm tưởng rằng liên kết đó vẫn bình thường, dẫn đến lặp đi lặp lại truyền gói.
+
+# Định tuyến trong Internet
+
+## Phân cấp định tuyến
+
+Quy mô Internet hiện nay có hàng tỷ router, không thể lưu trữ tất cả router trong bảng định tuyến.
+-> Internet được chia thành nhiều **mạng con tự trị** (AS, Autonomous System), mỗi AS có:
+- **Quản trị viên** riêng, có toàn quyền định tuyến trong phạm vi mạng.
+- **Router cổng (Gateway router)**: Nằm ở rìa AS, vừa định tuyến các router trong AS (nội miền), vừa định tuyến giữa các AS (liên miền).
+- AS là cấp độ mạng ở góc nhìn kỹ thuật định tuyến. AS có thể được chia thành nhiều [[#Mạng con (Subnet)]].
+
+Có 2 loại AS:
+
+|                        | Intra-AS (Nội miền)                                                                                                                                 | Inter-AS (Liên miền)                                                                        |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Mô tả**              | - Tất cả router trong cùng một AS phải chạy **cùng một giao thức nội miền**.<br><br>- Các AS khác nhau có thể sử dụng giao thức nội miền khác nhau. | Gồm các AS được liên kết quả router cổng.                                                   |
+| **Chính sách quản lý** | 1 quản trị viên, ít vấn đề về chính sách.<br><br>-> Nên tập trung vào hiệu suất.                                                                    | Cần kiểm soát cách lưu lượng ra/vào các AS.<br><br>-> Nên tập trung vào chính sách quản lý. |
+| **Quy mô**             | Nhỏ.<br>Ít lo về kích thước bảng.                                                                                                                   | Lớn.<br>Cần phân cấp nhằm giảm kích thước bảng và lưu lượng cập nhật.                       |
+
+**Bảng chuyển tiếp** trong router được xác định nhờ:
+- **Giao thức nội miền**: Xử lý các đích nằm trong AS.
+- **Giao thức liên miền**: Xử lý các đích bên ngoài.
+
+## Các giao thức nội miền
+
+1. **RIP (Routing information protocol)** \[Cũ\]:
+	- Dựa trên DV.
+	- Metric được đo bằng hop.
+	- Advertisement được trao đổi giữa các router mỗi 30s, phạm vi tối đa 25 subnet. Nếu có router không nhận advertisement trong 180s thì coi như kết nối gian đoạn.
+
+2.  **OSPF (Open shortest path first)**:
+	- Dựa trên LS, nhưng các router chỉ biết cấu trúc trong một phạm vi mạng (**area cục bộ**). Các area cục bộ được liên kết với **backbone area** để trao đổi thông tin mạng.
+	- Chạy trực tiếp trên IP, không dùng [[Transport layer#Giao thức TCP / UDP|TCP/IP]].
+	- Metric được đo tổng hợp bằng nhiều yếu tố như băng thông, độ trễ,...
+
+3. **EIGRP (Enhanced interior gateway routing protocol)**:
+	- Lai giữa LS và DV.
+	- Metric được đo tổng hợp nhiều yếu tố.
+
+## Giao thức liên miền BGP
+
+**BGP (Border Gateway Protocol):** Giao thức liên miền chủ đạo, được coi là "*chất keo kết nối Internet*".
+
+Chức năng:
+- Cho phép mạng con thực hiện advertisement và tiếp cận với phần còn lại Internet.
+- Thông tin được trao đổi qua:
+	1. **eBGP:** Giữa các AS với nhau.
+	2. **iBGP:** Bên trong một AS để lan truyền thông tin từ router cổng đến toàn bộ router trong AS.        
+- Lựa chọn tuyến tốt không chỉ dựa trên hiệu suất, mà còn phụ thuộc vào **chính sách quản trị**.
+
+## SDN (Software defined networking)
+
+Đặc điểm:
+1. **Mức điều khiển tập trung**:
+	- Bộ điều khiển SDN quản lý toàn bộ mạng.
+	- Router / Switch chỉ đơn giản chuyển tiếp bảng forward do bộ điều khiển cài đặt.
+	- Dễ quản lý, tránh lỗi cấu hình, linh hoạt hơn.
+
+2. **Giao diện OpenFlow**:
+	- Cho phép bộ điều khiển cài đặt / sửa đổi bảng chuyển tiếp trong switch.
+	- Có 3 loại thông điệp chính:
+		1. Từ bộ điều khiển đến switch (cấu hình, trạng thái, packet-out).
+		2. Từ switch đến bộ điều khiển (packet-in, thông báo trạng thái).
+		3. Thông điệp đối xứng.
+
+Lợi ích:
+1. Cho phép "lập trình mạng" ở mức cao.
+2. Mở ra khả năng đổi mới nhanh, giống như máy tính từ thời “mainframe” sang “PC”.
+
+## Các giao thức quản lý mạng
+
+1. **SNMP (Simple Network Management Protocol)**:
+    - Cho phép lấy dữ liệu từ thiết bị (get), đặt cấu hình (set), và nhận cảnh báo (trap).
+    - Dữ liệu quản lý được tổ chức trong **MIB (Management Information Base)**.
+
+2. **NETCONF/YANG**:
+    - **NETCONF**: Giao thức quản lý thiết bị ở mức cao hơn, dựa trên RPC, mã hóa XML, truyền qua kênh an toàn (TLS).
+    - **YANG**: Là ngôn ngữ mô hình hóa dữ liệu quản lý mạng, giúp định nghĩa cấu trúc và ràng buộc dữ liệu.
+
+# Định tuyến broadcast và multicast
+
+## Định tuyến broadcast (Broadcast routing)
+
+Có 3 phương pháp:
+1. **Flooding**:
+	- Khi một node nhận được gói broadcast, nó gửi bản sao đến tất cả các node láng giềng.
+	- -> Dẫn đến lặp lại gói tin quá nhiều lần, thậm chí gây bão broadcast trong mạng.
+
+2. **Controlled flooding**:
+	- Node chỉ broadcast gói tin nếu nó chưa từng gửi gói broadcast giống như vậy trước đó.
+	- Cách kiểm soát:
+		- Mỗi node theo dõi danh sách các gói đã broadcast.
+		- Sử dụng **Reverse path forwarding (RPF)**: Node chỉ chuyển tiếp gói tin nếu nó đi vào từ đường đi ngắn nhất giữa node đó và nguồn.
+
+3. **Spanning tree (cây bao trùm)**:
+	- Xây dựng một cây bao trùm toàn mạng.
+	- Nhờ vậy, mỗi node chỉ nhận đúng một bản sao, không có gói dư thừa.
+
+## Định tuyến đa hướng (Multicast routing)
+
+**Multicast** là một kỹ thuật mà dữ liệu được đến **một nhóm các node cần dữ liệu**, thay vì broadcast gây lãng phí vì có nhiều node không cần dữ liệu nhưng vẫn được gửi.
+
+**Cây multicast**: Là cấu trúc logic dùng để định tuyến multicast:
+- Có gốc là thiết bị gửi.
+- Có các lá là các host cần nhận dữ liệu.
+
+Hai loại cây multicast:
+1. **Cây chia sẻ (Shared-tree)**: Toàn bộ host sử dụng cùng một cây duy nhất để truyền dữ liệu. Có 2 loại:
+	1. **Cây mở rộng tối thiểu (Steiner tree)**: Tối ưu hóa để kết nối các host với tổng chi phí đường đi nhỏ nhất.
+	2. **Cây dựa trên trung tâm (Center-based tree)**: Chọn một router trung tâm, từ đó xây dựng cây multicast đến các host.
+
+2. **Cây dựa trên nguồn (Source-based tree)**: Với mỗi nguồn gửi dữ liệu sẽ xây dựng một cây riêng để chuyển dữ liệu đến các host. Có 2 loại:
+	1. **Cây đường đi ngắn nhất (Shortest path tree)**: Dữ liệu đi theo đường ngắn nhất từ nguồn đến các host.
+	2. **Cây đường đi ngược (Reversed path tree)**: Xây dựng ngược lại từ các host về phía nguồn.

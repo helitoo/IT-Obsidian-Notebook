@@ -1,0 +1,22 @@
+
+**Hibernate** là một ORM framework (Object Relational Mapping) trong Java. Nó giúp bạn ánh xạ (mapping) các object trong Java sang bảng trong cơ sở dữ liệu quan hệ (SQL) và ngược lại, mà không cần phải viết thủ công nhiều lệnh SQL.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

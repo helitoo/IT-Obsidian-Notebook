@@ -1,0 +1,302 @@
+
+# Callback function
+
+Callback là một hàm được truyền vào hàm khác như một đối số, để được gọi lại (callback) sau khi hàm kia hoàn thành.
+
+*VD1*:
+```js
+function sayHi(name) {
+  console.log("Hi, " + name);
+}
+
+function greet(callback) {
+  const name = "Thái";
+  callback(name);  // gọi lại hàm sayHi
+}
+
+greet(sayHi);
+```
+Kết quả: `Hi Thái`.
+
+*VD2*:
+
+```js
+setTimeout(() => {
+  console.log("Sau 2 giây");
+}, 2000);
+```
+Kết quả: In ra `Sau 2 giây` sau 2000 ms tạm chờ.
+
+# Promise
+
+## Ý nghĩa của Promise
+
+JS là một ngôn ngữ lập trình đơn luồng, có nghĩa là chỉ có thể có một điều có thể xảy ra tại một không đồng bộ (Asynchronous). Giả sử chúng ta đang muốn lấy dữ liệu một cách không đồng bộ bằng cách sử dụng [[Callback và Promise#Callback function|callback]] như sau:
+
+```js
+getData(function (x) { 
+    console.log(x);
+    
+    getMoreData(x, function (y) {
+        console.log(y);
+        
+        getSomeMoreData(y, function (z) {
+            console.log(z); 
+        }); 
+    }); 
+});
+```
+
+Ở đây:
+- `getData()` gọi một hàm bất đồng bộ, khi hoàn thành sẽ chạy callback function (`x`).
+- Trong callback đó, bạn lại gọi `getMoreData(x)`, truyền vào callback function (`y`).
+- Trong callback đó, tiếp tục gọi `getSomeMoreData(y)`, lại truyền callback function(`z`).
+→ Code lồng quá sâu.
+→ Rất khó kiểm soát lỗi, gây rối mắt và cực kỳ khó debug nếu logic phức tạp hơn.
+
+Hiện tượng này được gọi là **callback hell**. Nơi mỗi callback lại được lồng trong 1 callback khác và mỗi callback lại phụ thuộc vào cha mẹ nó. Đoạn code triển khai callback hell khá giống với kim tự tháp, nên thường được gọi là **Pyramid of DOM**.
+
+Ta có thể viết lại đoạn code trên như sau:
+
+```js
+getData () 
+  .then ((x) => { 
+    console.log (x); 
+    return getMoreData(x); 
+  })
+  
+  .then ((y) => { 
+    console.log (y); 
+    return getSomeMoreData(y); 
+  })
+  
+  .then ((z) => { 
+    console.log(z); 
+   });
+```
+   
+Ta thấy ví dụ này rõ ràng và dễ hiểu hơn hẳn ví dụ sử dụng callback ở trước đó. Cấu trúc trên được gọi là **Promise**.
+
+Promise là một [[Object type|object]] chứa giá trị tương lai của hoạt động không đồng bộ. VD: Nếu ta đang yêu cầu một số dữ liệu từ server, Promise hứa với chúng ta sẽ lấy ra dữ liệu chúng ta có thể sử dụng trong tương lai. Trước khi vào khi đi vào nội dung kĩ thuật, chúng ta sẽ đi tìm thuật ngữ Promise.
+
+## Các trạng thái của Promise
+
+Promise cũng giống như lời hứa trong thực tế, nó có 3 trạng thái: Chưa được giải quyết (unresolved), đã giải quyết (resolved) , hoặc bị từ chối (rejected).
+- **Unresolved / Pending**: Promise đang chờ xử lý nếu kết quả chưa sẵn sàng. Khi đó, nó đang chờ một thứ gì đó kết thúc (Ví dụ hoạt động bất đồng bộ).
+- **Resolved / Fulfilled**: Promise được giải quyết nếu có kết quả. Đó là một cái gì đó đã hoàn thành (ví dụ: hoạt động không đồng bộ) và tất cả đều diễn ra tốt đẹp.
+- **Rejected**: Promise bị từ chối nếu xảy ra lỗi.
+
+## Khởi tạo Promise
+
+Cú pháp khởi tạo Promise:
+```js
+new Promise((resolve, reject) => {
+    // Insert your code here
+});
+```
+
+Hàm Promise chỉ nhận một tham số là callback function lớn. Trong callback lớn này có 2 tham số là callback function resolve và reject.
+- Callback function lớn được thực thi đầu tiên khi một Promise được khởi tạo.
+- Sau đó, Promise được giải quyết bằng gọi resolve hoặc từ chối bằng cách gọi reject.
+
+*VD1*:
+```js
+const promise = new Promise((resolve, reject) => {
+	const randomNumber = Math.random();
+	
+	setTimeout(() => {
+	if (randomNumber < 6) { resolve('All things went well!'); }
+	else { reject('Something went wrong'); }
+	}, 2000);
+});
+```
+Promise này được giải quyết nếu `randomNumber` < 6 và bị từ chối nếu không hoặc quá 2 giây kể từ khi Promise được khởi tạo.
+
+Chú ý: Mỗi Promise chỉ được resolve hoặc reject một lần. VD:
+```js
+const promise = new Promise((resolve, reject) => {
+	resolve('Promise resolved');
+	reject('Promise rejected');
+});
+// Trả về Promise resolved
+```
+Do Promise trên đã được resolve, nên nó không thể bị reject khi gọi hàm reject trên.
+
+Nhờ vào Promise, có thể xây dựng một chương trình bất đồng bộ. Một chương trình bất đồng bộ (asynchronous) cho phép các tác vụ chạy độc lập với nhau. Khi một tác vụ bắt đầu (ví dụ như yêu cầu mạng), chương trình không bị “đứng lại” và tiếp tục xử lý các tác vụ khác cho đến khi tác vụ đó hoàn thành.
+
+## Sử dụng Promise bằng `.then` và `.catch`:
+
+```js
+.then(successCallback, failureCallback)
+```
+- `successCallback`: Được gọi khi một Promise đã được giải quyết. Nó nhận một đối số là giá trị được truyền tới `resolve()`.
+- `failureCallback`: Được gọi khi một Promise bị từ chối. Nó nhận một đối số là giá trị được truyền tới `reject()`.
+
+VD:
+```js
+const promise = new Promise((resolve, reject) => {
+	const randomNumber = Math.random();
+	
+	if (randomNumber < 0.7) {
+		resolve("All things went well!");
+	} else {
+		reject(new Error("Something went wrong"));
+	}
+});
+
+promise.then(
+	(data) => {
+		console.log(data);  // prints 'All things went well!'
+	},
+	(error) => {
+		console.log(error); // prints Error object
+	}
+);
+```
+Ở đây:
+- Nếu Promise được giải quyết thì `resolve(data)` sẽ được gọi, nó trả về `"All things went well!"` và được in ra.
+- Trong trường hợp ngược lại, `reject(error)` được gọi và trả về một đối tượng Error với messege `"Something went wrong"`.
+
+```js
+.catch(failureCallback)
+```
+Phương thức chỉ nhận một callback function, có cơ chế tương tự tham số thứ 2 của `.then` nhưng `.catch` được ưa chuộng hơn cho có cấu trúc giống với try catch.
+
+Như vậy, trên thực tế, một Promise được sử dụng như sau:
+```js
+promise
+.then((data) => {
+	// Resolve(data)
+})
+.catch((error) => {
+	// Reject(data)
+});
+```
+
+## Promise chaining
+
+Các phương thức `.then()` và `.catch()` cũng có thể trả về một promise mới có thể được xử lý bằng cách xâu chuỗi `.then()` khác vào cuối phương thức `.then()` trước đó và kết thúc chỉ khi gặp `.catch()`. Cú pháp này được gọi là Promise chaining.
+
+Promise chaining được sử dụng khi cần giải quyết các Promise theo trình tự.
+```js
+const promise1 = new Promise((resolve, reject) => {
+	resolve("Promise1 resolved");
+});
+
+const promise2 = new Promise((resolve, reject) => {
+	resolve("Promise2 resolved");
+});
+
+const promise3 = new Promise((resolve, reject) => {
+	reject("Promise3 rejected");
+});
+
+// Chaining:
+
+promise1
+.then((data) => {
+	console.log(data); // Promise1 resolved
+	return promise2;
+})
+.then((data) => {
+	console.log(data); // Promise2 resolved
+	return promise3;
+})
+.then((data) => {
+	console.log(data);
+})
+.catch((error) => {
+	console.log(error); // Promise3 rejected
+});
+```
+→ Khi `promise1` được giải quyết thì `.then()` được gọi và trả về `promise2`.
+→ Khi `promise2` trên được được giải quyết thì `.then()` được gọi và trả về `promise3`.
+→ Do `promise3` chỉ được reject, không gọi thêm callback nào khác, `.catch()` được gọi và kết thúc chuỗi.
+
+Có 2 phương thức đặc biệt giúp xử lý promise chaning theo 2 hướng khác nhau:
+
+### `.all`
+
+Phương thức này nhận một mảng các promise làm đầu vào và trả về một mảng chứa kết quả tương ứng sau khi resolve các promise. `.catch()` được gọi khi có promise nào đó bị reject.
+
+```js
+const p1 = Promise.resolve(1);
+const p2 = Promise.resolve(2);
+const p3 = Promise.resolve(3);
+
+Promise.all([p1, p2, p3])
+	.then(results => {
+	console.log(results); // [1, 2, 3]
+})
+.catch(error => {
+	console.error(error);
+});
+```
+Các promise sẽ được thực hiện tuần tự `p1`, `p2`, `p3`, và kết quả xử lý sẽ được đưa vào trong 1 mảng. Nếu trong quá trình xử lý có promise nào thất bại thì `.catch()` được gọi và dừng lại.
+
+### `.race`
+
+Phương thức này nhận một mảng các promise làm đầu vào và trả về một promise mới được xử lý đầu tiên, kể cả là resolve hay reject.
+
+*VD1*:
+```js
+const p1 = new Promise(resolve => setTimeout(() => resolve("P1 resolved"), 100));
+const p2 = new Promise(resolve => setTimeout(() => resolve("P2 resolved"), 50));
+
+Promise.race([p1, p2])
+.then(result => console.log(result)); // P2 resolved
+```
+→ Trả về `P2 resolve` do `p2` được xử lý trước (phải 50ms sau, `p1` mới được xử lý).
+
+*VD2*:
+```js
+const p1 = new Promise((reject) => setTimeout(() => reject("P1 rejected"), 50));
+const p2 = new Promise(resolve => setTimeout(() => resolve("P2 resolve"), 100));
+
+Promise.race([p1, p2])
+.then(result => console.log(result))
+.catch(error => console.error(error)); // P1 rejected
+```
+→ Trả về `P1 rejected` do `p1` được xử lý trước (phải 50ms sau, `p2` mới được xử lý).
+
+## Async và Await
+
+Async function và await function giúp ta làm việc bất đồng bộ:
+- **Async function**: Là hàm trả về Promise.
+- **Await function**: Là hàm mà câu lệnh mà không được thi ngay lập tức khi chương trình được thông dịch mà nó đợi cho đến khi Promise được xử lý xong thì mới thực thi.
+
+VD:
+Hàm này:
+```js
+async function f1() {
+	return "Hello";
+}
+```
+Và hàm này:
+```js
+function f2() {
+	return Promise.resolve("Hello");
+}
+```
+Là như nhau.
+
+Do là một Promise, bạn có thể dùng phương thức `.then()` hay `.catch()`:
+```js
+async function myFunction() {
+	return "Hello";
+}
+myFunction().then(
+	function(value) { myDisplayer(value); },
+	function(error) { myDisplayer(error); }
+);
+
+async function myDisplay() {
+	let myPromise = new Promise(function(resolve, reject) {
+		resolve("I love You !!");
+	});
+	document.getElementById("demo").innerHTML = await myPromise;
+}
+
+myDisplay();
+```
+→ Phải đợi cho đến khi `myPromise` được xử lý xong, `document.getElementById("demo").innerHTML` mới được thực thi.

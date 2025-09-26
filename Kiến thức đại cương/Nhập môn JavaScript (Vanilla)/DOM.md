@@ -1,0 +1,130 @@
+
+# Tổng quan
+
+**DOM** (Document Object Model) là một cấu trúc dữ liệu cây đại diện cho nội dung tài liệu [[HTML]] hoặc XML.
+
+Khi browser tải ra một trang web, nó sẽ:
+- Phân tích cú pháp HTML để xây dựng DOM.
+- Phân tích cú pháp CSS để xây dựng CSSOM.
+- Xây dựng trang hoàn chỉnh bằng cách kết hợp DOM tree và CSSOM tree.
+
+Mỗi HTML DOM có 3 thành phần:
+- **Element**: Là các thẻ HTML, được sử dụng để xây dựng cấu trúc web.
+- **Attribute**: cung cấp bổ sung cho element (id, class, href,…).
+- **Text**: Nội dung văn bản của phần tử.
+
+Trong đó, `window.document`, có thể viết tắt là `document` là một element đặc biệt đại diện cho toàn bộ trang HTML.
+
+# Truy cập DOM
+
+## Truy cập thông qua selector
+
+```js
+urElm.querySelectorAll("urSlt");
+```
+Trả về tất cả element có selector là `"urSlt"`.
+
+```js
+urElm.querySelector("urSlt");
+```
+Trả về element đầu tiên có selector là `"urSlt"`.
+
+## Truy cập thông qua property và tag
+
+```js
+urElm.getElementById("urId");
+```
+Trả về tất cả element có id là `"urId"`. Chú ý rằng `urElm` không thể là `document`.
+
+```js
+urElm.getElementByClassName("urCls");
+```
+Trả về tất cả element có class là `"urCls"`.
+
+```js
+urElm.getElementByTagName("urTag");
+```
+Trả về tất cả element có tag là `"urTag"`.
+
+# Thay đổi phần tử
+
+## Thay đổi nội dung
+
+```js
+urElm.textContent
+```
+Trả về nội dung của element.
+
+```js
+urElm.innerHTML
+```
+Trả về một chuỗi là mã HTML bên trong element.
+
+```js
+urElm.outterContent
+```
+Trả về một chuỗi là mã HTML của element và bên trong element.
+
+## Thay đổi style
+
+```js
+urElm.style.urStyle
+```
+Trả về giá CSS style của element. Trong đó, `urStyle` được viết theo kiểu *Camel case*.
+
+## Thay đổi attribute
+
+```js
+urElm.getAttribute("urAtt");
+```
+Lấy giá trị attribute `urAtt`.
+
+```js
+urElm.setAttribute("urAtt", "urVal");
+```
+Thay đổi giá trị attribute `urAtt` thành `urVal`.
+
+Riêng đối với class, bạn còn có thể thay đổi class thông qua các phương thức sau:
+- `urElm.classlist.add("urCls")`: Thêm class `urCls`.
+- `urElm.classlist.remove("urCls")`: Xóa class `urCls`.
+- `urElm.classlist.toggle("urCls")`: Thêm class `urCls` nếu `urClas` đã có, ngược lại thì xóa.
+- `urElm.classlist.contains("urCls")`: Kiểm tra `urCls` có phải class của element không.
+
+Riêng đối với id, bạn còn có thể truy xuất giá trị nhanh qua `urElm.id`.
+
+# Sự kiện
+
+## Các loại sự kiện
+
+**Sự kiện** (Event) là những hành vi tác động lên element. Ví dụ như:
+- **Sự kiện chuột**:
+	- `click`: Nhấp chuột trái.
+	- `dbclick`: Nhấp chuột trái 2 lần.
+	- `contextmenu`: Nhấp chuột phải.
+- **Sự kiện bàn phím**:
+	- `keydown`: Nhấn phím.
+	- `keypress`: Nhấn những phím có thể in ra màn hình.
+	- `keyup`: Sau khi nhấn xong.
+- **Sự kiện khung**:
+	- `resize`: Kích thước trình duyệt bị thay đổi.
+	- `scroll`: Màn hình trang web bị kéo.
+- **Sự kiện form**:
+	- `focus`: Khi click chuột hoặc tab vào input.
+	- `blur`: Sau khi trỏ tới input rồi click chuột hoặc tab ra khỏi input.
+	- `change`: Giá trị thay đổi và con trỏ ra khỏi input.
+	- `input`: Giá trị thay đổi mỗi lần người dùng gõ.
+
+## Theo dõi sự kiện
+
+Bạn có thể đăng ký theo dõi xem một element có được kích hoạt sự kiện `urEvent` không bằng cách:
+
+```js
+urElm.addEventListener("urEvent", callbackFunction)
+```
+
+Trong đó, [[Callback và Promise#Callback function|Callback function]] sẽ được gọi khi `urEvent` được kích hoạt.
+
+Hàm này có một tham số là `event`. `event` có một số thuộc tính sau:
+- `event.type`: Loại sự kiện.
+- `event.target`: Phần tử đã bị kích hoạt sự kiện.
+- `event.key`: Phím được dùng để kích hoạt sự kiện.

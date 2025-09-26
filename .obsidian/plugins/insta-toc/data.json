@@ -1,0 +1,19 @@
+{
+  "bulletType": "number",
+  "indentSize": 2,
+  "updateDelay": 7000,
+  "tocTitle": "Mục lục",
+  "excludedHeadingLevels": [],
+  "excludedHeadingText": [],
+  "excludedChars": [
+    "*",
+    "_",
+    "`",
+    "==",
+    "~~",
+    "{",
+    "}",
+    "#",
+    "\\"
+  ]
+}

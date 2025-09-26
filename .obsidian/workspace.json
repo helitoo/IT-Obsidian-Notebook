@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "5f1c8c9f459c8862",
+    "type": "split",
+    "children": [
+      {
+        "id": "543ebd030fa965d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "968aa40ec57b79b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Back-end/Express JS/Giới thiệu & Cài đặt Express JS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Giới thiệu & Cài đặt Express JS"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ffd1520f7a36f3cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "8dc64b1f9b9f96ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1edc889b8f8c1ff3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Trình duyệt tệp"
+            }
+          },
+          {
+            "id": "11fc170294715057",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Tìm kiếm"
+            }
+          },
+          {
+            "id": "0be3c59ee5e7c84f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Đánh dấu"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 352.5
+  },
+  "right": {
+    "id": "fef15c42c46c132c",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd09adac5778d2b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "007bfe553e5f8eda",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Front-end/TypeScript.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Liên kết đến của TypeScript"
+            }
+          },
+          {
+            "id": "076a0dc3104ce1b4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Web/Back-end/Express JS/Giới thiệu & Cài đặt Express JS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liên kết đi ra từ Giới thiệu & Cài đặt Express JS"
+            }
+          },
+          {
+            "id": "0faa40351e6c4c8a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "373bd21cb27d45d5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Web/Back-end/Express JS/Giới thiệu & Cài đặt Express JS.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Đề cương của Giới thiệu & Cài đặt Express JS"
+            }
+          },
+          {
+            "id": "61798838ae03ad79",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:Mở bộ chuyển đổi nhanh": false,
+      "graph:Mở xem biểu đồ": false,
+      "canvas:Tạo bảng mới": false,
+      "daily-notes:Mở ghi chú hôm nay": false,
+      "templates:Chèn mẫu": false,
+      "command-palette:Mở khay lệnh": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "968aa40ec57b79b1",
+  "lastOpenFiles": [
+    "Công cụ/Git and Github/Giới thiệu.md",
+    "Web/Back-end/Express JS/Giới thiệu & Cài đặt Express JS.md",
+    "Web/Back-end/Express JS",
+    "Chưa đặt tên.base",
+    "2025-09-25.md",
+    "Kiến thức đại cương/Cơ sở dữ liệu/SQL/Nhập môn SQL.md",
+    "Chưa đặt tên 1.base",
+    "Hệ điều hành/Tiến trình & Tiểu trình.md",
+    "Hệ điều hành/Tổng quan về hệ thống máy tính và OS.md",
+    "Hệ điều hành/Định thời.md",
+    "Cơ sở dữ liệu/SQL/Nhập môn SQL.md",
+    "Nhập môn mạng/Transport layer.md",
+    "Nhập môn mạng/Application layer.md",
+    "Nhập môn mạng/Tổng quan về mạng máy tính.md",
+    "Nhập môn mạng/Link layer.md",
+    "Nhập môn Python/Môi trường ảo (Venv) và Quản lý package.md",
+    "Cơ sở dữ liệu/SQL/Transact-SQL (T-SQL).md",
+    "Cơ sở dữ liệu/Mô hình quan hệ.md",
+    "Cơ sở dữ liệu/SQL",
+    "Cơ sở dữ liệu/Mô hình dữ liệu.md",
+    "Cơ sở dữ liệu/Tổng quan về Dữ liệu & Cơ sở dữ liệu.md",
+    "Nhập môn Java SE (Core)/Giới thiệu & Cài đặt Java SE.md",
+    "Nhập môn mạng/Bài tập Nhập môn mạng.md",
+    "Nhập môn mạng/Network layer.md",
+    "Cơ sở dữ liệu/Ràng buộc toàn vẹn.md",
+    "Front-end/TypeScript.md",
+    "Front-end/Tailwind CSS.md",
+    "Chưa đặt tên.md",
+    "Giới thiệu & Cài đặt JavaScript.md"
+  ]
+}
