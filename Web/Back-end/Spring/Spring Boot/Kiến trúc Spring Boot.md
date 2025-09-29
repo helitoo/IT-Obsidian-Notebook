@@ -1,8 +1,8 @@
 
 # Tổng quan
 
-Kiến trúc MVC (CSR) trong [[Giới thiệu & Cài đặt Spring Boot#Spring, Spring Boot|Spring Boot]] được xây dựng dựa trên ý tưởng các nguyên lý thiết kế OOP, trong đó có [[OOP nâng cao#Tính đóng gói (Encapsulation)|tính đóng gói (encapsulation)]], có một số biểu thị sau:
-1. [[OOP nâng cao#Inversion of control|Dependency inversion]].
+Kiến trúc MVC (CSR) trong [[Giới thiệu & Cài đặt Spring Boot#Spring, Spring Boot|Spring Boot]] được xây dựng dựa trên ý tưởng các nguyên lý thiết kế OOP, trong đó có [[4. OOP nâng cao#Tính đóng gói (Encapsulation)|tính đóng gói (encapsulation)]], có một số biểu thị sau:
+1. [[4. OOP nâng cao#Inversion of control|Dependency inversion]].
 2. Hệ thống được chia thành nhiều lớp (layer), mỗi layer phục vụ các mục đích nhất định trong phạm vi của mình. Khi muốn thực hiện một công việc ngoài phạm vi thì sẽ đưa công việc tới các layer gần cơ sở dữ liệu hơn.
 
 Có 3 layer chính:

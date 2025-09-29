@@ -98,7 +98,7 @@ Cấu hình nhiều nguồn:
 ## Tổng quan quá trình tiêm bean
 
 Sau khi tìm thấy một class đánh dấu `@Component` thì quá trình inject bean xảy ra theo cách như sau:
-1. Nếu class không có constructor hay setter. Thì sẽ sử dụng [[Java reflection]] để đưa đối tượng vào thuộc tính có đánh dấu `@Autowired`.
+1. Nếu class không có constructor hay setter. Thì sẽ sử dụng [[3.1. Java reflection]] để đưa đối tượng vào thuộc tính có đánh dấu `@Autowired`.
 2. Nếu có constructor thì sẽ inject bean vào bởi tham số của hàm.
 3. Nếu có setter thì sẽ inject Bean vào bởi tham số của hàm
 

@@ -1,12 +1,12 @@
 
 # Giới thiệu
 
-**Lombok** là một thư viện Java ngoài giúp bạn giảm code lặp (boilerplate code) bằng cách sử dụng [[Annotation|annotations]].
+**Lombok** là một thư viện Java ngoài giúp bạn giảm code lặp (boilerplate code) bằng cách sử dụng [[6.1. Annotation|annotations]].
 
 # Cài đặt
 
 1. Cài đặt trên [trang chủ]([https://projectlombok.org/](https://projectlombok.org/).
-2. Sử dụng [[Giới thiệu & Cài đặt Apache Maven|Maven]].
+2. Sử dụng [[7. Giới thiệu & Cài đặt Apache Maven|Maven]].
 
 ```xml
 <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->

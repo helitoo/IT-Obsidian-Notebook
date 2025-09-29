@@ -1,7 +1,7 @@
 
 # `@SpringBootApplication`
 
-[[Giới thiệu & Cài đặt Spring Boot|Spring Boot]] chạy từ hàm `main()` thuộc class có  [[Annotation|annotation]] `@SpringBootApplication`:
+[[Giới thiệu & Cài đặt Spring Boot|Spring Boot]] chạy từ hàm `main()` thuộc class có  [[6.1. Annotation|annotation]] `@SpringBootApplication`:
 
 ```java
 import org.springframework.boot.SpringApplication;

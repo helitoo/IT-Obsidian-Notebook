@@ -66,7 +66,7 @@ Ctrl C
 ## Cấu trúc project
 
 Một project do Vite chuẩn bị thường có dạng:
-```lua
+```
 my-project/
 ├── public/
 ├── src/
