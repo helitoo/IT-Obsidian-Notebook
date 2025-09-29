@@ -1,0 +1,20 @@
+
+**IT Obsidian Notebook** là bộ tài liệu học tập về IT được viết theo định dạng `.md` trên nền tảng Obsidian.
+
+**Nội dung**: Các kiến thức đại cương và nâng cao về Công nghệ thông tin. Gồm có 1 số nội dung sau:
+- **Kiến thức đại cương**:
+	- Cấu trúc dữ liệu và Giải thuật.
+	- Lập trình hướng đối tượng.
+	- Cơ sở dữ liệu.
+	- Nhập môn mạng.
+	- Hệ điều hành.
+	- Nhập môn C++, Python, JavaScript,...
+- **Lập trình web**:
+	- Front-end: HTML, CSS, JavaScript, các framework như Bootstrap, Tailwind, React,...
+	- Back-end: Node JS, Express JS, Spring Boot,...
+- **Khoa học dữ liệu và Trí tuệ nhân tạo**:
+	- Nhập môn Python.
+	- Nhập môn các thư viện Pandas, Numpy, Selenium, Matplotlib,...
+	- Machine learning, Deep learning.
+
+**Tài liệu tham khảo**: Giáo trình trường Đại học công nghệ thông tin (ĐHQG-HCM), các blog trên Viblo và các tài liệu khác.
