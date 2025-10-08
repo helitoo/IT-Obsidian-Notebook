@@ -35,7 +35,10 @@ levels:
 Cài đặt:
 ```sh
 npm install express
+npm install --save-dev nodemon
 ```
+
+Ở đây, `nodemon` là một package cho phép cập nhật server mỗi lần mã nguồn được cập nhật khi server đang chạy (live).
 
 # Cấu trúc dự án Express
 

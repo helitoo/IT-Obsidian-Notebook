@@ -1,4 +1,31 @@
 
+```insta-toc
+---
+title:
+  name: Mục lục
+  level: 1
+  center: false
+exclude: ""
+style:
+  listType: number
+omit: []
+levels:
+  min: 1
+  max: 6
+---
+
+# Mục lục
+
+1. Giới thiệu
+    1. Headers
+    2. Response
+    3. Nguyên lý hoạt động
+        1. Fetch chỉ bị reject khi nào?
+        2. Cú pháp
+        3. RequestInit
+        4. Hủy fetch bằng AbortController.
+```
+
 # Giới thiệu
 
 Fetch API là một API đơn giản của JavaScript hỗ trợ tạo request và nhận response. Fetch là sự thay thế của XMLHttpRequest. Fetch được xây dựng dựa trên [[Callback và Promise#Promise|Promise]], còn XMLHttpRequest dựa trên [[Callback và Promise#Callback function|Callback function]].
@@ -44,9 +71,9 @@ Có thể được khởi tạo qua `new Response(urContent)`. Response có mộ
 
 ## Nguyên lý hoạt động
 
-### Trao đổi dữ liệu giữa server và client
+### Fetch chỉ bị reject khi nào?
 
-- Promise chỉ bị reject nếu có lỗi mạng hoặc URL sai định dạng. VD: Không có kết nối Internet, URL viết sai, máy chủ không phản hồi
+- Promise **chỉ bị reject nếu có lỗi mạng hoặc URL sai định dạng**.
 - Nếu máy chủ trả về lỗi HTTP như `404` (Not Found) hay `504` (Gateway Timeout) thì Promise không bị reject. Thay vào đó, bạn phải tự kiểm tra bằng `response.ok` hay `response.status`.
 
 ### Cú pháp
