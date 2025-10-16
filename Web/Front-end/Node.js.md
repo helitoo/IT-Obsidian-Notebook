@@ -1,7 +1,7 @@
 
 # Tổng quan
 
-Node.js là một môi trường chạy [[Giới thiệu & Cài đặt JavaScript|JS]] trên server. Có các chức năng:
+Node.js là một môi trường chạy [[1. Giới thiệu & Cài đặt JavaScript|JS]] trên server. Có các chức năng:
 - Quản lý dự án.
 - Quản lý các thư viện mở rộng.
 - Build và Bundle: Tăng hiệu năng biên dịch.

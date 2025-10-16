@@ -137,7 +137,7 @@ Gọi:
 
 ## CSS module
 
-**CSS module** là cách viết [[CSS]] riêng cho từng component để tránh xung đột class.
+**CSS module** là cách viết [[1. CSS]] riêng cho từng component để tránh xung đột class.
 
 Các CSS sẽ được định dạng trong một file có đuôi `.module.css`. Trong file này, bạn chỉ cần khai báo các class và style theo ý muốn. Khi được gán vào JSX và biên dịch thành HTML, các class này sẽ được React biến đổi sao cho độc nhất, không trùng nhau.
 

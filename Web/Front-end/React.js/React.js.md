@@ -1,7 +1,7 @@
 
 # Tổng quan
 
-**React.js** là một thư viện [[Giới thiệu & Cài đặt JavaScript|JS]] mã nguồn mở, được phát triển và duy trì bởi Facebook.
+**React.js** là một thư viện [[1. Giới thiệu & Cài đặt JavaScript|JS]] mã nguồn mở, được phát triển và duy trì bởi Facebook.
 
 Mục tiêu: Thiết kế các ứng dụng web có giao diện tương tác, hiệu suất cao, dễ bảo trì và mở rộng. Phù hợp với các dự án vừa và lớn.
 

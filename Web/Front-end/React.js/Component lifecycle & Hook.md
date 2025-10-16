@@ -19,7 +19,7 @@ Có 2 loại hook thường dùng:
 
 ## Tổng quan
 
-`useState` là hook giúp bạn thay đổi nội dung của các component, cũng tương tự như việc lắng nghe các [[DOM#Sự kiện|sự kiện]].
+`useState` là hook giúp bạn thay đổi nội dung của các component, cũng tương tự như việc lắng nghe các [[5. DOM và Event#Sự kiện|sự kiện]].
 
 Nhập vào `useState`:
 ```jsx
@@ -116,7 +116,7 @@ const handleUpdate = () => setInfo({
 
 # UseEffect
 
-`useEffect` là hook giúp bạn triển khai các Side effect như lắng nghe các [[DOM#Sự kiện|sự kiện]] hay [[Fetch API|gọi API]] nhằm thay đổi dữ liệu. Thường kết hợp với `useState` để thay đổi nội dung của component.
+`useEffect` là hook giúp bạn triển khai các Side effect như lắng nghe các [[5. DOM và Event#Sự kiện|sự kiện]] hay [[9. Fetch API|gọi API]] nhằm thay đổi dữ liệu. Thường kết hợp với `useState` để thay đổi nội dung của component.
 
 Nhập vào `useEffect`:
 ```jsx

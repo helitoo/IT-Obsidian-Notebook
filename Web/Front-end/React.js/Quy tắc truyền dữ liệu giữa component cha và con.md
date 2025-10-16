@@ -1,11 +1,11 @@
 
 1. **Từ cha sang con**: Sử dụng [[JSX#Props|props]].
-2. **Từ con sang cha**: Sử dụng [[Callback và Promise#Callback function|callback]] thông qua các [[Component lifecycle & Hook|hook]].
+2. **Từ con sang cha**: Sử dụng [[8. Callback và Promise#Callback function|callback]] thông qua các [[Component lifecycle & Hook|hook]].
 
 **Ví dụ**: Xây dựng một trang web `TODO LIST` đơn giản phục vụ các tính năng sau:
 1. Có nút `input[type="text"]` để nhập task cần làm và nút `button` để thêm task vừa nhập vào danh sách các task. Mỗi task cần có 1 `title` là nội dung của task và `completed` là trạng thái hoàn thiện của task.
 2. Có các nút `button` để chỉnh sửa `title` và xóa task. Cho phép chỉnh sửa `completed`.
-3. Dữ liệu được người dùng nhập được lưu vào [[LocalStorage]] và không bị mất đi khi reload web.
+3. Dữ liệu được người dùng nhập được lưu vào [[6. LocalStorage]] và không bị mất đi khi reload web.
 
 **Bước 1**: Xây dựng khung các component chưa có logic:
 
