@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "0eddd05eaf905d40",
+        "id": "6dc75db19e24936a",
         "type": "tabs",
         "children": [
           {
-            "id": "c34e77ad18472a27",
+            "id": "8244e0f95da713f7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Lập trình Web/1. Nhập môn lập trình web/2. CSS/2. CSS Layout.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Tab mới"
+              "title": "2. CSS Layout"
+            }
+          },
+          {
+            "id": "4f6fa60a44cc80a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lập trình Web/4. Fullstack/Next.JS/1. Giới thiệu & Cài đặt Next.JS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Giới thiệu & Cài đặt Next.JS"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 347.5
   },
   "right": {
     "id": "fef15c42c46c132c",
@@ -166,53 +185,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "c34e77ad18472a27",
+  "active": "4f6fa60a44cc80a3",
   "lastOpenFiles": [
-    "Kiến thức đại cương/Nhập môn mạng/1.1. Bài tập Tổng quan về mạng máy tính.md",
-    "Kiến thức đại cương/Nhập môn mạng/1. Tổng quan về mạng máy tính.md",
-    "Kiến thức đại cương/Nhập môn mạng/3.1. Bài tập Transport layer.md",
-    "Kiến thức đại cương/Nhập môn mạng/2.4. Bài tập Application layer.md",
-    "Kiến thức đại cương/Nhập môn mạng/3. Transport layer.md",
-    "Kiến thức đại cương/Nhập môn mạng/2.2. Hệ thống email.md",
-    "Kiến thức đại cương/Nhập môn mạng/2.1. Hệ thống web.md",
-    "4. Thuật toán Gradient descent.md",
-    "Data/1. Cơ sở dữ liệu/6. Nhập môn data pipelining.md",
-    "Data/2. Trực quan hóa dữ liệu",
-    "Data/1. Cơ sở dữ liệu/SQL/4. Transact-SQL (T-SQL).md",
-    "Data/1. Cơ sở dữ liệu/SQL/1. DDL.md",
-    "Data/1. Cơ sở dữ liệu/0. References/Fundamentals of Database Systems, 7th Edition.pdf",
+    "Lập trình Web/1. Nhập môn lập trình web/2. CSS/2. CSS Layout.md",
+    "Lập trình Web/4. Fullstack/Next.JS/1. Giới thiệu & Cài đặt Next.JS.md",
+    "Lập trình Web/4. Fullstack/Next.JS/2. Cấu trúc dự án Next.js và Routing.md",
+    "Data/2. Cơ sở toán học của Machine learning/1. Đại số tuyến tính (Linear algebra) và Numpy.md",
+    "Data/3. Machine learning/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3. Phân lớp nhị phân, Phân lớp đa lớp & Tổng quan về Neural network.md",
+    "Data/3. Machine learning/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3.1. Perceptron learning algorithm (PLA).md",
+    "Data/3. Machine learning/Bài toán hồi quy (Regression) và Phân lớp (Classification))/1. Linear regression.md",
+    "Data/2. Pandas/Tính toán trên Serie và DataFrame.md",
+    "Data/1. Cơ sở dữ liệu/4. Kiểu dữ liệu mở rộng.md",
     "Data/1. Cơ sở dữ liệu/5. Nhập môn Trí tuệ kinh doanh (Business Intelligence, BI).md",
-    "Data/1. Cơ sở dữ liệu/Đề cương ôn thi.md",
-    "Data/4. Machine learning/0. References/Bài toán phân tích dữ liệu chứng khoán & Hệ thống giao dịch tự động.pdf",
-    "Data/4. Machine learning/Ứng dụng phân tích dữ liệu/2.1. Một số mô hình dự đoán timeseries.md",
-    "Data/4. Machine learning/Ứng dụng phân tích dữ liệu/2. Chuỗi thời gian - Timeseries.md",
-    "Data/4. Machine learning/Ứng dụng phân tích dữ liệu/2.2. Phân tích giao dịch chứng khoán.md",
-    "Data/4. Machine learning/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3.3. Softmax regression.md",
-    "Data/4. Machine learning/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3. Phân lớp nhị phân, Phân lớp đa lớp & Tổng quan về Neural network.md",
-    "Data/4. Machine learning/0. References/Machine learning cơ bản.pdf",
-    "Data/4. Machine learning/Ứng dụng phân tích dữ liệu/1. Nhập môn Data analysis.md",
-    "Data/4. Machine learning/0. References",
-    "Data/1. Cơ sở dữ liệu/0. References",
-    "Data/4. Machine learning/Bài toán hồi quy (Regression) và Phân lớp (Classification))/2.1. K-nearest neighbors (KNN).md",
-    "Data/4. Machine learning/Bài toán đề xuất (Recommendation systems)",
-    "Kiến thức đại cương/Nhập môn Python/Môi trường ảo (Venv) và Quản lý package.md",
-    "Kiến thức đại cương/Hệ điều hành/1. Tổng quan về hệ thống máy tính và OS.md",
-    "Kiến thức đại cương/Hệ điều hành/1.1. Bài tập Tổng quan về hệ thống máy tính.md",
-    "Kiến thức đại cương/Hệ điều hành/3. Định thời.md",
-    "Kiến thức đại cương/Hệ điều hành/4. Đồng bộ.md",
+    "Kiến thức đại cương/Nhập môn mạng/2.4. Bài tập Application layer.md",
+    "Lập trình Web/4. Fullstack/Next.JS/2. Nguyên lý routing của Next.js.md",
+    "Kiến thức đại cương/Nhập môn mạng/3. Transport layer.md",
+    "Kiến thức đại cương/Nhập môn mạng/2.1. Hệ thống web.md",
+    "Kiến thức đại cương/Nhập môn mạng/2. Application layer.md",
+    "Kiến thức đại cương/Nhập môn mạng/1. Tổng quan về mạng máy tính.md",
+    "Kiến thức đại cương/Nhập môn mạng/1.1. Bài tập Tổng quan về mạng máy tính.md",
+    "Kiến thức đại cương/Nhập môn mạng/2.3. Hệ thống DNS.md",
+    "Kiến thức đại cương/Nhập môn mạng/2.2. Hệ thống email.md",
+    "Kiến thức đại cương/Nhập môn mạng/3.1. Bài tập Transport layer.md",
     "Kiến thức đại cương/Nhập môn mạng/4. Network layer.md",
-    "Data/4. Machine learning/Bài toán hồi quy (Regression) và Phân lớp (Classification))",
-    "Data/4. Machine learning/Ứng dụng phân tích dữ liệu",
-    "Data/Data Engineering",
-    "Data/Machine learning/resources/kmeans-clustersize-problem.png",
-    "Data/Machine learning/resources/kmeans-.png",
-    "Data/Machine learning/resources/Screenshot 2025-10-20 202705.png",
-    "Data/Machine learning/resources/kmeans-centroids-problem.png",
-    "Data/Machine learning/resources/Screenshot 2025-10-20 202046.png",
-    "Web/Nhập môn lập trình web/2. resources/text-layout.png",
-    "Web/Nhập môn lập trình web/2. resources/text.png",
-    "Web/Nhập môn lập trình web/2. resources/self-flex - Copy.png",
-    "Web/Nhập môn lập trình web/2. resources/flex.png",
-    "Web/Nhập môn lập trình web/2. resources/self-flex.png"
+    "Kiến thức đại cương/Nhập môn mạng/0. Assets/delay.png",
+    "Data/1. Cơ sở dữ liệu/1. Tổng quan về Dữ liệu & Cơ sở dữ liệu.md",
+    "Data/1. Cơ sở dữ liệu/0. References/Fundamentals of Database Systems, 7th Edition.pdf",
+    "Lập trình Web/4. Fullstack/Next.JS/6. API.md",
+    "Lập trình Web/1. Nhập môn lập trình web/4. Xu hướng phát triển lập trình web.md",
+    "Lập trình Web/4. Fullstack/Next.JS/5. Image optimization.md",
+    "Kiến thức đại cương/Nhập môn mạng/5. Link layer.md",
+    "Lập trình Web/4. Fullstack/Next.JS",
+    "Lập trình Web/1. Nhập môn lập trình web/5. Node.js",
+    "Lập trình Web/2. Front-end/1. CSS framework",
+    "Lập trình Web/4. Fullstack",
+    "Web/1. Nhập môn lập trình web/3. JavaScript Vanilla",
+    "Lập trình Web/1. Nhập môn lập trình web/1. HTML",
+    "Lập trình Web/1. Nhập môn lập trình web/2. CSS",
+    "Kiến thức đại cương/Hệ điều hành/0. Assets/fork3.png",
+    "Kiến thức đại cương/Hệ điều hành/0. Assets/fork2.png",
+    "Kiến thức đại cương/Hệ điều hành/0. Assets/fork1.png",
+    "Kiến thức đại cương/Hệ điều hành/0. Assets/fork.png",
+    "Kiến thức đại cương/Hệ điều hành/0. Assets/rag.png",
+    "Kiến thức đại cương/Hệ điều hành/0. Assets/Biểu đồ không có tiêu đề.drawio.png",
+    "Kiến thức đại cương/Nhập môn mạng/0. Assets/GBN-loss-ACK.png",
+    "Kiến thức đại cương/Nhập môn mạng/0. Assets/SR-loss-ACK.png",
+    "Kiến thức đại cương/Nhập môn mạng/0. Assets/TCP-loss-segment.png",
+    "Data/1. Cơ sở dữ liệu/0. References/2024_2025_HK1_DE THI GIUA KY_CSDL.pdf",
+    "Data/1. Cơ sở dữ liệu/0. References/New folder"
   ]
 }
