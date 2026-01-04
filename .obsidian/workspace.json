@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8411481db276fc49",
+        "id": "89cefd66b8cbf776",
         "type": "tabs",
         "children": [
           {
-            "id": "e6f9a89e19f7334e",
+            "id": "7d97b5dc10f33c8c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/1. Cơ sở dữ liệu/SQL/5. Phép chia.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "5. Phép chia"
+              "title": "Tab mới"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.50499725341797
+    "width": 271.5041847229004
   },
   "right": {
     "id": "fef15c42c46c132c",
@@ -170,53 +166,52 @@
       "bases:Create new base": false
     }
   },
-  "active": "e6f9a89e19f7334e",
+  "active": "1edc889b8f8c1ff3",
   "lastOpenFiles": [
-    "Data/1. Cơ sở dữ liệu/SQL/5. Set-based trigger.md",
-    "Data/1. Cơ sở dữ liệu/SQL/5. Phép chia.md",
-    "Data/1. Cơ sở dữ liệu/SQL/1. DDL.md",
-    "Data/1. Cơ sở dữ liệu/SQL/5. Recursive JOIN.md",
-    "Data/1. Cơ sở dữ liệu/SQL/2. DML.md",
-    "Data/1. Cơ sở dữ liệu/SQL/3. Nhập môn SQL.md",
-    "Data/1. Cơ sở dữ liệu/SQL/5. Categorical JOIN.md",
-    "Data/1. Cơ sở dữ liệu/SQL/4. Transact-SQL (T-SQL).md",
-    "Lập trình Web/1. Nhập môn lập trình web/2. CSS/2. CSS Layout.md",
-    "Kiến thức đại cương/Nhập môn mạng/5.1. Mạng LAN, VLAN.md",
-    "Kiến thức đại cương/Nhập môn mạng/5. Tổng quan về Link layer.md",
-    "Kiến thức đại cương/Nhập môn mạng/4.3. Định tuyến (Routing).md",
-    "Kiến thức đại cương/Nhập môn mạng/5.2. Bài tập Link layer.md",
-    "Kiến thức đại cương/Nhập môn mạng/4.1. Địa chỉ IP.md",
-    "Data/1. Cơ sở dữ liệu/3. Mô hình quan hệ.md",
-    "Kiến thức đại cương/Nhập môn mạng/4.2. Chuyển tiếp (Fowarding).md",
-    "Kiến thức đại cương/Nhập môn mạng/4.1.1. Bài tập Địa chỉ IP.md",
-    "Kiến thức đại cương/Nhập môn mạng/1. Tổng quan về mạng máy tính.md",
-    "Data/1. Cơ sở dữ liệu/4. Sao lưu & Phục hồi Cơ sở dữ liệu.md",
-    "Data/1. Cơ sở dữ liệu/4. Kiểu dữ liệu mở rộng.md",
-    "Data/1. Cơ sở dữ liệu/2. Mô hình dữ liệu.md",
-    "Data/1. Cơ sở dữ liệu/1. Tổng quan về Dữ liệu & Cơ sở dữ liệu.md",
     "Kiến thức đại cương/Hệ điều hành/6.1. Bộ nhớ ảo (Virtual memory).md",
-    "Kiến thức đại cương/Hệ điều hành/6.2. Bài tập Quản lý bộ nhớ máy tính.md",
-    "Kiến thức đại cương/Hệ điều hành/1. Tổng quan về hệ thống máy tính và OS.md",
-    "Kiến thức đại cương/Hệ điều hành/3.1. Bài tập Định thời.md",
-    "Data/4. Deep learning",
-    "Kiến thức đại cương/Lập trình hướng đối tượng",
-    "Kiến thức đại cương/Cấu trúc dữ liệu & Giải thuật",
-    "Lập trình Web/1. Nhập môn lập trình web/2. CSS/0. Assets/text-layout.png",
-    "Kiến thức đại cương/Nhập môn mạng/0. Assets/delay.png",
-    "Data/1. Cơ sở dữ liệu/0. References/Fundamentals of Database Systems, 7th Edition.pdf",
-    "Lập trình Web/4. Fullstack/Next.JS",
-    "Lập trình Web/1. Nhập môn lập trình web/5. Node.js",
-    "Lập trình Web/2. Front-end/1. CSS framework",
-    "Lập trình Web/4. Fullstack",
-    "Web/1. Nhập môn lập trình web/3. JavaScript Vanilla",
-    "Lập trình Web/1. Nhập môn lập trình web/1. HTML",
+    "Kiến thức đại cương/Hệ điều hành/0. Bài tập/5. Bài tập Quản lý bộ nhớ máy tính.md",
+    "Kiến thức đại cương/Hệ điều hành/0. Assets/paging-lru.png",
+    "Kiến thức đại cương/Hệ điều hành/0. Assets/paging-opt.png",
+    "Kiến thức đại cương/Hệ điều hành/0. Assets/paging-fifo.png",
+    "Kiến thức đại cương/Hệ điều hành/0. Bài tập/4. Bài tập Tắc nghẽn.md",
+    "Kiến thức đại cương/Hệ điều hành/5. Tắt nghẽn.md",
+    "Kiến thức đại cương/Hệ điều hành/4. Đồng bộ.md",
+    "Kiến thức đại cương/Hệ điều hành/6. Quản lý bộ nhớ máy tính.md",
+    "Kiến thức đại cương/Hệ điều hành/0. Assets/paging.png",
+    "Kiến thức đại cương/Hệ điều hành/0. Assets/paging.drawio",
+    "Kiến thức đại cương/Hệ điều hành/0. Assets/Biểu đồ không có tiêu đề.drawio",
     "Kiến thức đại cương/Hệ điều hành/0. Assets/fork3.png",
-    "Kiến thức đại cương/Hệ điều hành/0. Assets/fork2.png",
-    "Kiến thức đại cương/Hệ điều hành/0. Assets/fork1.png",
-    "Kiến thức đại cương/Hệ điều hành/0. Assets/fork.png",
-    "Kiến thức đại cương/Hệ điều hành/0. Assets/rag.png",
-    "Kiến thức đại cương/Hệ điều hành/0. Assets/Biểu đồ không có tiêu đề.drawio.png",
-    "Kiến thức đại cương/Nhập môn mạng/0. Assets/GBN-loss-ACK.png",
-    "Kiến thức đại cương/Nhập môn mạng/0. Assets/SR-loss-ACK.png"
+    "Kiến thức đại cương/Hệ điều hành/0. Bài tập/3. Bài tập Đồng bộ.md",
+    "Kiến thức đại cương/Hệ điều hành/3. Định thời.md",
+    "Kiến thức đại cương/Hệ điều hành/0. Bài tập/6. Bài tập Quản lý bộ nhớ.md",
+    "Kiến thức đại cương/Hệ điều hành/1. Tổng quan về hệ thống máy tính và OS.md",
+    "Kiến thức đại cương/Hệ điều hành/0. Bài tập",
+    "Lập trình Web/1. Nhập môn lập trình web/2. CSS/2. CSS Layout.md",
+    "Data/2. Pandas (pd)/2. Khảo sát Series và DataFrame.md",
+    "Data/2. Data visualization/1. Seaborn (sns).md",
+    "Data/2. Data visualization/1. Matplotlib (plt).md",
+    "Data/2. Pandas (pd)/1. Khởi tạo Series và DataFrame.md",
+    "Data/2. Data visualization/0. Chiến lược Trực quan hóa dữ liệu.md",
+    "Data/2. Pandas (pd)/0. Giới thiệu & Cài đặt Pandas.md",
+    "Data/2. Pandas (pd)/4. Thống kê trên DataFrame.md",
+    "Data/2. Pandas (pd)/3. Chỉnh sửa cấu trúc DataFrame.md",
+    "Data/2. Pandas (pd)/5. Pandas for SQL users.md",
+    "Data/2. Pandas/Truy vấn trên Serie và DataFrame.md",
+    "Data/2. Pandas/Làm sạch dữ liệu DataFrame.md",
+    "Data/2. Pandas (pd)/0. Assets/boolean-indexing.png",
+    "Data/2. Pandas (pd)/0. Assets",
+    "Data/2. Pandas/New folder",
+    "Data/2. Pandas/boolean-indexing.png",
+    "Data/3. Data analysis/2. Chuỗi thời gian - Timeseries.md",
+    "Data/3. Data analysis/2.1. Thực hành Phân tích Chuỗi thời gian.md",
+    "Data/3. Data analysis/2.2. Phân tích giao dịch chứng khoán.md",
+    "Data/3. Data cleaning",
+    "Data/5. Data analysis",
+    "Data/3. Machine learning/Cơ sở Toán học các bài toán của Machine learning",
+    "Data/3. Machine learning/Thực hành training model",
+    "Data/3. Machine learning/0. Thực hành",
+    "Kiến thức đại cương/Nhập môn mạng/0. Assets/tcp-congestion.png",
+    "Lập trình Web/1. Nhập môn lập trình web/2. CSS/0. Assets/text-layout.png",
+    "Kiến thức đại cương/Nhập môn mạng/0. Assets/delay.png"
   ]
 }
