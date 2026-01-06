@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "89cefd66b8cbf776",
+        "id": "87d58fabd011eaf1",
         "type": "tabs",
         "children": [
           {
-            "id": "7d97b5dc10f33c8c",
+            "id": "f60ea16a7bc69e79",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Data/1. Cơ sở dữ liệu/3. Mô hình quan hệ.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Tab mới"
+              "title": "3. Mô hình quan hệ"
             }
           }
         ]
@@ -166,8 +170,29 @@
       "bases:Create new base": false
     }
   },
-  "active": "1edc889b8f8c1ff3",
+  "active": "f60ea16a7bc69e79",
   "lastOpenFiles": [
+    "Data/1. Cơ sở dữ liệu/SQL/3. Nhập môn SQL.md",
+    "Data/1. Cơ sở dữ liệu/3. Mô hình quan hệ.md",
+    "Kiến thức đại cương/Nhập môn mạng/4.1. Địa chỉ IP.md",
+    "Kiến thức đại cương/Nhập môn mạng/0. Bài tập/4. Bài tập Network layer.md",
+    "Kiến thức đại cương/Nhập môn mạng/1. Tổng quan về mạng máy tính.md",
+    "Kiến thức đại cương/Nhập môn mạng/5.1. Tổng quan về Link layer.md",
+    "Kiến thức đại cương/Nhập môn mạng/5.2. Mạng LAN, VLAN.md",
+    "Kiến thức đại cương/Nhập môn mạng/2. Application layer.md",
+    "Kiến thức đại cương/Nhập môn mạng/3. Transport layer.md",
+    "Kiến thức đại cương/Nhập môn mạng/4.3. Định tuyến (Routing).md",
+    "5.1. Mạng LAN, VLAN.md",
+    "Data/2. Cơ sở toán học của Machine learning/1. Đại số tuyến tính (Linear algebra) và Numpy.md",
+    "Data/3. Data analysis/2. Chuỗi thời gian - Timeseries.md",
+    "Data/3. Data analysis/2.1. Thực hành Phân tích Chuỗi thời gian.md",
+    "Data/3. Data analysis/1. Nhập môn Data analysis.md",
+    "Data/2. Pandas (pd)/2. Khảo sát Series và DataFrame.md",
+    "Data/2. Pandas (pd)/1. Khởi tạo Series và DataFrame.md",
+    "Data/2. Pandas (pd)/0. Giới thiệu & Cài đặt Pandas.md",
+    "Data/2. Data visualization/1. Seaborn (sns).md",
+    "Data/2. Data visualization/1. Matplotlib (plt).md",
+    "Data/2. Data visualization/0. Chiến lược Trực quan hóa dữ liệu.md",
     "Kiến thức đại cương/Hệ điều hành/6.1. Bộ nhớ ảo (Virtual memory).md",
     "Kiến thức đại cương/Hệ điều hành/0. Bài tập/5. Bài tập Quản lý bộ nhớ máy tính.md",
     "Kiến thức đại cương/Hệ điều hành/0. Assets/paging-lru.png",
@@ -176,35 +201,15 @@
     "Kiến thức đại cương/Hệ điều hành/0. Bài tập/4. Bài tập Tắc nghẽn.md",
     "Kiến thức đại cương/Hệ điều hành/5. Tắt nghẽn.md",
     "Kiến thức đại cương/Hệ điều hành/4. Đồng bộ.md",
-    "Kiến thức đại cương/Hệ điều hành/6. Quản lý bộ nhớ máy tính.md",
     "Kiến thức đại cương/Hệ điều hành/0. Assets/paging.png",
     "Kiến thức đại cương/Hệ điều hành/0. Assets/paging.drawio",
     "Kiến thức đại cương/Hệ điều hành/0. Assets/Biểu đồ không có tiêu đề.drawio",
     "Kiến thức đại cương/Hệ điều hành/0. Assets/fork3.png",
-    "Kiến thức đại cương/Hệ điều hành/0. Bài tập/3. Bài tập Đồng bộ.md",
-    "Kiến thức đại cương/Hệ điều hành/3. Định thời.md",
-    "Kiến thức đại cương/Hệ điều hành/0. Bài tập/6. Bài tập Quản lý bộ nhớ.md",
-    "Kiến thức đại cương/Hệ điều hành/1. Tổng quan về hệ thống máy tính và OS.md",
     "Kiến thức đại cương/Hệ điều hành/0. Bài tập",
-    "Lập trình Web/1. Nhập môn lập trình web/2. CSS/2. CSS Layout.md",
-    "Data/2. Pandas (pd)/2. Khảo sát Series và DataFrame.md",
-    "Data/2. Data visualization/1. Seaborn (sns).md",
-    "Data/2. Data visualization/1. Matplotlib (plt).md",
-    "Data/2. Pandas (pd)/1. Khởi tạo Series và DataFrame.md",
-    "Data/2. Data visualization/0. Chiến lược Trực quan hóa dữ liệu.md",
-    "Data/2. Pandas (pd)/0. Giới thiệu & Cài đặt Pandas.md",
-    "Data/2. Pandas (pd)/4. Thống kê trên DataFrame.md",
-    "Data/2. Pandas (pd)/3. Chỉnh sửa cấu trúc DataFrame.md",
-    "Data/2. Pandas (pd)/5. Pandas for SQL users.md",
-    "Data/2. Pandas/Truy vấn trên Serie và DataFrame.md",
-    "Data/2. Pandas/Làm sạch dữ liệu DataFrame.md",
     "Data/2. Pandas (pd)/0. Assets/boolean-indexing.png",
     "Data/2. Pandas (pd)/0. Assets",
     "Data/2. Pandas/New folder",
     "Data/2. Pandas/boolean-indexing.png",
-    "Data/3. Data analysis/2. Chuỗi thời gian - Timeseries.md",
-    "Data/3. Data analysis/2.1. Thực hành Phân tích Chuỗi thời gian.md",
-    "Data/3. Data analysis/2.2. Phân tích giao dịch chứng khoán.md",
     "Data/3. Data cleaning",
     "Data/5. Data analysis",
     "Data/3. Machine learning/Cơ sở Toán học các bài toán của Machine learning",
