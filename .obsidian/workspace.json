@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/1. Cơ sở dữ liệu/3. Mô hình quan hệ.md",
+                "file": "docs/Lập trình Web/2. Front-end/2. React.js/1. Giới thiệu & Cài đặt ReactJS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Mô hình quan hệ"
+              "title": "1. Giới thiệu & Cài đặt ReactJS"
             }
           }
         ]
@@ -172,6 +172,8 @@
   },
   "active": "f60ea16a7bc69e79",
   "lastOpenFiles": [
+    "docs/Lập trình Web/2. Front-end/2. React.js/2. JSX.md",
+    "docs/Lập trình Web/2. Front-end/2. React.js/1. Giới thiệu & Cài đặt ReactJS.md",
     "Data/1. Cơ sở dữ liệu/SQL/3. Nhập môn SQL.md",
     "Data/1. Cơ sở dữ liệu/3. Mô hình quan hệ.md",
     "Kiến thức đại cương/Nhập môn mạng/4.1. Địa chỉ IP.md",
@@ -199,8 +201,6 @@
     "Kiến thức đại cương/Hệ điều hành/0. Assets/paging-opt.png",
     "Kiến thức đại cương/Hệ điều hành/0. Assets/paging-fifo.png",
     "Kiến thức đại cương/Hệ điều hành/0. Bài tập/4. Bài tập Tắc nghẽn.md",
-    "Kiến thức đại cương/Hệ điều hành/5. Tắt nghẽn.md",
-    "Kiến thức đại cương/Hệ điều hành/4. Đồng bộ.md",
     "Kiến thức đại cương/Hệ điều hành/0. Assets/paging.png",
     "Kiến thức đại cương/Hệ điều hành/0. Assets/paging.drawio",
     "Kiến thức đại cương/Hệ điều hành/0. Assets/Biểu đồ không có tiêu đề.drawio",
