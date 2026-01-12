@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "87d58fabd011eaf1",
+        "id": "d3c958db1d943b46",
         "type": "tabs",
         "children": [
           {
-            "id": "f60ea16a7bc69e79",
+            "id": "b5cd3491ddae13a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Lập trình Web/2. Front-end/2. React.js/1. Giới thiệu & Cài đặt ReactJS.md",
+                "file": "Kiến thức đại cương/Hệ điều hành/0. Bài tập/5. Bài tập Quản lý bộ nhớ máy tính.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Giới thiệu & Cài đặt ReactJS"
+              "title": "5. Bài tập Quản lý bộ nhớ máy tính"
+            }
+          },
+          {
+            "id": "13dac543ffc6275e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kiến thức đại cương/Hệ điều hành/6. Quản lý bộ nhớ máy tính.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. Quản lý bộ nhớ máy tính"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5041847229004
+    "width": 246.5041847229004
   },
   "right": {
     "id": "fef15c42c46c132c",
@@ -170,53 +185,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "f60ea16a7bc69e79",
+  "active": "13dac543ffc6275e",
   "lastOpenFiles": [
-    "docs/Lập trình Web/2. Front-end/2. React.js/2. JSX.md",
-    "docs/Lập trình Web/2. Front-end/2. React.js/1. Giới thiệu & Cài đặt ReactJS.md",
-    "Data/1. Cơ sở dữ liệu/SQL/3. Nhập môn SQL.md",
-    "Data/1. Cơ sở dữ liệu/3. Mô hình quan hệ.md",
-    "Kiến thức đại cương/Nhập môn mạng/4.1. Địa chỉ IP.md",
-    "Kiến thức đại cương/Nhập môn mạng/0. Bài tập/4. Bài tập Network layer.md",
-    "Kiến thức đại cương/Nhập môn mạng/1. Tổng quan về mạng máy tính.md",
-    "Kiến thức đại cương/Nhập môn mạng/5.1. Tổng quan về Link layer.md",
-    "Kiến thức đại cương/Nhập môn mạng/5.2. Mạng LAN, VLAN.md",
-    "Kiến thức đại cương/Nhập môn mạng/2. Application layer.md",
-    "Kiến thức đại cương/Nhập môn mạng/3. Transport layer.md",
-    "Kiến thức đại cương/Nhập môn mạng/4.3. Định tuyến (Routing).md",
-    "5.1. Mạng LAN, VLAN.md",
-    "Data/2. Cơ sở toán học của Machine learning/1. Đại số tuyến tính (Linear algebra) và Numpy.md",
-    "Data/3. Data analysis/2. Chuỗi thời gian - Timeseries.md",
-    "Data/3. Data analysis/2.1. Thực hành Phân tích Chuỗi thời gian.md",
-    "Data/3. Data analysis/1. Nhập môn Data analysis.md",
-    "Data/2. Pandas (pd)/2. Khảo sát Series và DataFrame.md",
-    "Data/2. Pandas (pd)/1. Khởi tạo Series và DataFrame.md",
-    "Data/2. Pandas (pd)/0. Giới thiệu & Cài đặt Pandas.md",
-    "Data/2. Data visualization/1. Seaborn (sns).md",
-    "Data/2. Data visualization/1. Matplotlib (plt).md",
-    "Data/2. Data visualization/0. Chiến lược Trực quan hóa dữ liệu.md",
-    "Kiến thức đại cương/Hệ điều hành/6.1. Bộ nhớ ảo (Virtual memory).md",
     "Kiến thức đại cương/Hệ điều hành/0. Bài tập/5. Bài tập Quản lý bộ nhớ máy tính.md",
-    "Kiến thức đại cương/Hệ điều hành/0. Assets/paging-lru.png",
-    "Kiến thức đại cương/Hệ điều hành/0. Assets/paging-opt.png",
-    "Kiến thức đại cương/Hệ điều hành/0. Assets/paging-fifo.png",
+    "Kiến thức đại cương/Hệ điều hành/Ubuntu/4. Khảo sát process & thread trong Linux qua C.md",
+    "Kiến thức đại cương/Hệ điều hành/7. Tổng quan về hệ điều hành Windows và Linux.md",
+    "Kiến thức đại cương/Hệ điều hành/Ubuntu/3. Shell script.md",
+    "Kiến thức đại cương/Hệ điều hành/Ubuntu/2. Các lệnh cơ bản quản lý file.md",
+    "Kiến thức đại cương/Hệ điều hành/6. Quản lý bộ nhớ máy tính.md",
+    "Kiến thức đại cương/Hệ điều hành/6.1. Bộ nhớ ảo (Virtual memory).md",
+    "Kiến thức đại cương/Hệ điều hành/5. Tắt nghẽn (Deadblock).md",
     "Kiến thức đại cương/Hệ điều hành/0. Bài tập/4. Bài tập Tắc nghẽn.md",
-    "Kiến thức đại cương/Hệ điều hành/0. Assets/paging.png",
+    "Kiến thức đại cương/Hệ điều hành/0. Bài tập/3. Bài tập Đồng bộ.md",
+    "Chưa đặt tên.md",
+    "Kiến thức đại cương/Hệ điều hành/3. Định thời.md",
+    "Kiến thức đại cương/Hệ điều hành/4. Đồng bộ.md",
+    "Kiến thức đại cương/Hệ điều hành/Ubuntu/1. Giới thiệu & Cài đặt Ubuntu trên máy ảo VMWare.md",
+    "Kiến thức đại cương/Nhập môn Mạng máy tính/0. Bài tập/1. Bài tập Tổng quan về mạng máy tính.md",
+    "Kiến thức đại cương/Nhập môn Mạng máy tính/1. Tổng quan về mạng máy tính.md",
+    "Kiến thức đại cương/Hệ điều hành/2. Tiến trình & Tiểu trình.md",
+    "README.md",
+    "Kiến thức đại cương/Chưa đặt tên.md",
+    "Kiến thức đại cương/Hệ điều hành/0. Bài tập/2. Bài tập Định thời.md",
+    "Kiến thức đại cương/Nhập môn Mạng máy tính/0. Bài tập/4. Bài tập Network layer.md",
+    "Kiến thức đại cương/Nhập môn Mạng máy tính/5.1. Tổng quan về Link layer.md",
+    "Kiến thức đại cương/Nhập môn Mạng máy tính/4.1. Địa chỉ IP.md",
+    "Kiến thức đại cương/Nhập môn Mạng máy tính/5.2. Mạng LAN, VLAN.md",
+    "Kiến thức đại cương/Nhập môn Mạng máy tính/2.1. Hệ thống email.md",
+    "Kiến thức đại cương/Nhập môn Mạng máy tính/4.2. Chuyển tiếp (Fowarding).md",
+    "Data/3. Machine learning/2. Một số loại model",
+    "Data/3. Machine learning/0. References/Machine learning cơ bản.pdf",
+    "Data/3. Machine learning/0. Assets/one-hot-encoder.png",
+    "Data/3. Machine learning/0. Assets/ordinal-encoder.png",
+    "Data/3. Machine learning/0. Assets/variance.png",
+    "Data/3. Machine learning/0. Assets/bias.png",
+    "Data/3. Machine learning/0. Assets/differences-model-families.png",
+    "Data/3. Machine learning/0. Assets/Screenshot 2026-01-07 205239.png",
+    "Data/3. Machine learning/0. Assets/varying-sample-size.png",
+    "Data/3. Machine learning/0. Assets/bayes-error-rate.png",
+    "Data/3. Machine learning/0. Assets/Screenshot 2026-01-07 204422.png",
+    "Data/3. Machine learning/0. Assets/training-testing-error.png",
+    "Data/3. Machine learning/0. Assets",
+    "Data/3. Machine learning/1. Giới thiệu về ML",
     "Kiến thức đại cương/Hệ điều hành/0. Assets/paging.drawio",
     "Kiến thức đại cương/Hệ điều hành/0. Assets/Biểu đồ không có tiêu đề.drawio",
-    "Kiến thức đại cương/Hệ điều hành/0. Assets/fork3.png",
     "Kiến thức đại cương/Hệ điều hành/0. Bài tập",
-    "Data/2. Pandas (pd)/0. Assets/boolean-indexing.png",
     "Data/2. Pandas (pd)/0. Assets",
     "Data/2. Pandas/New folder",
-    "Data/2. Pandas/boolean-indexing.png",
-    "Data/3. Data cleaning",
-    "Data/5. Data analysis",
-    "Data/3. Machine learning/Cơ sở Toán học các bài toán của Machine learning",
-    "Data/3. Machine learning/Thực hành training model",
-    "Data/3. Machine learning/0. Thực hành",
-    "Kiến thức đại cương/Nhập môn mạng/0. Assets/tcp-congestion.png",
-    "Lập trình Web/1. Nhập môn lập trình web/2. CSS/0. Assets/text-layout.png",
-    "Kiến thức đại cương/Nhập môn mạng/0. Assets/delay.png"
+    "Data/3. Data cleaning"
   ]
 }
