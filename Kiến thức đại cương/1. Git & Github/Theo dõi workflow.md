@@ -5,7 +5,7 @@ git status
 ```
 Kiểm tra trạng thái của local: Có 1 số trạng thái sau:
 - `Modifined` (`M`): Đã bị sửa đổi nhưng chưa được cập nhật vào local hay remote.
-- `Untracked` (`U`): Chưa được thêm vào [[Giới thiệu#Các thành phần của hệ thống git|Staging area]].
+- `Untracked` (`U`): Chưa được thêm vào [[Kiến thức đại cương/1. Git & Github/Giới thiệu#Các thành phần của hệ thống git|Staging area]].
 Trong môi trường làm việc VS Code, trạng thái của file được hiển thị ngay cạnh file.
 
 # Các lệnh về branch

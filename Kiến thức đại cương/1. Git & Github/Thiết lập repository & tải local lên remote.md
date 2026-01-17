@@ -9,7 +9,7 @@ Tạo repository cục bộ.
 ```bash
 git add urFile
 ```
-Đưa các file của project vào [[Giới thiệu#Các thành phần của hệ thống git|Staging area]].
+Đưa các file của project vào [[Kiến thức đại cương/1. Git & Github/Giới thiệu#Các thành phần của hệ thống git|Staging area]].
 Nếu muốn đưa toàn bộ project vào staging thì chọn `git add .` .
 
 ```bash

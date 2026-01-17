@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d3c958db1d943b46",
+        "id": "1d873fc543475672",
         "type": "tabs",
         "children": [
           {
-            "id": "b5cd3491ddae13a1",
+            "id": "018fdfed2e1b46e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kiến thức đại cương/Hệ điều hành/0. Bài tập/5. Bài tập Quản lý bộ nhớ máy tính.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "5. Bài tập Quản lý bộ nhớ máy tính"
-            }
-          },
-          {
-            "id": "13dac543ffc6275e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kiến thức đại cương/Hệ điều hành/6. Quản lý bộ nhớ máy tính.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6. Quản lý bộ nhớ máy tính"
+              "title": "Tab mới"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5041847229004
+    "width": 373.50499725341797
   },
   "right": {
     "id": "fef15c42c46c132c",
@@ -185,53 +166,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "13dac543ffc6275e",
+  "active": "1edc889b8f8c1ff3",
   "lastOpenFiles": [
-    "Kiến thức đại cương/Hệ điều hành/0. Bài tập/5. Bài tập Quản lý bộ nhớ máy tính.md",
-    "Kiến thức đại cương/Hệ điều hành/Ubuntu/4. Khảo sát process & thread trong Linux qua C.md",
-    "Kiến thức đại cương/Hệ điều hành/7. Tổng quan về hệ điều hành Windows và Linux.md",
-    "Kiến thức đại cương/Hệ điều hành/Ubuntu/3. Shell script.md",
-    "Kiến thức đại cương/Hệ điều hành/Ubuntu/2. Các lệnh cơ bản quản lý file.md",
-    "Kiến thức đại cương/Hệ điều hành/6. Quản lý bộ nhớ máy tính.md",
-    "Kiến thức đại cương/Hệ điều hành/6.1. Bộ nhớ ảo (Virtual memory).md",
-    "Kiến thức đại cương/Hệ điều hành/5. Tắt nghẽn (Deadblock).md",
-    "Kiến thức đại cương/Hệ điều hành/0. Bài tập/4. Bài tập Tắc nghẽn.md",
-    "Kiến thức đại cương/Hệ điều hành/0. Bài tập/3. Bài tập Đồng bộ.md",
-    "Chưa đặt tên.md",
-    "Kiến thức đại cương/Hệ điều hành/3. Định thời.md",
-    "Kiến thức đại cương/Hệ điều hành/4. Đồng bộ.md",
-    "Kiến thức đại cương/Hệ điều hành/Ubuntu/1. Giới thiệu & Cài đặt Ubuntu trên máy ảo VMWare.md",
-    "Kiến thức đại cương/Nhập môn Mạng máy tính/0. Bài tập/1. Bài tập Tổng quan về mạng máy tính.md",
-    "Kiến thức đại cương/Nhập môn Mạng máy tính/1. Tổng quan về mạng máy tính.md",
-    "Kiến thức đại cương/Hệ điều hành/2. Tiến trình & Tiểu trình.md",
-    "README.md",
-    "Kiến thức đại cương/Chưa đặt tên.md",
-    "Kiến thức đại cương/Hệ điều hành/0. Bài tập/2. Bài tập Định thời.md",
-    "Kiến thức đại cương/Nhập môn Mạng máy tính/0. Bài tập/4. Bài tập Network layer.md",
-    "Kiến thức đại cương/Nhập môn Mạng máy tính/5.1. Tổng quan về Link layer.md",
-    "Kiến thức đại cương/Nhập môn Mạng máy tính/4.1. Địa chỉ IP.md",
-    "Kiến thức đại cương/Nhập môn Mạng máy tính/5.2. Mạng LAN, VLAN.md",
-    "Kiến thức đại cương/Nhập môn Mạng máy tính/2.1. Hệ thống email.md",
-    "Kiến thức đại cương/Nhập môn Mạng máy tính/4.2. Chuyển tiếp (Fowarding).md",
-    "Data/3. Machine learning/2. Một số loại model",
-    "Data/3. Machine learning/0. References/Machine learning cơ bản.pdf",
+    "Data/2. Data pipeline/Python Pandas (pd)/0. Giới thiệu & Cài đặt Pandas.md",
+    "Data/2. Data pipeline/Apache Airflow/3. Cài đặt dependencies cho Airflow container.md",
+    "Data/2. Data pipeline/Apache Airflow/2. Cài đặt & Sử dụng Airflow.md",
+    "Data/2. Data pipeline/Apache Airflow/1. Giới thiệu & Cài đặt Apache Airflow.md",
+    "Data/2. Data pipeline/Apache Spark (PySpark)/2. Sử dụng Spark.md",
+    "Chưa đặt tên 1.md",
+    "Data/2. Data visualization/Microsoft Power BI.md",
+    "Data/2. Data visualization/Microsoft Power BI",
+    "Data/2. Data pipeline/0. Chiến lược xây dựng Data pipeline",
+    "Data/2. Data web crawling",
+    "Data/2. Data pipeline/Apache Hadoop",
+    "Data/2. Data pipeline/Azure Databricks",
+    "Data/2. Data web crawling/Playwright",
+    "Data/2. Data pipeline/Apache Kafka",
+    "Data/2. Data pipeline/Apache Spark (PySpark)/Chưa đặt tên",
+    "Data/2. Data pipeline/Apache Spark (PySpark)/1. Giới thiệu Apache Spark và PySpark.md",
+    "Kiến thức đại cương/Nhập môn Java SE (Core)/1. Giới thiệu & Cài đặt Java SE.md",
+    "Data/2. Data pipeline/Python Pandas (pd)/4. Thống kê trên DataFrame.md",
+    "Data/2. Data pipeline/Python Pandas (pd)/3. Chỉnh sửa cấu trúc DataFrame.md",
+    "Data/2. Data pipeline/Python Pandas (pd)/2. Khảo sát Series và DataFrame.md",
+    "Data/2. Data pipeline/Python Pandas (pd)/1. Khởi tạo Series và DataFrame.md",
+    "Data/2. Data pipeline/Apache Spark (PySpark)",
+    "Kiến thức đại cương/4. Docker/2. Sử dụng Docker.md",
+    "Kiến thức đại cương/4. Docker/3. Docker compose.md",
+    "Kiến thức đại cương/4. Docker/Xây dựng container.md",
+    "Kiến thức đại cương/4. Docker/1. Giới thiệu & Cài đặt Docker.md",
+    "Kiến thức đại cương/3. Mạng máy tính/1. Tổng quan về mạng máy tính.md",
+    "Data/2. Data pipeline/Apache Airflow/0. Assets/airflow-architecture.png",
+    "Data/2. Data pipeline/Airflow/0. Assets/Screenshot 2026-01-15 191534.png",
+    "Data/2. Data pipeline/Apache Airflow/0. Assets/happy-task-lifecycle.png",
+    "Data/2. Data pipeline/Airflow/0. Assets/Screenshot 2026-01-15 191143.png",
+    "Data/2. Data pipeline/Apache Airflow/0. Assets/task-lifecycle.png",
+    "Data/2. Data pipeline/Apache Airflow/0. Assets",
+    "Kiến thức đại cương/3. Mạng máy tính/0. Bài tập/5. Bài tập Link layer.md",
+    "Kiến thức đại cương/3. Mạng máy tính/5.1. Tổng quan về Link layer.md",
+    "Kiến thức đại cương/3. Mạng máy tính/4.3. Định tuyến (Routing).md",
+    "Kiến thức đại cương/3. Mạng máy tính/3. Transport layer.md",
+    "Kiến thức đại cương/3. Mạng máy tính/4.1. Địa chỉ IP.md",
+    "Kiến thức đại cương/3. Mạng máy tính/4.2. Chuyển tiếp (Fowarding).md",
+    "Kiến thức đại cương/3. Mạng máy tính/2.1. Hệ thống web.md",
+    "Kiến thức đại cương/3. Mạng máy tính/2.1. Hệ thống email.md",
     "Data/3. Machine learning/0. Assets/one-hot-encoder.png",
     "Data/3. Machine learning/0. Assets/ordinal-encoder.png",
     "Data/3. Machine learning/0. Assets/variance.png",
     "Data/3. Machine learning/0. Assets/bias.png",
-    "Data/3. Machine learning/0. Assets/differences-model-families.png",
-    "Data/3. Machine learning/0. Assets/Screenshot 2026-01-07 205239.png",
-    "Data/3. Machine learning/0. Assets/varying-sample-size.png",
-    "Data/3. Machine learning/0. Assets/bayes-error-rate.png",
-    "Data/3. Machine learning/0. Assets/Screenshot 2026-01-07 204422.png",
-    "Data/3. Machine learning/0. Assets/training-testing-error.png",
-    "Data/3. Machine learning/0. Assets",
-    "Data/3. Machine learning/1. Giới thiệu về ML",
-    "Kiến thức đại cương/Hệ điều hành/0. Assets/paging.drawio",
-    "Kiến thức đại cương/Hệ điều hành/0. Assets/Biểu đồ không có tiêu đề.drawio",
-    "Kiến thức đại cương/Hệ điều hành/0. Bài tập",
-    "Data/2. Pandas (pd)/0. Assets",
-    "Data/2. Pandas/New folder",
-    "Data/3. Data cleaning"
+    "Data/3. Machine learning/0. Assets/differences-model-families.png"
   ]
 }
