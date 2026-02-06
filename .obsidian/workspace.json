@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1d873fc543475672",
+        "id": "f0f1aa1784792031",
         "type": "tabs",
         "children": [
           {
-            "id": "018fdfed2e1b46e6",
+            "id": "141ed826041806ad",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.50499725341797
+    "width": 292.50499725341797
   },
   "right": {
     "id": "fef15c42c46c132c",
@@ -138,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Back-end/Express JS/Giới thiệu & Cài đặt Express JS.md",
+                "file": "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/3. OOP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương của Giới thiệu & Cài đặt Express JS"
+              "title": "Đề cương của 3. OOP"
             }
           }
         ],
@@ -152,7 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 359.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -166,53 +166,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "1edc889b8f8c1ff3",
+  "active": "141ed826041806ad",
   "lastOpenFiles": [
-    "Data/2. Data pipeline/Python Pandas (pd)/0. Giới thiệu & Cài đặt Pandas.md",
-    "Data/2. Data pipeline/Apache Airflow/3. Cài đặt dependencies cho Airflow container.md",
-    "Data/2. Data pipeline/Apache Airflow/2. Cài đặt & Sử dụng Airflow.md",
-    "Data/2. Data pipeline/Apache Airflow/1. Giới thiệu & Cài đặt Apache Airflow.md",
-    "Data/2. Data pipeline/Apache Spark (PySpark)/2. Sử dụng Spark.md",
-    "Chưa đặt tên 1.md",
-    "Data/2. Data visualization/Microsoft Power BI.md",
-    "Data/2. Data visualization/Microsoft Power BI",
-    "Data/2. Data pipeline/0. Chiến lược xây dựng Data pipeline",
-    "Data/2. Data web crawling",
-    "Data/2. Data pipeline/Apache Hadoop",
-    "Data/2. Data pipeline/Azure Databricks",
-    "Data/2. Data web crawling/Playwright",
-    "Data/2. Data pipeline/Apache Kafka",
-    "Data/2. Data pipeline/Apache Spark (PySpark)/Chưa đặt tên",
-    "Data/2. Data pipeline/Apache Spark (PySpark)/1. Giới thiệu Apache Spark và PySpark.md",
-    "Kiến thức đại cương/Nhập môn Java SE (Core)/1. Giới thiệu & Cài đặt Java SE.md",
-    "Data/2. Data pipeline/Python Pandas (pd)/4. Thống kê trên DataFrame.md",
-    "Data/2. Data pipeline/Python Pandas (pd)/3. Chỉnh sửa cấu trúc DataFrame.md",
-    "Data/2. Data pipeline/Python Pandas (pd)/2. Khảo sát Series và DataFrame.md",
-    "Data/2. Data pipeline/Python Pandas (pd)/1. Khởi tạo Series và DataFrame.md",
-    "Data/2. Data pipeline/Apache Spark (PySpark)",
-    "Kiến thức đại cương/4. Docker/2. Sử dụng Docker.md",
-    "Kiến thức đại cương/4. Docker/3. Docker compose.md",
-    "Kiến thức đại cương/4. Docker/Xây dựng container.md",
-    "Kiến thức đại cương/4. Docker/1. Giới thiệu & Cài đặt Docker.md",
-    "Kiến thức đại cương/3. Mạng máy tính/1. Tổng quan về mạng máy tính.md",
-    "Data/2. Data pipeline/Apache Airflow/0. Assets/airflow-architecture.png",
-    "Data/2. Data pipeline/Airflow/0. Assets/Screenshot 2026-01-15 191534.png",
-    "Data/2. Data pipeline/Apache Airflow/0. Assets/happy-task-lifecycle.png",
-    "Data/2. Data pipeline/Airflow/0. Assets/Screenshot 2026-01-15 191143.png",
-    "Data/2. Data pipeline/Apache Airflow/0. Assets/task-lifecycle.png",
-    "Data/2. Data pipeline/Apache Airflow/0. Assets",
-    "Kiến thức đại cương/3. Mạng máy tính/0. Bài tập/5. Bài tập Link layer.md",
-    "Kiến thức đại cương/3. Mạng máy tính/5.1. Tổng quan về Link layer.md",
-    "Kiến thức đại cương/3. Mạng máy tính/4.3. Định tuyến (Routing).md",
-    "Kiến thức đại cương/3. Mạng máy tính/3. Transport layer.md",
-    "Kiến thức đại cương/3. Mạng máy tính/4.1. Địa chỉ IP.md",
-    "Kiến thức đại cương/3. Mạng máy tính/4.2. Chuyển tiếp (Fowarding).md",
-    "Kiến thức đại cương/3. Mạng máy tính/2.1. Hệ thống web.md",
-    "Kiến thức đại cương/3. Mạng máy tính/2.1. Hệ thống email.md",
-    "Data/3. Machine learning/0. Assets/one-hot-encoder.png",
-    "Data/3. Machine learning/0. Assets/ordinal-encoder.png",
-    "Data/3. Machine learning/0. Assets/variance.png",
-    "Data/3. Machine learning/0. Assets/bias.png",
-    "Data/3. Machine learning/0. Assets/differences-model-families.png"
+    "2. Hệ thống thông tin/Quản lý dự án công nghệ thông tin (Project management))/Chưa đặt tên.md",
+    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/3. OOP.md",
+    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/2. Cú pháp cơ bản.md",
+    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/6. Generic.md",
+    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/5.1. Java Collection Framework.md",
+    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/5. Một số thư viện chuẩn của Java.md",
+    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/4. Java reflection.md",
+    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/7. Giới thiệu & Cài đặt Apache Maven.md",
+    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/6.1. Annotation.md",
+    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/4. OOP nâng cao.md",
+    "2. Lập trình Web/1. Nhập môn lập trình web/2. CSS/2. CSS Layout.md",
+    "Chưa đặt tên.md",
+    "2. Data/1. Cơ sở dữ liệu/3. SQL/1. Ngôn ngữ định nghĩa dữ liệu (DDL).md",
+    "2. Data/1. Cơ sở dữ liệu/3. SQL/2. Ngôn ngữ thao tác dữ liệu (DML).md",
+    "2. Data/1. Cơ sở dữ liệu/3. SQL/5. Categorical JOIN.md",
+    "2. Data/1. Cơ sở dữ liệu/3. SQL/5. Lập trình thủ tục trong SQL.md",
+    "2. Data/1. Cơ sở dữ liệu/2. Một số vấn đề mở rộng về Cơ sở dữ liệu/5. Query optimization.md",
+    "2. Data/1. Cơ sở dữ liệu/2. Một số vấn đề mở rộng về Cơ sở dữ liệu/4. Tối ưu truy vấn.md",
+    "2. Data/1. Cơ sở dữ liệu/3. SQL/3. Ngôn ngữ truy vấn dữ liệu (SQL).md",
+    "2. Data/1. Cơ sở dữ liệu/3. SQL/4. Ngôn ngữ điều khiển dữ liệu (DCL).md",
+    "2. Data/1. Cơ sở dữ liệu/1. Nhập môn Cơ sở dữ liệu/3. Mô hình quan hệ.md",
+    "2. Data/1. Cơ sở dữ liệu/3. SQL/5. Phép chia.md",
+    "2. Data/1. Cơ sở dữ liệu/3. SQL/5. Set-based trigger.md",
+    "2. Data/1. Cơ sở dữ liệu/3. SQL/5. Recursive JOIN.md",
+    "2. Data/1. Cơ sở dữ liệu/4. Oracle",
+    "2. Data/4. Data analysis/2. Timeseries analysis.md",
+    "2. Hệ thống thông tin/Phân tích thiết kế hệ thống thông tin (Business analysis))/1. Tổng quan về PTTK HTTT.md",
+    "2. Data/4. Data analysis/0. Assets/us-retail-sales-trends.png",
+    "2. Data/4. Data analysis/0. Assets/Không được xác nhận 307841.crdownload",
+    "2. Data/4. Data analysis/0. Assets/flu-trends-leading-feature.png",
+    "2. Data/4. Data analysis/0. Assets/Không được xác nhận 980585.crdownload",
+    "2. Data/4. Data analysis/0. Assets/flu-trends-prediction.png",
+    "2. Data/4. Data analysis/0. Assets/flu-trends-lags.png",
+    "2. Data/4. Data analysis/0. Assets/Không được xác nhận 78240.crdownload",
+    "2. Data/4. Data analysis/0. Assets/flu-trends.png",
+    "2. Data/4. Data analysis/0. Assets/Không được xác nhận 237628.crdownload",
+    "2. Data/4. Data analysis/0. Assets/tunel-traffic-sesonal-plots.png",
+    "2. Data/4. Data analysis/0. Assets/Không được xác nhận 844515.crdownload",
+    "2. Hệ thống thông tin/Quản lý dự án công nghệ thông tin (Project management))",
+    "2. Hệ thống thông tin/Phân tích thiết kế hệ thống thông tin (Business analysis))",
+    "2. Hệ thống thông tin",
+    "Kiến thức đại cương/4. Phân tích thiết kế hệ thống thông tin",
+    "2. Data/4. Data analysis/0. Assets/tunel-traffic-out-of-sample.png",
+    "2. Data/4. Data analysis/0. Assets/tunel-traffic-linear-trend.png",
+    "2. Data/4. Data analysis/0. Assets/tunel-traffic-moving-avg.png",
+    "2. Data/4. Data analysis/0. Assets/tunel-traffic-linear-regression-with-lag.png"
   ]
 }
