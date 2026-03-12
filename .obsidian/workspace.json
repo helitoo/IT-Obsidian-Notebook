@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f0f1aa1784792031",
+        "id": "486ee62030d63399",
         "type": "tabs",
         "children": [
           {
-            "id": "141ed826041806ad",
+            "id": "763cda2aa7ddf431",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2. Data/1. Cơ sở dữ liệu/3. SQL/3. Ngôn ngữ truy vấn dữ liệu (SQL).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Tab mới"
+              "title": "3. Ngôn ngữ truy vấn dữ liệu (SQL)"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.50499725341797
+    "width": 320.50499725341797
   },
   "right": {
     "id": "fef15c42c46c132c",
@@ -138,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/3. OOP.md",
+                "file": "2. Data/1. Cơ sở dữ liệu/3. SQL/3. Ngôn ngữ truy vấn dữ liệu (SQL).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương của 3. OOP"
+              "title": "Đề cương của 3. Ngôn ngữ truy vấn dữ liệu (SQL)"
             }
           }
         ],
@@ -152,67 +156,67 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5,
+    "width": 296.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Tạo cơ sở mới": false,
       "switcher:Mở bộ chuyển đổi nhanh": false,
       "graph:Mở xem biểu đồ": false,
       "canvas:Tạo bảng mới": false,
       "daily-notes:Mở ghi chú hôm nay": false,
       "templates:Chèn mẫu": false,
-      "command-palette:Mở khay lệnh": false,
-      "bases:Create new base": false
+      "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "141ed826041806ad",
+  "active": "763cda2aa7ddf431",
   "lastOpenFiles": [
-    "2. Hệ thống thông tin/Quản lý dự án công nghệ thông tin (Project management))/Chưa đặt tên.md",
-    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/3. OOP.md",
-    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/2. Cú pháp cơ bản.md",
-    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/6. Generic.md",
-    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/5.1. Java Collection Framework.md",
-    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/5. Một số thư viện chuẩn của Java.md",
-    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/4. Java reflection.md",
-    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/7. Giới thiệu & Cài đặt Apache Maven.md",
-    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/6.1. Annotation.md",
-    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/4. OOP nâng cao.md",
-    "2. Lập trình Web/1. Nhập môn lập trình web/2. CSS/2. CSS Layout.md",
-    "Chưa đặt tên.md",
-    "2. Data/1. Cơ sở dữ liệu/3. SQL/1. Ngôn ngữ định nghĩa dữ liệu (DDL).md",
-    "2. Data/1. Cơ sở dữ liệu/3. SQL/2. Ngôn ngữ thao tác dữ liệu (DML).md",
-    "2. Data/1. Cơ sở dữ liệu/3. SQL/5. Categorical JOIN.md",
     "2. Data/1. Cơ sở dữ liệu/3. SQL/5. Lập trình thủ tục trong SQL.md",
-    "2. Data/1. Cơ sở dữ liệu/2. Một số vấn đề mở rộng về Cơ sở dữ liệu/5. Query optimization.md",
-    "2. Data/1. Cơ sở dữ liệu/2. Một số vấn đề mở rộng về Cơ sở dữ liệu/4. Tối ưu truy vấn.md",
+    "2. Data/1. Cơ sở dữ liệu/3. SQL/2. Ngôn ngữ thao tác dữ liệu (DML).md",
     "2. Data/1. Cơ sở dữ liệu/3. SQL/3. Ngôn ngữ truy vấn dữ liệu (SQL).md",
+    "2. Data/1. Cơ sở dữ liệu/3. SQL/5.1. Bài tập Oracle stored functions.md",
+    "2. Data/1. Cơ sở dữ liệu/3. SQL/1. Ngôn ngữ định nghĩa dữ liệu (DDL).md",
     "2. Data/1. Cơ sở dữ liệu/3. SQL/4. Ngôn ngữ điều khiển dữ liệu (DCL).md",
+    "2. Data/1. Cơ sở dữ liệu/3. SQL/3.1. Categorical JOIN.md",
+    "2. Data/1. Cơ sở dữ liệu/2. Một số vấn đề mở rộng về Cơ sở dữ liệu/1. Transaction (giao tác) và Scheduling (lập lịch giao tác).md",
+    "2. Data/1. Cơ sở dữ liệu/2. Một số vấn đề mở rộng về Cơ sở dữ liệu/1. Tối ưu hóa truy vấn (Query optimization).md",
     "2. Data/1. Cơ sở dữ liệu/1. Nhập môn Cơ sở dữ liệu/3. Mô hình quan hệ.md",
-    "2. Data/1. Cơ sở dữ liệu/3. SQL/5. Phép chia.md",
-    "2. Data/1. Cơ sở dữ liệu/3. SQL/5. Set-based trigger.md",
-    "2. Data/1. Cơ sở dữ liệu/3. SQL/5. Recursive JOIN.md",
-    "2. Data/1. Cơ sở dữ liệu/4. Oracle",
-    "2. Data/4. Data analysis/2. Timeseries analysis.md",
+    "2. Data/1. Cơ sở dữ liệu/2. Một số vấn đề mở rộng về Cơ sở dữ liệu/1. Quản lý truy xuất đồng thời.md",
+    "2. Data/1. Cơ sở dữ liệu/2. Một số vấn đề mở rộng về Cơ sở dữ liệu/3. Nhập môn data pipelining.md",
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/2.2 Collection framework.md",
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/4. Java reflection.md",
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/4. Một số thư viện chuẩn của Java.md",
     "2. Hệ thống thông tin/Phân tích thiết kế hệ thống thông tin (Business analysis))/1. Tổng quan về PTTK HTTT.md",
-    "2. Data/4. Data analysis/0. Assets/us-retail-sales-trends.png",
+    "2. Hệ thống thông tin/Quản lý dự án công nghệ thông tin (Project management))/2. Quản lý phạm vi.md",
+    "2. Hệ thống thông tin/Quản lý dự án công nghệ thông tin (Project management))/1. Tổng quan.md",
+    "2. Hệ thống thông tin/Phân tích thiết kế hệ thống thông tin (Business analysis))/2. Mô hình hóa hệ thống.md",
+    "2. Lập trình Web/3. Back-end/Spring/Spring Boot/Bean lifecycle.md",
+    "2. Lập trình Web/3. Back-end/Spring/Spring Boot/Cấu hình Spring Boot.md",
+    "2. Lập trình Web/3. Back-end/Spring/Spring Boot/Kiến trúc Spring Boot.md",
+    "2. Lập trình Web/3. Back-end/Spring/Spring Boot/Hibernate.md",
+    "2. Data/1. Cơ sở dữ liệu/2. Một số vấn đề mở rộng về Cơ sở dữ liệu/transaction-statuses.png",
+    "2. Data/1. Cơ sở dữ liệu/1. Nhập môn Cơ sở dữ liệu/1. Tổng quan về Dữ liệu & Cơ sở dữ liệu.md",
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/2. OOP.md",
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/6. Generic.md",
+    "Chưa đặt tên.base",
+    "Chưa đặt tên 2.base",
+    "Chưa đặt tên 1.base",
+    "Pasted image 20260302152121.jpg",
+    "Pasted image 20260302151324.png",
+    "Pasted image 20260302144547.jpg",
+    "Pasted image 20260302142905.jpg",
+    "Pasted image 20260302134302.jpg",
+    "Pasted image 20260302134151.jpg",
+    "Pasted image 20260302134142.jpg",
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. Assets/swing-calculator.svg",
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. Assets",
+    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/New folder",
+    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/swing-calculator.svg",
+    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/3. OOP.html",
+    "1. Kiến thức đại cương/3. Nhập môn Java SE (Core)/Swing",
+    "2. Data/1. Cơ sở dữ liệu/4. Oracle",
     "2. Data/4. Data analysis/0. Assets/Không được xác nhận 307841.crdownload",
-    "2. Data/4. Data analysis/0. Assets/flu-trends-leading-feature.png",
-    "2. Data/4. Data analysis/0. Assets/Không được xác nhận 980585.crdownload",
-    "2. Data/4. Data analysis/0. Assets/flu-trends-prediction.png",
-    "2. Data/4. Data analysis/0. Assets/flu-trends-lags.png",
-    "2. Data/4. Data analysis/0. Assets/Không được xác nhận 78240.crdownload",
-    "2. Data/4. Data analysis/0. Assets/flu-trends.png",
-    "2. Data/4. Data analysis/0. Assets/Không được xác nhận 237628.crdownload",
-    "2. Data/4. Data analysis/0. Assets/tunel-traffic-sesonal-plots.png",
-    "2. Data/4. Data analysis/0. Assets/Không được xác nhận 844515.crdownload",
-    "2. Hệ thống thông tin/Quản lý dự án công nghệ thông tin (Project management))",
-    "2. Hệ thống thông tin/Phân tích thiết kế hệ thống thông tin (Business analysis))",
-    "2. Hệ thống thông tin",
-    "Kiến thức đại cương/4. Phân tích thiết kế hệ thống thông tin",
-    "2. Data/4. Data analysis/0. Assets/tunel-traffic-out-of-sample.png",
-    "2. Data/4. Data analysis/0. Assets/tunel-traffic-linear-trend.png",
-    "2. Data/4. Data analysis/0. Assets/tunel-traffic-moving-avg.png",
-    "2. Data/4. Data analysis/0. Assets/tunel-traffic-linear-regression-with-lag.png"
+    "2. Data/4. Data analysis/0. Assets/Không được xác nhận 980585.crdownload"
   ]
 }
