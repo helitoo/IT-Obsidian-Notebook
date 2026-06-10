@@ -4,47 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "693d924315c96af9",
+        "id": "90d582f2eda248a8",
         "type": "tabs",
         "children": [
           {
-            "id": "c30b98bdc544e7b9",
+            "id": "ab891a540b416729",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Data/1. Cơ sở dữ liệu/2. Hệ quản trị cơ sở dữ liệu/2. Điều khiển truy xuất đồng thời.md",
+                "file": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/4. Tối ưu hóa truy vấn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Điều khiển truy xuất đồng thời"
-            }
-          },
-          {
-            "id": "97c15cf3d48cdf78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Data/1. Cơ sở dữ liệu/2. Hệ quản trị cơ sở dữ liệu/2.1 Bài tập Điều khiển truy xuất đồng thời.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2.1 Bài tập Điều khiển truy xuất đồng thời"
-            }
-          },
-          {
-            "id": "d169ee78724aeda3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2. Data/1. Cơ sở dữ liệu/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2021-2022_questions.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "CK2_2021-2022_questions"
+              "title": "4. Tối ưu hóa truy vấn"
             }
           }
         ]
@@ -104,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.50499725341797
+    "width": 375.5080032348633
   },
   "right": {
     "id": "fef15c42c46c132c",
@@ -168,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Data/1. Cơ sở dữ liệu/2. Hệ quản trị cơ sở dữ liệu/2. Điều khiển truy xuất đồng thời.md",
+                "file": "1. Quản lý dự án công nghệ thông tin (Project management))/3. Agile & Scrum.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương của 2. Điều khiển truy xuất đồng thời"
+              "title": "Đề cương của 3. Agile & Scrum"
             }
           }
         ],
@@ -182,7 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5,
+    "width": 351.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -196,52 +170,53 @@
       "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "c30b98bdc544e7b9",
+  "active": "ab891a540b416729",
   "lastOpenFiles": [
-    "2. Data/1. Cơ sở dữ liệu/2. Hệ quản trị cơ sở dữ liệu/2.1 Bài tập Điều khiển truy xuất đồng thời.md",
-    "2. Data/1. Cơ sở dữ liệu/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2021-2022_questions.pdf",
-    "2. Data/1. Cơ sở dữ liệu/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2024-2025_questions_solution.pdf",
-    "2. Data/1. Cơ sở dữ liệu/2. Hệ quản trị cơ sở dữ liệu/2. Điều khiển truy xuất đồng thời.md",
-    "2. Data/1. Cơ sở dữ liệu/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2021-2022.pdf",
-    "2. Data/1. Cơ sở dữ liệu/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2021-2022_solution.pdf",
-    "2. Data/1. Cơ sở dữ liệu/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2024-2025.pdf",
-    "2. Data/1. Cơ sở dữ liệu/2. Hệ quản trị cơ sở dữ liệu/0. Refferences",
-    "2. Data/1. Cơ sở dữ liệu/2. Hệ quản trị cơ sở dữ liệu/New folder",
-    "2. Data/1. Cơ sở dữ liệu/2. Hệ quản trị cơ sở dữ liệu/Solution_CK2_2024-2025.pdf",
-    "2. Data/1. Cơ sở dữ liệu/2. Hệ quản trị cơ sở dữ liệu/1.1. Bài tập lập lịch giao tác.md",
-    "2. Data/1. Cơ sở dữ liệu/2. Hệ quản trị cơ sở dữ liệu/3. Xử lý sự cố.md",
-    "2. Data/1. Cơ sở dữ liệu/2. Hệ quản trị cơ sở dữ liệu/4. Tối ưu hóa truy vấn.md",
-    "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/4.1. Decision tree.md",
-    "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/4.2. Random forest.md",
-    "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán phân cụm (Clustering)/1. Thuật toán K-means.md",
-    "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/2.1. Nearest neighbors.md",
-    "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3. Phân lớp nhị phân, Phân lớp đa lớp & Tổng quan về Neural network.md",
-    "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/2.2. Naive Bayes Classifier (NBC).md",
-    "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/1. Linear models.md",
-    "2. Data/1. Cơ sở dữ liệu/1. Nhập môn Cơ sở dữ liệu/2. Mô hình dữ liệu.md",
-    "2. Data/1. Cơ sở dữ liệu/1. Nhập môn Cơ sở dữ liệu/3. Mô hình quan hệ.md",
-    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/1. Tổng quan về PTTK HTTT.md",
-    "2. Điện toán đám mây (Cloud computing)/AWS/5. Database.md",
-    "2. Điện toán đám mây (Cloud computing)/AWS/3. Compute services.md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/2.1 Bài tập Điều khiển truy xuất đồng thời.md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/1. Transaction (giao tác) và Scheduling (lập lịch giao tác).md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2021-2022_questions.pdf",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2024-2025_questions_solution.pdf",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/2. Điều khiển truy xuất đồng thời.md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2021-2022_solutions.pdf",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/3. Xử lý sự cố.md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2018-2019_questions.pdf",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2018-2019_solution.pdf",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/1.1. Bài tập lập lịch giao tác.md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2018-2019_questions_solution.pdf",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/4. Tối ưu hóa truy vấn.md",
+    "1. Quản lý dự án công nghệ thông tin (Project management))/3. Agile & Scrum.md",
+    "1. Quản lý dự án công nghệ thông tin (Project management))/2.1. Bài tập Quản lý các khía cạnh kiến thức của dự án.md",
+    "1. Quản lý dự án công nghệ thông tin (Project management))/2. Quản lý các khía cạnh kiến thức của dự án.md",
+    "1. Quản lý dự án công nghệ thông tin (Project management))/0. References/PMBOK 7.pdf",
+    "1. Quản lý dự án công nghệ thông tin (Project management))/0. References/Đề Cương Ôn Tập Cuối Kỳ Môn Quản Lý Dự Án CNTT - UIT - Studocu.pdf",
+    "1. Quản lý dự án công nghệ thông tin (Project management))/1. Tổng quan về Quản lý dự án Công nghệ thông tin.md",
+    "1. Quản lý dự án công nghệ thông tin (Project management))/0. References",
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. References/Đề cương CK.md",
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. References/CK2_2024-2025_solution.md",
+    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. References/CK2_2024-2025_questions.pdf",
+    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. References/Đề cương CK.md",
+    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. References/CK2_2024-2025_solution.md",
+    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/CK2_2024-2025_1.svg",
+    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/CK2_2024-2025_2.svg",
+    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/CK2_2024-2025_3.svg",
+    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/CK2_2024-2025_4.svg",
+    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. References/CK2_2024-2025_1.svg",
+    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. References/CK2_2024-2025_2.svg",
+    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. References/CK2_2024-2025_3.svg",
+    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. References/CK2_2024-2025_4.svg",
+    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/2. UML.md",
+    "1. Kiến thức đại cương/1. Git & Github/Giới thiệu.md",
+    "1. Kiến thức đại cương/1. Git & Github/Theo dõi workflow.md",
+    "1. Kiến thức đại cương/1. Git & Github/Tải remote về local.md",
+    "1. Kiến thức đại cương/1. Git & Github/Kết nối git với tài khoản Github.md",
     "Pasted image 20260420140350.png",
-    "Pasted image 20260420140406.png",
-    "Pasted image 20260420140537.png",
-    "Pasted image 20260420140746.png",
-    "Pasted image 20260420140817.png",
-    "Pasted image 20260420150603.png",
-    "Pasted image 20260522201112.png",
-    "2. Điện toán đám mây (Cloud computing)/AWS/Assets/computing-services.png",
-    "2. Điện toán đám mây (Cloud computing)/AWS/Assets/amazon-ec2-instance-creating.png",
-    "2. Điện toán đám mây (Cloud computing)/AWS/4. Storage.md",
-    "2. Điện toán đám mây (Cloud computing)/AWS/Assets/amazon-s3-lifecycle.png",
-    "2. Điện toán đám mây (Cloud computing)/AWS/1. Giới thiệu về AWS.md",
-    "Chưa đặt tên 2.base",
-    "Chưa đặt tên 1.base",
-    "2026-05-22.md",
-    "README.md",
-    "2. Hệ thống thông tin (Information systems)/Quản lý dự án công nghệ thông tin (Project management))/2. Quản lý các khía cạnh kiến thức của dự án.md",
-    "2. Hệ thống thông tin (Information systems)/Quản lý dự án công nghệ thông tin (Project management))/3. Angile & SCRUMB.md",
-    "2. Điện toán đám mây (Cloud computing)/AWS/2. AWS Networking - Amazon VPC.md",
-    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/2. UML.md"
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/5. JDBC (Java Database Connectivity).md",
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/5. Swing.md",
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. References/Đề cương GK.md",
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. References/CK2_2023-2024_solution.md",
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. References/CK2_2022-2023_solution.md",
+    "2. Lập trình Web (Web-based application developing)/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/4. Callback và Promise.md",
+    "2. Lập trình Web (Web-based application developing)/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/3. Kiểu dữ liệu và toán tử.md",
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. Assets/jLabel.png"
   ]
 }
