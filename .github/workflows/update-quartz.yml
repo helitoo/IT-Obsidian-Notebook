@@ -1,0 +1,43 @@
+name: Update Quartz
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Vault
+        uses: actions/checkout@v4
+
+      - name: Clone Quartz Repo
+        run: |
+          git clone \
+            https://x-access-token:${{ secrets.QUARTZ_PUSH_TOKEN }}@github.com/IT-Obsidian-Notebook-Organization/IT-Quartz-Notebook.git \
+            quartz-site
+
+      - name: Replace Content
+        run: |
+          rm -rf quartz-site/content/*
+          rsync -av \
+            --exclude=".git" \
+            --exclude=".github" \
+            --exclude=".obsidian" \
+            ./ quartz-site/content/
+
+      - name: Commit Changes
+        run: |
+          cd quartz-site
+
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add .
+
+          git diff --cached --quiet || \
+          git commit -m "Sync vault"
+
+          git push
