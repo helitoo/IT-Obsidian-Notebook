@@ -2,6 +2,8 @@
 
 **IT Obsidian Notebook** là bộ tài liệu học tập về IT được viết theo định dạng `.md` trên nền tảng Obsidian.
 
+Phiên bản web của nó được xây dựng dựa trên _Quartz v5_ có sẵn tại đây: [it-quartz-notebook.vercel.app](https://it-quartz-notebook.vercel.app/).
+
 # Nội dung
 
 Các kiến thức đại cương và chuyên ngành về Công nghệ thông tin.
