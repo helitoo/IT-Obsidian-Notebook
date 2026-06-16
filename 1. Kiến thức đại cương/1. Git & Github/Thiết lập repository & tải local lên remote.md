@@ -1,4 +1,3 @@
-
 Khi tạo 1 repository ở Github, Github sẽ hiển thị các lệnh cần thiết để tải local lên remote nên không nhất thiết phải bám sát các lệnh này.
 
 ```bash

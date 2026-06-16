@@ -1,4 +1,3 @@
-
 **Quy ước tên biến**:
 - **Tên lớp**: Ghi hoa chữ cái đầu.
 - **Tên biến**: Ghi thường chữ cái đầu.

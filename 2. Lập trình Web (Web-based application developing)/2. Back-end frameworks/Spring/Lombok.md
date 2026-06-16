@@ -1,4 +1,3 @@
-
 # Giới thiệu
 
 **Lombok** là một thư viện Java ngoài giúp bạn giảm code lặp (boilerplate code) bằng cách sử dụng [[3. Annotation|annotations]].

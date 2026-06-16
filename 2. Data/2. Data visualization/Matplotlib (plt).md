@@ -1,4 +1,3 @@
-
 ![](https://miro.medium.com/1*trEHx4IunHP5eElPXFlA8w.jpeg)
 
 **Matplotlib** là một Python module trực quan hóa dữ liệu, và là nền tảng xây dựng các module khác trong Python.

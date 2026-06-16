@@ -1,4 +1,3 @@
-
 ![](https://user-images.githubusercontent.com/104145773/171375703-fe3fa92e-a1cc-4ee6-aec3-1de8b81fca62.svg)
 
 **Tài liệu tham khảo**: [Kaggle Learn / Data visualization](https://www.kaggle.com/learn/data-visualization).

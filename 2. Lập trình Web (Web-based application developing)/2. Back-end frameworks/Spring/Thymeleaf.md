@@ -1,4 +1,3 @@
-
 # Giới thiệu
 
 **Thymeleaf** là một Java Template Engine. Có nhiệm vụ xử lý và generate ra các file HTML, XML,... Việc của bạn là cung cấp dữ liệu và quy định template như nào, còn việc dùng các thông tin đó để render ra [[HTML]] sẽ do Thymeleaf giải quyết.

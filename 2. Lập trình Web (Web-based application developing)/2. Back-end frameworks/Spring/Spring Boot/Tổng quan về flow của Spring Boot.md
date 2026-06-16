@@ -1,4 +1,3 @@
-
 # `@SpringBootApplication`
 
 [[1. Giới thiệu & Cài đặt Spring Boot|Spring Boot]] chạy từ hàm `main()` thuộc class có  [[3. Annotation|annotation]] `@SpringBootApplication`:

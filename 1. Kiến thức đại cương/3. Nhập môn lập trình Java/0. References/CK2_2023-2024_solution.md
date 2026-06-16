@@ -1,4 +1,3 @@
-
 >[!note] Một số quy ước trước khi làm bài
 >- Luôn khai báo `JComboBox` là `JComboBox<String> ... = new JComboBox<>(new String[] {...});`.
 >- Luôn khai báo model cho `JList` và `JTable`.

@@ -1,4 +1,3 @@
-
 **Môi trường ảo (Virtual environment)** là một **folder** đặc biệt. Trong đó, các package được cô lập với môi trường bên ngoài.
 
 ```sh

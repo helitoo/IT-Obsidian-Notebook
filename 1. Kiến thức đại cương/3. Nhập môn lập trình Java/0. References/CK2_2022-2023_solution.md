@@ -1,4 +1,3 @@
-
 # Câu 1
 
 Khai báo UI:

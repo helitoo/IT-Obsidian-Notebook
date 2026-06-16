@@ -1,4 +1,3 @@
-
 >[!note] Một số quy ước trước khi làm bài
 >- Luôn khai báo model cho `JList` và `JTable`.
 >- Đối với component `JList` thì luôn đặt tên là `list`, `JTable` thì luôn đặt tên là `table`.

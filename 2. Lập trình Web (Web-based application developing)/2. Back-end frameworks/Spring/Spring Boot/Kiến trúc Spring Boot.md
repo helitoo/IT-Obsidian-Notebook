@@ -1,4 +1,3 @@
-
 # Tổng quan
 
 Kiến trúc MVC (CSR) trong [[1. Giới thiệu & Cài đặt Spring Boot#Spring, Spring Boot|Spring Boot]] được xây dựng dựa trên ý tưởng các nguyên lý thiết kế OOP, trong đó có [[4. OOP nâng cao#Tính đóng gói (Encapsulation)|tính đóng gói (encapsulation)]], có một số biểu thị sau:

@@ -1,4 +1,3 @@
-
 # Use-case diagram
 
 ![[uc-diagram-elements.svg]]

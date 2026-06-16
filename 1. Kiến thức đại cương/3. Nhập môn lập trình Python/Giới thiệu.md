@@ -1,4 +1,3 @@
-
 Python là một ngôn ngữ lập trình bậc cao, đa năng, với một số đặc điểm sau:
 - Thông dịch.
 - Nhẹ.

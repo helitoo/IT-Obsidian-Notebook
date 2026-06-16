@@ -1,4 +1,3 @@
-
 Bài viết này được dựa trên [Kaggle learn | Python](https://www.kaggle.com/learn/python) và nó khá ngắn. Chỉ dành cho *những ai có kinh nghiệm lập trình và học Python cho Data science*.
 
 ```insta-toc

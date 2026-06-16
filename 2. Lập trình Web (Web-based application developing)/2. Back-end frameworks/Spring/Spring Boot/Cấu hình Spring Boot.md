@@ -1,4 +1,3 @@
-
 # `applications.properties`
 
 Trong Spring Boot, các thông tin cấu hình mặc định được lấy từ file `resources/applications.properties`. Mỗi cấu hình có dạng *key=value*.

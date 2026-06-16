@@ -1,4 +1,3 @@
-
 # Tổng quan về bean lifecycle
 
 Spring Boot từ thời điểm chạy lần đầu tới khi shutdown thì các [[Tổng quan về flow của Spring Boot#@SpringBootApplication|bean]] nó quản lý sẽ có một vòng đời như sau:
