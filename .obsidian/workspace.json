@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "990f4ef2c4849006",
+        "id": "1d6652e448d72660",
         "type": "tabs",
         "children": [
           {
-            "id": "24daa2eaabf2f101",
+            "id": "a81d02ec1163d276",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.50418853759766
+    "width": 324.50418853759766,
+    "collapsed": true
   },
   "right": {
     "id": "fef15c42c46c132c",
@@ -138,13 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Quản lý dự án công nghệ thông tin (Project management))/3. Agile & Scrum.md",
+                "file": "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/2. Animated webs/1. Ứng dụng GSAP vào React.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương của 3. Agile & Scrum"
+              "title": "Đề cương của 1. Ứng dụng GSAP vào React"
             }
           }
         ],
@@ -163,57 +164,56 @@
       "canvas:Tạo bảng mới": false,
       "daily-notes:Mở ghi chú hôm nay": false,
       "templates:Chèn mẫu": false,
-      "command-palette:Mở khay lệnh": false,
-      "digitalgarden:Digital Garden Publication Center": false
+      "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "24daa2eaabf2f101",
+  "active": "a81d02ec1163d276",
   "lastOpenFiles": [
+    "1. Kiến thức đại cương/1. Nhập môn lập trình/ĐỀ CƯƠNG HSG TIN.pdf",
+    "1. Kiến thức đại cương/1. Nhập môn lập trình",
+    "1. Kiến thức đại cương/New folder",
+    "1. Kiến thức đại cương/ĐỀ CƯƠNG HSG TIN.pdf",
+    "1. Kiến thức đại cương/2. Lập trình hướng đối tượng/Lập trình hướng đối tượng.pdf",
+    "1. Kiến thức đại cương/2. Cấu trúc dữ liệu & Giải thuật/Cấu trúc dữ liệu & Giải thuật.pdf",
     "README.md",
-    "2. Điện toán đám mây (Cloud computing)/AWS/1. Giới thiệu về AWS.md",
-    "2. Điện toán đám mây (Cloud computing)/AWS/7. Serverless.md",
-    "2. Điện toán đám mây (Cloud computing)/AWS/3. Compute services.md",
-    "2. Điện toán đám mây (Cloud computing)/AWS/Assets/serverless-for-web-app.png",
-    "2. Điện toán đám mây (Cloud computing)/AWS/4. Storage.md",
-    "2. Điện toán đám mây (Cloud computing)/AWS/6. Monitoring and Auto scalling.md",
-    "2. Điện toán đám mây (Cloud computing)/AWS/Assets/serverless-services.png",
-    "1. Quản lý dự án công nghệ thông tin (Project management))/3. Agile & Scrum.md",
-    "1. Quản lý dự án công nghệ thông tin (Project management))/0. References/Đề Cương Ôn Tập Cuối Kỳ Môn Quản Lý Dự Án CNTT - UIT - Studocu.pdf",
-    "1. Quản lý dự án công nghệ thông tin (Project management))/2. Quản lý các khía cạnh kiến thức của dự án.md",
-    "1. Quản lý dự án công nghệ thông tin (Project management))/1. Tổng quan về Quản lý dự án Công nghệ thông tin.md",
-    "1. Quản lý dự án công nghệ thông tin (Project management))/0. References/~$ Cương Ôn Tập Cuối Kỳ Môn Quản Lý Dự Án CNTT - UIT - Studocu.pdf",
-    "1. Quản lý dự án công nghệ thông tin (Project management))/2.1. Bài tập Quản lý các khía cạnh kiến thức của dự án.md",
-    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/2. Điều khiển truy xuất đồng thời.md",
-    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/2.1 Bài tập Điều khiển truy xuất đồng thời.md",
-    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/1.1. Bài tập lập lịch giao tác.md",
-    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/4. Tối ưu hóa truy vấn.md",
-    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/1. Transaction (giao tác) và Scheduling (lập lịch giao tác).md",
-    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2021-2022_questions.pdf",
-    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2024-2025_questions_solution.pdf",
-    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2021-2022_solutions.pdf",
-    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/3. Xử lý sự cố.md",
-    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2018-2019_questions.pdf",
-    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2018-2019_solution.pdf",
-    "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2018-2019_questions_solution.pdf",
-    "1. Quản lý dự án công nghệ thông tin (Project management))/0. References/PMBOK 7.pdf",
-    "1. Quản lý dự án công nghệ thông tin (Project management))/0. References",
-    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. References/Đề cương CK.md",
-    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. References/CK2_2024-2025_solution.md",
-    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. References/Đề cương CK.md",
-    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. References/CK2_2024-2025_solution.md",
-    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/CK2_2024-2025_1.svg",
-    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/CK2_2024-2025_2.svg",
-    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/CK2_2024-2025_3.svg",
-    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/CK2_2024-2025_4.svg",
-    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. References/CK2_2024-2025_1.svg",
-    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. References/CK2_2024-2025_2.svg",
-    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. References/CK2_2024-2025_3.svg",
-    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. References/CK2_2024-2025_4.svg",
+    "Pasted image 20260420150603.png",
+    "Pasted image 20260522201112.png",
+    "Pasted image 20260420140817.png",
+    "Pasted image 20260420140746.png",
+    "Pasted image 20260420140537.png",
+    "Pasted image 20260420140406.png",
+    "Pasted image 20260420140350.png",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/4. State management.md",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/2. Animated webs/1. Ứng dụng GSAP vào React.md",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/2. 3D-intergrated webs/1. Ứng dụng ThreeJS vào React.md",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/2. Animated webs/1.1. Bài tập Ứng dụng GSAP vào React.md",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/2. Animated webs/0. Assets",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. CSS library & Framework.md",
+    "2. Lập trình Web (Web-based application developing)/2. Front-end frameworks/Chưa đặt tên",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/1. Nhập môn lập trình web/2. CSS/1. CSS.md",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/1. Nhập môn lập trình web/2. CSS/0. Assets/transform.svg",
+    "2. Lập trình Web (Web-based application developing)/1. Nhập môn lập trình web/2. CSS/2. CSS Layout.md",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/1. Nhập môn lập trình web/2. CSS/0. Assets/text-layout.png",
+    "2. Lập trình Web (Web-based application developing)/1. Nhập môn lập trình web/2. CSS/3. CSS Animation & Transform.md",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/1. Nhập môn lập trình web/1. HTML.md",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/2. Animated webs",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/2. 3D-intergrated webs/0. Assets/rotation.svg",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/2. 3D-intergrated webs/0. Assets",
+    "2. Lập trình Web (Web-based application developing)/2. Front-end frameworks/2. 3D-model-integrated web/New folder",
+    "2. Lập trình Web (Web-based application developing)/2. Front-end frameworks/2. 3D-model-integrated web/1. WebGL.md",
+    "2. Lập trình Web (Web-based application developing)/2. 3D-model-integrated web/1. Physically-Based Rendering (PBR).md",
+    "2. Lập trình Web (Web-based application developing)/2. Front-end frameworks/2. 3D-model-integrated web/3. React Three Fiber (R3F).md",
+    "2. Lập trình Web (Web-based application developing)/2. Front-end frameworks/2. 3D-model-integrated web/3. Three.js.md",
     "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/2. UML.md",
-    "1. Kiến thức đại cương/1. Git & Github/Giới thiệu.md",
-    "1. Kiến thức đại cương/1. Git & Github/Theo dõi workflow.md",
-    "1. Kiến thức đại cương/1. Git & Github/Tải remote về local.md",
-    "1. Kiến thức đại cương/1. Git & Github/Kết nối git với tài khoản Github.md",
-    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/5. JDBC (Java Database Connectivity).md"
+    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/4. Tìm hiểu về WebSocket qua ứng dụng chat real-time.md",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/4. React Hook Form.md",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/4. React Router DOM.md",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/4. Rendering optimization.md",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/4. Styling.md",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/3.2. Class component.md",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/3.1. Function component.md",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/2. JSX.md",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/2. Cú pháp cơ bản của JS.md",
+    "2. Phát triển ứng dụng Web (Web-based application developing)/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/1. Giới thiệu & Cài đặt JavaScript.md"
   ]
 }
