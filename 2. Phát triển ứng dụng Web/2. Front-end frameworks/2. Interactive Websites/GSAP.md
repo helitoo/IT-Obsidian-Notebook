@@ -8,6 +8,9 @@ npm install gsap @gsap/react
 >[!important]
 >Trường hợp các thuộc tính CSS liên quan đến transition, animation,... của 1 object cùng bị tác động bởi GSAP, TailwindCSS hoặc các library khác có thể dẫn đến việc xung đột và hiệu ứng không được triển khai. Tốt nhất chỉ nên dùng một cái. 
 
+>[!quote]
+>GSAP là thư viện animate mạnh nhất thế giới.
+
 # Tween
 
 **Tween** là các phương thức có chức năng *thay đổi trạng thái* của object. Tức là nó animate object.

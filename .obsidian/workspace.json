@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1d6652e448d72660",
+        "id": "30b1332784517e68",
         "type": "tabs",
         "children": [
           {
-            "id": "a81d02ec1163d276",
+            "id": "61e819c7da16acbe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2. Điện toán đám mây (Cloud computing)/AWS/2. AWS Networking - Amazon VPC.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Tab mới"
+              "title": "2. AWS Networking - Amazon VPC"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "VPA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.50418853759766,
-    "collapsed": true
+    "width": 328.50418853759766
   },
   "right": {
     "id": "fef15c42c46c132c",
@@ -139,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/2. Animated webs/1. Ứng dụng GSAP vào React.md",
+                "file": "2. Phát triển ứng dụng Web/2. Front-end frameworks/Xây dựng mockup server bằng json-server và faker-js.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương của 1. Ứng dụng GSAP vào React"
+              "title": "Đề cương của Xây dựng mockup server bằng json-server và faker-js"
             }
           }
         ],
@@ -167,53 +170,53 @@
       "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "a81d02ec1163d276",
+  "active": "61e819c7da16acbe",
   "lastOpenFiles": [
-    "1. Kiến thức đại cương/1. Nhập môn lập trình/ĐỀ CƯƠNG HSG TIN.pdf",
-    "1. Kiến thức đại cương/1. Nhập môn lập trình",
+    "1. Kiến thức đại cương/2. Mạng máy tính/0. Bài tập/1. Bài tập Tổng quan về mạng máy tính.md",
+    "2. Phát triển ứng dụng Web/2. Front-end frameworks/Xây dựng mockup server bằng json-server và faker-js.md",
+    "Chưa đặt tên.md",
+    "1. Kiến thức đại cương/4. Docker & Virtual environment/2. Sử dụng Docker.md",
+    "1. Kiến thức đại cương/4. Docker & Virtual environment/2. Python virtual environment (venv).md",
+    "1. Kiến thức đại cương/4. Docker & Virtual environment/1. Giới thiệu & Cài đặt Docker.md",
+    "1. Kiến thức đại cương/4. Docker & Virtual environment/Bài tập/3. pgAdmin - the Web-based database manager.md",
+    "1. Kiến thức đại cương/4. Docker & Virtual environment/Bài tập/1. Running PostgreSQL with Docker.md",
+    "1. Kiến thức đại cương/4. Docker & Virtual environment/Bài tập/2. Using PostgreSQL server in Docker.md",
+    "Chưa đặt tên.base",
+    "1. Kiến thức đại cương/1. Git & Github/1. Git & Github.md",
+    "2. Data/2. Data visualization/Python Seaborn (sns).md",
+    "2. Data/2. Data visualization/Microsoft Power BI.md",
+    "2. Data/2. Data visualization/Matplotlib (plt).md",
+    "1. Quản lý dự án công nghệ thông tin (Project management))/1. Tổng quan về Quản lý dự án Công nghệ thông tin.md",
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Python/Môi trường ảo (Venv) và Quản lý package.md",
+    "1. Kiến thức đại cương/2. Hệ điều hành (OS)/Ubuntu/4. Khảo sát process & thread trong Linux qua C.md",
+    "1. Kiến thức đại cương/2. Hệ điều hành (OS)/1. Tổng quan về hệ thống máy tính và OS.md",
+    "1. Kiến thức đại cương/2. Hệ điều hành (OS)/3. Định thời.md",
+    "1. Kiến thức đại cương/2. Hệ điều hành (OS)/2. Tiến trình & Tiểu trình.md",
+    "1. Kiến thức đại cương/2. Hệ điều hành (OS)/Ubuntu/2. Các lệnh cơ bản quản lý file.md",
+    "1. Kiến thức đại cương/2. Hệ điều hành (OS)/Ubuntu/1. Giới thiệu & Cài đặt Ubuntu trên máy ảo VMWare.md",
+    "1. Kiến thức đại cương/2. Hệ điều hành (OS)/Ubuntu/3. Shell script.md",
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/1. Giới thiệu & Cài đặt Java SE.md",
+    "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/1. Giới thiệu & Cài đặt JavaScript.md",
+    "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. Node.js/1. Node.js.md",
+    "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. Node.js/2. Vite.md",
+    "2. Phát triển ứng dụng Web/2. Front-end frameworks/1. Redux",
+    "1. Kiến thức đại cương/1. Git & Github/0. Assets/merge.svg",
+    "1. Kiến thức đại cương/1. Git & Github/0. Assets/rebase.svg",
+    "1. Kiến thức đại cương/1. Git & Github/0. Assets/1-commit-1-branch.svg",
+    "1. Kiến thức đại cương/1. Git & Github/0. Assets/1-commit-n-branches.svg",
+    "1. Kiến thức đại cương/1. Git & Github/0. Assets",
+    "Pasted image 20260522201112.png",
+    "2. Phát triển ứng dụng mobile",
+    "2. Phát triển ứng dụng Web/2. Front-end frameworks/2. Interactive Websites",
+    "1. Kiến thức đại cương/1. Nhập môn lập trình C++/ĐỀ CƯƠNG HSG TIN.pdf",
+    "1. Kiến thức đại cương/1. Nhập môn lập trình C++",
     "1. Kiến thức đại cương/New folder",
     "1. Kiến thức đại cương/ĐỀ CƯƠNG HSG TIN.pdf",
-    "1. Kiến thức đại cương/2. Lập trình hướng đối tượng/Lập trình hướng đối tượng.pdf",
-    "1. Kiến thức đại cương/2. Cấu trúc dữ liệu & Giải thuật/Cấu trúc dữ liệu & Giải thuật.pdf",
-    "README.md",
+    "1. Kiến thức đại cương/2. Lập trình hướng đối tượng (OOP)/Lập trình hướng đối tượng.pdf",
     "Pasted image 20260420150603.png",
-    "Pasted image 20260522201112.png",
     "Pasted image 20260420140817.png",
     "Pasted image 20260420140746.png",
     "Pasted image 20260420140537.png",
-    "Pasted image 20260420140406.png",
-    "Pasted image 20260420140350.png",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/4. State management.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/2. Animated webs/1. Ứng dụng GSAP vào React.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/2. 3D-intergrated webs/1. Ứng dụng ThreeJS vào React.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/2. Animated webs/1.1. Bài tập Ứng dụng GSAP vào React.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/2. Animated webs/0. Assets",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. CSS library & Framework.md",
-    "2. Lập trình Web (Web-based application developing)/2. Front-end frameworks/Chưa đặt tên",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/1. Nhập môn lập trình web/2. CSS/1. CSS.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/1. Nhập môn lập trình web/2. CSS/0. Assets/transform.svg",
-    "2. Lập trình Web (Web-based application developing)/1. Nhập môn lập trình web/2. CSS/2. CSS Layout.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/1. Nhập môn lập trình web/2. CSS/0. Assets/text-layout.png",
-    "2. Lập trình Web (Web-based application developing)/1. Nhập môn lập trình web/2. CSS/3. CSS Animation & Transform.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/1. Nhập môn lập trình web/1. HTML.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/2. Animated webs",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/2. 3D-intergrated webs/0. Assets/rotation.svg",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/2. 3D-intergrated webs/0. Assets",
-    "2. Lập trình Web (Web-based application developing)/2. Front-end frameworks/2. 3D-model-integrated web/New folder",
-    "2. Lập trình Web (Web-based application developing)/2. Front-end frameworks/2. 3D-model-integrated web/1. WebGL.md",
-    "2. Lập trình Web (Web-based application developing)/2. 3D-model-integrated web/1. Physically-Based Rendering (PBR).md",
-    "2. Lập trình Web (Web-based application developing)/2. Front-end frameworks/2. 3D-model-integrated web/3. React Three Fiber (R3F).md",
-    "2. Lập trình Web (Web-based application developing)/2. Front-end frameworks/2. 3D-model-integrated web/3. Three.js.md",
-    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/2. UML.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/4. Tìm hiểu về WebSocket qua ứng dụng chat real-time.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/4. React Hook Form.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/4. React Router DOM.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/4. Rendering optimization.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/4. Styling.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/3.2. Class component.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/3.1. Function component.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/2. Front-end frameworks/1. React.js/2. JSX.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/2. Cú pháp cơ bản của JS.md",
-    "2. Phát triển ứng dụng Web (Web-based application developing)/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/1. Giới thiệu & Cài đặt JavaScript.md"
+    "Pasted image 20260420140406.png"
   ]
 }

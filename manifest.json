@@ -1,0 +1,1692 @@
+[
+  {
+    "path": "1. Kiến thức đại cương/1. Git & Github/0. Assets/1-commit-1-branch.svg",
+    "name": "1-commit-1-branch.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "1. Kiến thức đại cương/1. Git & Github/0. Assets/1-commit-n-branches.svg",
+    "name": "1-commit-n-branches.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "1. Kiến thức đại cương/1. Git & Github/0. Assets/merge.svg",
+    "name": "merge.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "1. Kiến thức đại cương/1. Git & Github/0. Assets/rebase.svg",
+    "name": "rebase.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "1. Kiến thức đại cương/1. Git & Github/1. Git & Github.md",
+    "name": "1. Git & Github.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/1. Git & Github/2. Github Action & Release.md",
+    "name": "2. Github Action & Release.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/1. Git & Github/3. Github RESTful APIs.md",
+    "name": "3. Github RESTful APIs.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/1. Nhập môn lập trình C++/ĐỀ CƯƠNG HSG TIN.pdf",
+    "name": "ĐỀ CƯƠNG HSG TIN.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Cấu trúc dữ liệu & Giải thuật (DSA)/Cấu trúc dữ liệu & Giải thuật.pdf",
+    "name": "Cấu trúc dữ liệu & Giải thuật.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/0. Assets/fcfs.png",
+    "name": "fcfs.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/0. Assets/fork1.png",
+    "name": "fork1.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/0. Assets/fork2.png",
+    "name": "fork2.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/0. Assets/fork3.png",
+    "name": "fork3.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/0. Assets/paging-fifo.png",
+    "name": "paging-fifo.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/0. Assets/paging-lru.png",
+    "name": "paging-lru.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/0. Assets/paging-opt.png",
+    "name": "paging-opt.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/0. Assets/paging.png",
+    "name": "paging.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/0. Assets/rag.png",
+    "name": "rag.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/0. Assets/rr.png",
+    "name": "rr.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/0. Assets/sjf non preemptive.png",
+    "name": "sjf non preemptive.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/0. Assets/srt.png",
+    "name": "srt.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/0. Bài tập/1. Bài tập Tiến trình & Tiểu trình.md",
+    "name": "1. Bài tập Tiến trình & Tiểu trình.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/0. Bài tập/2. Bài tập Định thời.md",
+    "name": "2. Bài tập Định thời.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/0. Bài tập/3. Bài tập Đồng bộ.md",
+    "name": "3. Bài tập Đồng bộ.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/0. Bài tập/4. Bài tập Tắc nghẽn.md",
+    "name": "4. Bài tập Tắc nghẽn.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/0. Bài tập/5. Bài tập Quản lý bộ nhớ máy tính.md",
+    "name": "5. Bài tập Quản lý bộ nhớ máy tính.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/1. Tổng quan về hệ thống máy tính và OS.md",
+    "name": "1. Tổng quan về hệ thống máy tính và OS.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/2. Tiến trình & Tiểu trình.md",
+    "name": "2. Tiến trình & Tiểu trình.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/3. Định thời.md",
+    "name": "3. Định thời.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/4. Đồng bộ.md",
+    "name": "4. Đồng bộ.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/5. Tắt nghẽn (Deadblock).md",
+    "name": "5. Tắt nghẽn (Deadblock).md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/6. Quản lý bộ nhớ máy tính.md",
+    "name": "6. Quản lý bộ nhớ máy tính.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/6.1. Bộ nhớ ảo (Virtual memory).md",
+    "name": "6.1. Bộ nhớ ảo (Virtual memory).md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/7. Tổng quan về hệ điều hành Windows và Linux.md",
+    "name": "7. Tổng quan về hệ điều hành Windows và Linux.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/Ubuntu/1. Giới thiệu & Cài đặt Ubuntu trên máy ảo VMWare.md",
+    "name": "1. Giới thiệu & Cài đặt Ubuntu trên máy ảo VMWare.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/Ubuntu/2. Các lệnh cơ bản quản lý file.md",
+    "name": "2. Các lệnh cơ bản quản lý file.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/Ubuntu/3. Shell script.md",
+    "name": "3. Shell script.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/Ubuntu/4. Khảo sát process & thread trong Linux qua C.md",
+    "name": "4. Khảo sát process & thread trong Linux qua C.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Lập trình hướng đối tượng (OOP)/Lập trình hướng đối tượng.pdf",
+    "name": "Lập trình hướng đối tượng.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/0. Assets/3-ways-handshake.png",
+    "name": "3-ways-handshake.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/0. Assets/4-ways-handshake.png",
+    "name": "4-ways-handshake.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/0. Assets/delay.png",
+    "name": "delay.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/0. Assets/GBN-loss-ACK.png",
+    "name": "GBN-loss-ACK.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/0. Assets/GBN-loss-segment.png",
+    "name": "GBN-loss-segment.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/0. Assets/special_TCP_transmission.png",
+    "name": "special_TCP_transmission.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/0. Assets/SR-loss-ACK.png",
+    "name": "SR-loss-ACK.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/0. Assets/SR-loss-segment.png",
+    "name": "SR-loss-segment.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/0. Assets/tcp-congestion.png",
+    "name": "tcp-congestion.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/0. Assets/TCP-loss-segment.png",
+    "name": "TCP-loss-segment.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/0. Bài tập/1. Bài tập Tổng quan về mạng máy tính.md",
+    "name": "1. Bài tập Tổng quan về mạng máy tính.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/0. Bài tập/2. Bài tập Application layer.md",
+    "name": "2. Bài tập Application layer.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/0. Bài tập/3. Bài tập Transport layer.md",
+    "name": "3. Bài tập Transport layer.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/0. Bài tập/4. Bài tập Network layer.md",
+    "name": "4. Bài tập Network layer.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/0. Bài tập/5. Bài tập Link layer.md",
+    "name": "5. Bài tập Link layer.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/1. Tổng quan về mạng máy tính.md",
+    "name": "1. Tổng quan về mạng máy tính.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/2. Application layer.md",
+    "name": "2. Application layer.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/2.1. Hệ thống DNS.md",
+    "name": "2.1. Hệ thống DNS.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/2.1. Hệ thống email.md",
+    "name": "2.1. Hệ thống email.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/2.1. Hệ thống web.md",
+    "name": "2.1. Hệ thống web.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/3. Transport layer.md",
+    "name": "3. Transport layer.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/4.1. Địa chỉ IP.md",
+    "name": "4.1. Địa chỉ IP.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/4.2. Chuyển tiếp (Fowarding).md",
+    "name": "4.2. Chuyển tiếp (Fowarding).md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/4.3. Định tuyến (Routing).md",
+    "name": "4.3. Định tuyến (Routing).md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/5.1. Tổng quan về Link layer.md",
+    "name": "5.1. Tổng quan về Link layer.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/2. Mạng máy tính/5.2. Mạng LAN, VLAN.md",
+    "name": "5.2. Mạng LAN, VLAN.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. Assets/collections.svg",
+    "name": "collections.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. Assets/swing-calculator.svg",
+    "name": "swing-calculator.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. References/CK2_2022-2023_questions.pdf",
+    "name": "CK2_2022-2023_questions.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. References/CK2_2022-2023_solution.md",
+    "name": "CK2_2022-2023_solution.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. References/CK2_2023-2024_questions.pdf",
+    "name": "CK2_2023-2024_questions.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. References/CK2_2023-2024_solution.md",
+    "name": "CK2_2023-2024_solution.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. References/CK2_2024-2025_questions.pdf",
+    "name": "CK2_2024-2025_questions.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. References/CK2_2024-2025_solution.md",
+    "name": "CK2_2024-2025_solution.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. References/Đề cương CK.md",
+    "name": "Đề cương CK.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. References/Đề cương GK.md",
+    "name": "Đề cương GK.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/1. Giới thiệu & Cài đặt Java SE.md",
+    "name": "1. Giới thiệu & Cài đặt Java SE.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/2. OOP.md",
+    "name": "2. OOP.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/2.1. Cú pháp cơ bản.md",
+    "name": "2.1. Cú pháp cơ bản.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/2.2 Collection framework.md",
+    "name": "2.2 Collection framework.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/2.3. Những lỗi thường gặp của người học từ C++ sang Java.md",
+    "name": "2.3. Những lỗi thường gặp của người học từ C++ sang Java.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/3. Annotation.md",
+    "name": "3. Annotation.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/3. Generic.md",
+    "name": "3. Generic.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/3. Java reflection.md",
+    "name": "3. Java reflection.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/3. Thread.md",
+    "name": "3. Thread.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/4. Một số thư viện chuẩn của Java.md",
+    "name": "4. Một số thư viện chuẩn của Java.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/5. Giới thiệu & Cài đặt Apache Maven.md",
+    "name": "5. Giới thiệu & Cài đặt Apache Maven.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/5. JavaFX.md",
+    "name": "5. JavaFX.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/5. JDBC (Java Database Connectivity).md",
+    "name": "5. JDBC (Java Database Connectivity).md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/5. LangChain4j.md",
+    "name": "5. LangChain4j.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Java/5. Swing.md",
+    "name": "5. Swing.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Python/Basic Python for Data science.md",
+    "name": "Basic Python for Data science.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Python/Giới thiệu.md",
+    "name": "Giới thiệu.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/3. Nhập môn lập trình Python/Môi trường ảo (Venv) và Quản lý package.md",
+    "name": "Môi trường ảo (Venv) và Quản lý package.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/4. Docker & Virtual environment/1. Giới thiệu & Cài đặt Docker.md",
+    "name": "1. Giới thiệu & Cài đặt Docker.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/4. Docker & Virtual environment/2. Python virtual environment (venv).md",
+    "name": "2. Python virtual environment (venv).md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/4. Docker & Virtual environment/2. Sử dụng Docker.md",
+    "name": "2. Sử dụng Docker.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/4. Docker & Virtual environment/3. Docker compose.md",
+    "name": "3. Docker compose.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/4. Docker & Virtual environment/Bài tập/1. Running PostgreSQL with Docker.md",
+    "name": "1. Running PostgreSQL with Docker.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/4. Docker & Virtual environment/Bài tập/2. Using PostgreSQL server in Docker.md",
+    "name": "2. Using PostgreSQL server in Docker.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Kiến thức đại cương/4. Docker & Virtual environment/Bài tập/3. pgAdmin - the Web-based database manager.md",
+    "name": "3. pgAdmin - the Web-based database manager.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Quản lý dự án công nghệ thông tin (Project management))/0. Assets/aon.svg",
+    "name": "aon.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "1. Quản lý dự án công nghệ thông tin (Project management))/0. Assets/management-project-process-groups.png",
+    "name": "management-project-process-groups.png",
+    "ext": "png"
+  },
+  {
+    "path": "1. Quản lý dự án công nghệ thông tin (Project management))/0. References/PMBOK 6.pdf",
+    "name": "PMBOK 6.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "1. Quản lý dự án công nghệ thông tin (Project management))/0. References/PMBOK 7.pdf",
+    "name": "PMBOK 7.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "1. Quản lý dự án công nghệ thông tin (Project management))/0. References/PMBOK 8.pdf",
+    "name": "PMBOK 8.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "1. Quản lý dự án công nghệ thông tin (Project management))/0. References/Đề Cương Ôn Tập Cuối Kỳ Môn Quản Lý Dự Án CNTT - UIT - Studocu.pdf",
+    "name": "Đề Cương Ôn Tập Cuối Kỳ Môn Quản Lý Dự Án CNTT - UIT - Studocu.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "1. Quản lý dự án công nghệ thông tin (Project management))/1. Tổng quan về Quản lý dự án Công nghệ thông tin.md",
+    "name": "1. Tổng quan về Quản lý dự án Công nghệ thông tin.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Quản lý dự án công nghệ thông tin (Project management))/2. Quản lý các khía cạnh kiến thức của dự án.md",
+    "name": "2. Quản lý các khía cạnh kiến thức của dự án.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Quản lý dự án công nghệ thông tin (Project management))/2.1. Bài tập Quản lý các khía cạnh kiến thức của dự án.md",
+    "name": "2.1. Bài tập Quản lý các khía cạnh kiến thức của dự án.md",
+    "ext": "md"
+  },
+  {
+    "path": "1. Quản lý dự án công nghệ thông tin (Project management))/3. Agile & Scrum.md",
+    "name": "3. Agile & Scrum.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/conformed.svg",
+    "name": "conformed.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/degenerate.svg",
+    "name": "degenerate.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/dimensional-model.png",
+    "name": "dimensional-model.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/junk.svg",
+    "name": "junk.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/multivalued.svg",
+    "name": "multivalued.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/normalization-demornalization.svg",
+    "name": "normalization-demornalization.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/outtrigger.svg",
+    "name": "outtrigger.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/roleplaying.svg",
+    "name": "roleplaying.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/snowflake_schema.svg",
+    "name": "snowflake_schema.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/star_schema.svg",
+    "name": "star_schema.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/1. Nhập môn Cơ sở dữ liệu/1. Tổng quan về Dữ liệu & Cơ sở dữ liệu.md",
+    "name": "1. Tổng quan về Dữ liệu & Cơ sở dữ liệu.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/1. Nhập môn Cơ sở dữ liệu/2. Mô hình dữ liệu.md",
+    "name": "2. Mô hình dữ liệu.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/1. Nhập môn Cơ sở dữ liệu/3. Mô hình quan hệ.md",
+    "name": "3. Mô hình quan hệ.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Assets/CK2_2021-2022_C2.drawio.svg",
+    "name": "CK2_2021-2022_C2.drawio.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Assets/CK2_2021-2022_C3_1.svg",
+    "name": "CK2_2021-2022_C3_1.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Assets/CK2_2021-2022_C3_2.svg",
+    "name": "CK2_2021-2022_C3_2.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Assets/CK2_2024-2025_C2a.svg",
+    "name": "CK2_2024-2025_C2a.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Assets/CK2_2024-2025_C2b.svg",
+    "name": "CK2_2024-2025_C2b.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Assets/CK2_2024-2025_C3_1.png",
+    "name": "CK2_2024-2025_C3_1.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Assets/CK2_2024-2025_C3_2.png",
+    "name": "CK2_2024-2025_C3_2.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Assets/log-recovery.drawio.svg",
+    "name": "log-recovery.drawio.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Assets/query-optimization-eg1.svg",
+    "name": "query-optimization-eg1.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Assets/query-optimization-rule.svg",
+    "name": "query-optimization-rule.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2018-2019_questions.pdf",
+    "name": "CK2_2018-2019_questions.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2018-2019_solution.pdf",
+    "name": "CK2_2018-2019_solution.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2021-2022_questions.pdf",
+    "name": "CK2_2021-2022_questions.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2021-2022_solutions.pdf",
+    "name": "CK2_2021-2022_solutions.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/0. Refferences/CK2_2024-2025_questions_solution.pdf",
+    "name": "CK2_2024-2025_questions_solution.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/1. Transaction (giao tác) và Scheduling (lập lịch giao tác).md",
+    "name": "1. Transaction (giao tác) và Scheduling (lập lịch giao tác).md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/1.1. Bài tập lập lịch giao tác.md",
+    "name": "1.1. Bài tập lập lịch giao tác.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/2. Điều khiển truy xuất đồng thời.md",
+    "name": "2. Điều khiển truy xuất đồng thời.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/2.1 Bài tập Điều khiển truy xuất đồng thời.md",
+    "name": "2.1 Bài tập Điều khiển truy xuất đồng thời.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/3. Xử lý sự cố.md",
+    "name": "3. Xử lý sự cố.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/4. Tối ưu hóa truy vấn.md",
+    "name": "4. Tối ưu hóa truy vấn.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. MongoDB/1. Giới thiệu MongoDB.md",
+    "name": "1. Giới thiệu MongoDB.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. MongoDB/2. Sử dụng MongoDB.md",
+    "name": "2. Sử dụng MongoDB.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/1. Ngôn ngữ định nghĩa dữ liệu (DDL).md",
+    "name": "1. Ngôn ngữ định nghĩa dữ liệu (DDL).md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/2. Ngôn ngữ thao tác dữ liệu (DML).md",
+    "name": "2. Ngôn ngữ thao tác dữ liệu (DML).md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/3. Ngôn ngữ truy vấn dữ liệu (SQL).md",
+    "name": "3. Ngôn ngữ truy vấn dữ liệu (SQL).md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/3.1. Categorical JOIN.md",
+    "name": "3.1. Categorical JOIN.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/3.1. Phép chia.md",
+    "name": "3.1. Phép chia.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/3.1. Recursive JOIN.md",
+    "name": "3.1. Recursive JOIN.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/4. Ngôn ngữ điều khiển dữ liệu (DCL).md",
+    "name": "4. Ngôn ngữ điều khiển dữ liệu (DCL).md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/5. Lập trình thủ tục trong SQL.md",
+    "name": "5. Lập trình thủ tục trong SQL.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/5.1. Set-based trigger.md",
+    "name": "5.1. Set-based trigger.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/Ôn thi giữa kỳ.md",
+    "name": "Ôn thi giữa kỳ.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/5. Nhập môn data pipelining.md",
+    "name": "5. Nhập môn data pipelining.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/5. Nhập môn Trí tuệ kinh doanh (Business Intelligence, BI).md",
+    "name": "5. Nhập môn Trí tuệ kinh doanh (Business Intelligence, BI).md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Cơ sở toán học của Học máy/1. Đại số tuyến tính (Linear algebra) và Numpy.md",
+    "name": "1. Đại số tuyến tính (Linear algebra) và Numpy.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Cơ sở toán học của Học máy/2. Giải tích ma trận.md",
+    "name": "2. Giải tích ma trận.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Cơ sở toán học của Học máy/3. Xác suất và Thống kê.md",
+    "name": "3. Xác suất và Thống kê.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/0. Chiến lược xây dựng Data pipeline/Chiến lược xây dựng data pipeline.md",
+    "name": "Chiến lược xây dựng data pipeline.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/1. Apache Airflow/0. Assets/airflow-architecture.png",
+    "name": "airflow-architecture.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/1. Apache Airflow/0. Assets/happy-task-lifecycle.png",
+    "name": "happy-task-lifecycle.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/1. Apache Airflow/0. Assets/task-lifecycle.png",
+    "name": "task-lifecycle.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/1. Apache Airflow/1. Giới thiệu & Cài đặt Apache Airflow.md",
+    "name": "1. Giới thiệu & Cài đặt Apache Airflow.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/1. Apache Airflow/2. Cài đặt & Sử dụng Airflow.md",
+    "name": "2. Cài đặt & Sử dụng Airflow.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/1. Apache Airflow/3. Cài đặt dependencies cho Airflow container.md",
+    "name": "3. Cài đặt dependencies cho Airflow container.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/2. Apache Spark (PySpark)/1. Giới thiệu Apache Spark và PySpark.md",
+    "name": "1. Giới thiệu Apache Spark và PySpark.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/2. Apache Spark (PySpark)/2. Sử dụng Spark.md",
+    "name": "2. Sử dụng Spark.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/2. Data build tool (dbt)/1. Giới thiệu & Cài đặt dbt.md",
+    "name": "1. Giới thiệu & Cài đặt dbt.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/2. Pandas (pd)/0. Assets/boolean-indexing.png",
+    "name": "boolean-indexing.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/2. Pandas (pd)/0. Giới thiệu & Cài đặt Pandas.md",
+    "name": "0. Giới thiệu & Cài đặt Pandas.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/2. Pandas (pd)/1. Khởi tạo Series và DataFrame.md",
+    "name": "1. Khởi tạo Series và DataFrame.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/2. Pandas (pd)/2. Khảo sát Series và DataFrame.md",
+    "name": "2. Khảo sát Series và DataFrame.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/2. Pandas (pd)/3. Chỉnh sửa cấu trúc DataFrame.md",
+    "name": "3. Chỉnh sửa cấu trúc DataFrame.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/2. Pandas (pd)/4. Thống kê trên DataFrame.md",
+    "name": "4. Thống kê trên DataFrame.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/2. Pandas (pd)/5. Data cleaning.md",
+    "name": "5. Data cleaning.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data pipeline/2. Pandas (pd)/5. Pandas for SQL users.md",
+    "name": "5. Pandas for SQL users.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data visualization/0. Chiến lược Trực quan hóa dữ liệu.md",
+    "name": "0. Chiến lược Trực quan hóa dữ liệu.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data visualization/Matplotlib (plt).md",
+    "name": "Matplotlib (plt).md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data visualization/Microsoft Power BI.md",
+    "name": "Microsoft Power BI.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/2. Data visualization/Python Seaborn (sns).md",
+    "name": "Python Seaborn (sns).md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/3. Machine learning/0. References/Bài toán phân tích dữ liệu chứng khoán & Hệ thống giao dịch tự động.pdf",
+    "name": "Bài toán phân tích dữ liệu chứng khoán & Hệ thống giao dịch tự động.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "2. Data/3. Machine learning/0. References/Machine learning cơ bản.pdf",
+    "name": "Machine learning cơ bản.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/bias.png",
+    "name": "bias.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/differences-model-families.png",
+    "name": "differences-model-families.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/hyperparameter-tunning-randomforest.png",
+    "name": "hyperparameter-tunning-randomforest.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/log-transform-wind.png",
+    "name": "log-transform-wind.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/mi-score-automobile-.png",
+    "name": "mi-score-automobile-.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/min-max-scaling.png",
+    "name": "min-max-scaling.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/normalization.png",
+    "name": "normalization.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/one-hot-encoder.png",
+    "name": "one-hot-encoder.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/ordinal-encoder.png",
+    "name": "ordinal-encoder.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/plot-variance-automobile.png",
+    "name": "plot-variance-automobile.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/preprocessing.svg",
+    "name": "preprocessing.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/smoothing-movielens.png",
+    "name": "smoothing-movielens.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/training-process.svg",
+    "name": "training-process.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/training-testing-error.png",
+    "name": "training-testing-error.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/variance.png",
+    "name": "variance.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/varying-sample-size.png",
+    "name": "varying-sample-size.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/1. Basic concepts.md",
+    "name": "1. Basic concepts.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/2. Data leakage.md",
+    "name": "2. Data leakage.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/2. Feature engineering.md",
+    "name": "2. Feature engineering.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/2. Gradient descent.md",
+    "name": "2. Gradient descent.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/2. Overfiting & Underfiting.md",
+    "name": "2. Overfiting & Underfiting.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/3. Gradient boosting.md",
+    "name": "3. Gradient boosting.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/3. Hyperparameters tunning.md",
+    "name": "3. Hyperparameters tunning.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/1. Linear models.md",
+    "name": "1. Linear models.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/2.1. Nearest neighbors.md",
+    "name": "2.1. Nearest neighbors.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/2.2. Naive Bayes Classifier (NBC).md",
+    "name": "2.2. Naive Bayes Classifier (NBC).md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3. Phân lớp nhị phân, Phân lớp đa lớp & Tổng quan về Neural network.md",
+    "name": "3. Phân lớp nhị phân, Phân lớp đa lớp & Tổng quan về Neural network.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3.1. Perceptron learning algorithm (PLA).md",
+    "name": "3.1. Perceptron learning algorithm (PLA).md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3.2. Logistic regression.md",
+    "name": "3.2. Logistic regression.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3.3. Softmax regression.md",
+    "name": "3.3. Softmax regression.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/4.1. Decision tree.md",
+    "name": "4.1. Decision tree.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/4.2. Random forest.md",
+    "name": "4.2. Random forest.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán phân cụm (Clustering)/1. Thuật toán K-means.md",
+    "name": "1. Thuật toán K-means.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/4. Data analysis/0. Assets/flu-trends-lags.png",
+    "name": "flu-trends-lags.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/4. Data analysis/0. Assets/flu-trends-leading-feature.png",
+    "name": "flu-trends-leading-feature.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/4. Data analysis/0. Assets/flu-trends-prediction.png",
+    "name": "flu-trends-prediction.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/4. Data analysis/0. Assets/flu-trends.png",
+    "name": "flu-trends.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/4. Data analysis/0. Assets/tunel-traffic-linear-regression-with-lag.png",
+    "name": "tunel-traffic-linear-regression-with-lag.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/4. Data analysis/0. Assets/tunel-traffic-linear-regression.png",
+    "name": "tunel-traffic-linear-regression.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/4. Data analysis/0. Assets/tunel-traffic-linear-trend.png",
+    "name": "tunel-traffic-linear-trend.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/4. Data analysis/0. Assets/tunel-traffic-moving-avg.png",
+    "name": "tunel-traffic-moving-avg.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/4. Data analysis/0. Assets/tunel-traffic-out-of-sample.png",
+    "name": "tunel-traffic-out-of-sample.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/4. Data analysis/0. Assets/tunel-traffic-sesonal-plots.png",
+    "name": "tunel-traffic-sesonal-plots.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Data/4. Data analysis/1. Nhập môn Data analysis.md",
+    "name": "1. Nhập môn Data analysis.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/4. Data analysis/1. Statsmodels.md",
+    "name": "1. Statsmodels.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/4. Data analysis/2. Geospatial analysis.md",
+    "name": "2. Geospatial analysis.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Data/4. Data analysis/2. Timeseries analysis.md",
+    "name": "2. Timeseries analysis.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/activity-diagram-elements.drawio.svg",
+    "name": "activity-diagram-elements.drawio.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/analysis-sd.png",
+    "name": "analysis-sd.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/CK2_2024-2025_1.svg",
+    "name": "CK2_2024-2025_1.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/CK2_2024-2025_2.svg",
+    "name": "CK2_2024-2025_2.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/CK2_2024-2025_3.svg",
+    "name": "CK2_2024-2025_3.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/CK2_2024-2025_4.svg",
+    "name": "CK2_2024-2025_4.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/class-diagram-elements.svg",
+    "name": "class-diagram-elements.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/design-sd.png",
+    "name": "design-sd.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/general-sd.png",
+    "name": "general-sd.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/sequence-dg-elements.drawio.svg",
+    "name": "sequence-dg-elements.drawio.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/uc-diagram-elements.svg",
+    "name": "uc-diagram-elements.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. Assets/umls.png",
+    "name": "umls.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. References/CK2_2024-2025_questions.pdf",
+    "name": "CK2_2024-2025_questions.pdf",
+    "ext": "pdf"
+  },
+  {
+    "path": "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. References/CK2_2024-2025_solution.md",
+    "name": "CK2_2024-2025_solution.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/0. References/Đề cương CK.md",
+    "name": "Đề cương CK.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/1. Tổng quan về PTTK HTTT.md",
+    "name": "1. Tổng quan về PTTK HTTT.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/2. UML.md",
+    "name": "2. UML.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng mobile/Phát triển ứng dụng Android.md",
+    "name": "Phát triển ứng dụng Android.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/1. HTML.md",
+    "name": "1. HTML.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/2. CSS/0. Assets/.$transform.svg.bkp",
+    "name": ".$transform.svg.bkp",
+    "ext": "bkp"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/2. CSS/0. Assets/flex.png",
+    "name": "flex.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/2. CSS/0. Assets/self-flex.png",
+    "name": "self-flex.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/2. CSS/0. Assets/text-layout.png",
+    "name": "text-layout.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/2. CSS/0. Assets/transform.svg",
+    "name": "transform.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/2. CSS/1. CSS.md",
+    "name": "1. CSS.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/1. Giới thiệu & Cài đặt JavaScript.md",
+    "name": "1. Giới thiệu & Cài đặt JavaScript.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/2. Cú pháp cơ bản của JS.md",
+    "name": "2. Cú pháp cơ bản của JS.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/3. Kiểu dữ liệu và toán tử.md",
+    "name": "3. Kiểu dữ liệu và toán tử.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/3. Điều khiển luồng logic.md",
+    "name": "3. Điều khiển luồng logic.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/4. Callback và Promise.md",
+    "name": "4. Callback và Promise.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/4. Fetch API.md",
+    "name": "4. Fetch API.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/4. Module.md",
+    "name": "4. Module.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/4. Một số API của browser.md",
+    "name": "4. Một số API của browser.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. Node.js/1. Node.js.md",
+    "name": "1. Node.js.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. Node.js/2. Vite.md",
+    "name": "2. Vite.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. Node.js/3. ESLint.md",
+    "name": "3. ESLint.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. Node.js/3. HTTP client wrapper.md",
+    "name": "3. HTTP client wrapper.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. Node.js/3. TypeScript.md",
+    "name": "3. TypeScript.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. Node.js/3. Zod.md",
+    "name": "3. Zod.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. Xu hướng phát triển lập trình web.md",
+    "name": "4. Xu hướng phát triển lập trình web.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Express JS.md",
+    "name": "Express JS.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Message broker/0. Giới thiệu về Message broker.md",
+    "name": "0. Giới thiệu về Message broker.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Message broker/Apache Kafka.md",
+    "name": "Apache Kafka.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Message broker/RabbitMQ.md",
+    "name": "RabbitMQ.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Redis.md",
+    "name": "Redis.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Spring/Lombok.md",
+    "name": "Lombok.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Spring/Spring Boot/1. Giới thiệu & Cài đặt Spring Boot.md",
+    "name": "1. Giới thiệu & Cài đặt Spring Boot.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Spring/Spring Boot/Bean lifecycle.md",
+    "name": "Bean lifecycle.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Spring/Spring Boot/Cấu hình Spring Boot.md",
+    "name": "Cấu hình Spring Boot.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Spring/Spring Boot/Hibernate.md",
+    "name": "Hibernate.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Spring/Spring Boot/Kiến trúc Spring Boot.md",
+    "name": "Kiến trúc Spring Boot.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Spring/Spring Boot/Spring Boot JPA.md",
+    "name": "Spring Boot JPA.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Spring/Spring Boot/Tổng quan về flow của Spring Boot.md",
+    "name": "Tổng quan về flow của Spring Boot.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Spring/Thymeleaf.md",
+    "name": "Thymeleaf.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/1. React.js/1. Giới thiệu & Cài đặt ReactJS.md",
+    "name": "1. Giới thiệu & Cài đặt ReactJS.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/1. React.js/2. JSX.md",
+    "name": "2. JSX.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/1. React.js/3.1. Function component.md",
+    "name": "3.1. Function component.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/1. React.js/3.2. Class component.md",
+    "name": "3.2. Class component.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/1. React.js/4. React Hook Form.md",
+    "name": "4. React Hook Form.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/1. React.js/4. React Router DOM.md",
+    "name": "4. React Router DOM.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/1. React.js/4. Rendering optimization.md",
+    "name": "4. Rendering optimization.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/1. React.js/4. State management (Context API, Zustand, Redux).md",
+    "name": "4. State management (Context API, Zustand, Redux).md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/1. React.js/4. Styling.md",
+    "name": "4. Styling.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/1. React.js/5. WebSocket.md",
+    "name": "5. WebSocket.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/1. Redux/1. Redux.md",
+    "name": "1. Redux.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/1. Redux/2. Redux Toolkit (RTK).md",
+    "name": "2. Redux Toolkit (RTK).md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/2. Interactive Websites/0. Assets/camera.svg",
+    "name": "camera.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/2. Interactive Websites/0. Assets/position.svg",
+    "name": "position.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/2. Interactive Websites/0. Assets/rotation.svg",
+    "name": "rotation.svg",
+    "ext": "svg"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/2. Interactive Websites/Framer Motion.md",
+    "name": "Framer Motion.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/2. Interactive Websites/GSAP.md",
+    "name": "GSAP.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/2. Interactive Websites/ThreeJS, React Three Fiber & Drei.md",
+    "name": "ThreeJS, React Three Fiber & Drei.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/CSS library & Framework.md",
+    "name": "CSS library & Framework.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/Xây dựng mockup server bằng json-server và faker-js.md",
+    "name": "Xây dựng mockup server bằng json-server và faker-js.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/Next.JS/1. Giới thiệu & Cài đặt Next.JS.md",
+    "name": "1. Giới thiệu & Cài đặt Next.JS.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/Next.JS/2.1. Routing.md",
+    "name": "2.1. Routing.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/Next.JS/2.2. Nguyên lý routing của Next.js.md",
+    "name": "2.2. Nguyên lý routing của Next.js.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/Next.JS/2.3. API.md",
+    "name": "2.3. API.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/Next.JS/2.4. Server action.md",
+    "name": "2.4. Server action.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/Next.JS/2.6. Midleware.md",
+    "name": "2.6. Midleware.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/Next.JS/3.1. Caching.md",
+    "name": "3.1. Caching.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/Next.JS/3.2. Cookie.md",
+    "name": "3.2. Cookie.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/Next.JS/3.3. JWT-Cookie-based Authentication.md",
+    "name": "3.3. JWT-Cookie-based Authentication.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/Next.JS/4. Font optimization.md",
+    "name": "4. Font optimization.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/Next.JS/5. Image optimization.md",
+    "name": "5. Image optimization.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/Next.JS/6. API.md",
+    "name": "6. API.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/1. Giới thiệu về Cloud computing.md",
+    "name": "1. Giới thiệu về Cloud computing.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/AWS/1. Giới thiệu về AWS.md",
+    "name": "1. Giới thiệu về AWS.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/AWS/2. AWS Networking - Amazon VPC.md",
+    "name": "2. AWS Networking - Amazon VPC.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/AWS/3. Compute services.md",
+    "name": "3. Compute services.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/AWS/4. Storage.md",
+    "name": "4. Storage.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/AWS/5. Database.md",
+    "name": "5. Database.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/AWS/6. Monitoring and Auto scalling.md",
+    "name": "6. Monitoring and Auto scalling.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/AWS/7. Serverless.md",
+    "name": "7. Serverless.md",
+    "ext": "md"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/AWS/Assets/amazon-ebs-types.png",
+    "name": "amazon-ebs-types.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/AWS/Assets/amazon-ebs-uc.png",
+    "name": "amazon-ebs-uc.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/AWS/Assets/amazon-ec2-instance-creating.png",
+    "name": "amazon-ec2-instance-creating.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/AWS/Assets/amazon-s3-lifecycle.png",
+    "name": "amazon-s3-lifecycle.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/AWS/Assets/aws-lambda.png",
+    "name": "aws-lambda.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/AWS/Assets/computing-services.png",
+    "name": "computing-services.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/AWS/Assets/ec2-instance-lifecycle.png",
+    "name": "ec2-instance-lifecycle.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/AWS/Assets/serverless-for-web-app.png",
+    "name": "serverless-for-web-app.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/AWS/Assets/serverless-services.png",
+    "name": "serverless-services.png",
+    "ext": "png"
+  },
+  {
+    "path": "2. Điện toán đám mây (Cloud computing)/HashiCorp Terraform/1. Giới thiệu & Cài đặt Terraform.md",
+    "name": "1. Giới thiệu & Cài đặt Terraform.md",
+    "ext": "md"
+  },
+  {
+    "path": "Pasted image 20260522201112.png",
+    "name": "Pasted image 20260522201112.png",
+    "ext": "png"
+  },
+  {
+    "path": "README.md",
+    "name": "README.md",
+    "ext": "md"
+  }
+]
