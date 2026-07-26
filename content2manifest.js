@@ -33,7 +33,7 @@ const manifestPath = path.join(rootDir, 'manifest.json')
 
 // Names to exclude entirely (files or directories), matched by basename.
 const EXCLUDES = new Set([
-  'contentManifestPlugin.js',
+  'content2manifest.js',
   'manifest.json',
   '.git',
   '.obsidian',
