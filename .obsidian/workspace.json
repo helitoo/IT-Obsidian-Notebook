@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "94e5f3ef5961514b",
+        "id": "6a3e05ec140475c5",
         "type": "tabs",
         "children": [
           {
-            "id": "ec503edca0943eb9",
+            "id": "86b5e13f628f196f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số/Facebook for business.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Facebook for business"
+              "title": "README"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Trình duyệt tệp"
@@ -53,8 +55,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "boxed",
-                "matchingCase": false,
+                "query": "SEO",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -78,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.50418853759766
+    "width": 316.50418853759766
   },
   "right": {
     "id": "fef15c42c46c132c",
@@ -142,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số/Facebook for business.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương của Facebook for business"
+              "title": "Đề cương"
             }
           }
         ],
@@ -156,8 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5,
-    "collapsed": true
+    "width": 306.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,12 +171,21 @@
       "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "ec503edca0943eb9",
+  "active": "86b5e13f628f196f",
   "lastOpenFiles": [
-    "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số",
+    "2. Phát triển ứng dụng Web/2. Back-end frameworks/Express JS.md",
+    "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số/Google Search và SEO/2. SEO.md",
+    "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số/Google Search và SEO/3. Google Lighthouse.md",
+    "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số/Google Search và SEO/1. Google Search Engine.md",
+    "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số/Google Search và SEO.md",
+    "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số/Google Search và SEO",
     "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số/Google for business.md",
     "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số/Facebook for business.md",
+    "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. Xu hướng phát triển lập trình web.md",
+    "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/4. Một số API của browser.md",
+    "1. Kiến thức đại cương/2. Mạng máy tính/0. Bài tập/1. Bài tập Tổng quan về mạng máy tính.md",
     "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số/Tiktok for business.md",
+    "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số",
     "2. Data/1. Cơ sở dữ liệu (Database)/2. Hệ quản trị cơ sở dữ liệu/4. Tối ưu hóa truy vấn.md",
     "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/2.1. Bài tập Quản lý các khía cạnh kiến thức của dự án.md",
     "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/2. Quản lý các khía cạnh kiến thức của dự án.md",
@@ -184,7 +194,6 @@
     "1. Kiến thức đại cương/1. Git & Github/4. Git hook.md",
     "1. Kiến thức đại cương/2. Mạng máy tính/4.1. Địa chỉ IP.md",
     "2. Điện toán đám mây (Cloud computing)/AWS/2. AWS Networking - Amazon VPC.md",
-    "1. Kiến thức đại cương/2. Mạng máy tính/0. Bài tập/1. Bài tập Tổng quan về mạng máy tính.md",
     "2. Phát triển ứng dụng Web/2. Front-end frameworks/Xây dựng mockup server bằng json-server và faker-js.md",
     "Chưa đặt tên.md",
     "1. Kiến thức đại cương/4. Docker & Virtual environment/2. Sử dụng Docker.md",
@@ -192,13 +201,7 @@
     "1. Kiến thức đại cương/4. Docker & Virtual environment/1. Giới thiệu & Cài đặt Docker.md",
     "1. Kiến thức đại cương/4. Docker & Virtual environment/Bài tập/3. pgAdmin - the Web-based database manager.md",
     "1. Kiến thức đại cương/4. Docker & Virtual environment/Bài tập/1. Running PostgreSQL with Docker.md",
-    "1. Kiến thức đại cương/4. Docker & Virtual environment/Bài tập/2. Using PostgreSQL server in Docker.md",
     "Chưa đặt tên.base",
-    "2. Data/2. Data visualization/Python Seaborn (sns).md",
-    "2. Data/2. Data visualization/Microsoft Power BI.md",
-    "2. Data/2. Data visualization/Matplotlib (plt).md",
-    "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/1. Tổng quan về Quản lý dự án Công nghệ thông tin.md",
-    "1. Kiến thức đại cương/3. Nhập môn lập trình Python/Môi trường ảo (Venv) và Quản lý package.md",
     "2. Phát triển ứng dụng Web/2. Front-end frameworks/1. Redux",
     "1. Kiến thức đại cương/1. Git & Github/0. Assets/merge.svg",
     "1. Kiến thức đại cương/1. Git & Github/0. Assets/rebase.svg",
@@ -211,8 +214,6 @@
     "1. Kiến thức đại cương/1. Nhập môn lập trình C++/ĐỀ CƯƠNG HSG TIN.pdf",
     "1. Kiến thức đại cương/1. Nhập môn lập trình C++",
     "1. Kiến thức đại cương/New folder",
-    "1. Kiến thức đại cương/ĐỀ CƯƠNG HSG TIN.pdf",
-    "1. Kiến thức đại cương/2. Lập trình hướng đối tượng (OOP)/Lập trình hướng đối tượng.pdf",
     "Pasted image 20260420150603.png",
     "Pasted image 20260420140817.png",
     "Pasted image 20260420140746.png",

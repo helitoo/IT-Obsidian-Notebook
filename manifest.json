@@ -672,9 +672,21 @@
     "ext": "md"
   },
   {
-    "id": 353,
-    "path": "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số/Tiktok for business.md",
-    "name": "Tiktok for business.md",
+    "id": 354,
+    "path": "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số/Google Search và SEO/1. Google Search Engine.md",
+    "name": "1. Google Search Engine.md",
+    "ext": "md"
+  },
+  {
+    "id": 355,
+    "path": "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số/Google Search và SEO/2. SEO.md",
+    "name": "2. SEO.md",
+    "ext": "md"
+  },
+  {
+    "id": 356,
+    "path": "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số/Google Search và SEO/3. Google Lighthouse.md",
+    "name": "3. Google Lighthouse.md",
     "ext": "md"
   },
   {

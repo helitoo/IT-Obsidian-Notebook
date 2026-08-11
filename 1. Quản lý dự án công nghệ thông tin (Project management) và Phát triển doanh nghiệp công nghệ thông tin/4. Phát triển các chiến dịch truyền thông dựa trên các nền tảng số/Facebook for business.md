@@ -60,11 +60,11 @@ Doanh nghiệp chỉ phải trả phí dựa trên số lần nhấp chuột và
 
 # Công nghệ đằng sau Facebook
 
-|Hệ thống|Mục đích|
-|---|---|
-|**Graph Search**|Trả lời truy vấn tìm kiếm dựa trên quan hệ giữa người dùng, bài viết, địa điểm, sở thích...|
-|**EdgeRank**|Xếp hạng các bài viết để quyết định nội dung nào xuất hiện trên News Feed (giai đoạn đầu của Facebook).|
-|**News Feed Optimization**|Hệ thống hiện đại dùng AI để chọn và sắp xếp nội dung phù hợp nhất cho từng người dùng.|
+| Hệ thống                   | Mục đích                                                                                                |
+| -------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Graph Search**           | Trả lời truy vấn tìm kiếm dựa trên quan hệ giữa người dùng, bài viết, địa điểm, sở thích...             |
+| **EdgeRank**               | Xếp hạng các bài viết để quyết định nội dung nào xuất hiện trên News Feed (giai đoạn đầu của Facebook). |
+| **News Feed Optimization** | Hệ thống hiện đại dùng AI để chọn và sắp xếp nội dung phù hợp nhất cho từng người dùng.                 |
 
 ### EdgeRank
 

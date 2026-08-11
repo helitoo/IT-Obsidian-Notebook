@@ -1,31 +1,5 @@
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzkHnI2qKrGwyBJwLHvPjaFZo5UUYWOUWmIw&s)
 
-```insta-toc
----
-title:
-  name: Mục lục
-  level: 1
-  center: false
-exclude: ""
-style:
-  listType: number
-omit: []
-levels:
-  min: 1
-  max: 6
----
-
-# Mục lục
-
-1. Giới thiệu & Cài đặt
-2. Cấu trúc dự án Express
-3. Routing
-    1. Định nghĩa endpoint
-    2. Handler
-    3. Tùy chỉnh URI
-4. Middleware
-```
-
 # Giới thiệu & Cài đặt
 
 **Express JS** là một [[1. Node.js]] framework hỗ trợ xây dựng server. Hầu hết các framework nổi tiếng của NodeJS đều dựa trên Express JS.
