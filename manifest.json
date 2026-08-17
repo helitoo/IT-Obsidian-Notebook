@@ -1656,9 +1656,9 @@
     "ext": "md"
   },
   {
-    "id": 273,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. Xu hướng phát triển lập trình web.md",
-    "name": "4. Xu hướng phát triển lập trình web.md",
+    "id": 357,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. SSR và CSR.md",
+    "name": "4. SSR và CSR.md",
     "ext": "md"
   },
   {
@@ -1800,12 +1800,6 @@
     "ext": "md"
   },
   {
-    "id": 297,
-    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/1. React.js/5. WebSocket.md",
-    "name": "5. WebSocket.md",
-    "ext": "md"
-  },
-  {
     "id": 298,
     "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/1. Redux/1. Redux.md",
     "name": "1. Redux.md",
@@ -1932,9 +1926,45 @@
     "ext": "md"
   },
   {
-    "id": 319,
-    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/Next.JS/6. API.md",
-    "name": "6. API.md",
+    "id": 358,
+    "path": "2. Phát triển ứng dụng Web/3. Blockchain và Web3/1. Blockchain & Basic Terminology.md",
+    "name": "1. Blockchain & Basic Terminology.md",
+    "ext": "md"
+  },
+  {
+    "id": 359,
+    "path": "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/1. Nhập môn WebSocket.md",
+    "name": "1. Nhập môn WebSocket.md",
+    "ext": "md"
+  },
+  {
+    "id": 360,
+    "path": "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/2. Một số vấn đề nâng cao dùng trong WebSocket.md",
+    "name": "2. Một số vấn đề nâng cao dùng trong WebSocket.md",
+    "ext": "md"
+  },
+  {
+    "id": 361,
+    "path": "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/2. WebSocket fallback và HTTP Streaming.md",
+    "name": "2. WebSocket fallback và HTTP Streaming.md",
+    "ext": "md"
+  },
+  {
+    "id": 362,
+    "path": "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/3. Socket.IO.md",
+    "name": "3. Socket.IO.md",
+    "ext": "md"
+  },
+  {
+    "id": 363,
+    "path": "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/3. WebRTC.md",
+    "name": "3. WebRTC.md",
+    "ext": "md"
+  },
+  {
+    "id": 364,
+    "path": "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/4. SignalR.md",
+    "name": "4. SignalR.md",
     "ext": "md"
   },
   {
