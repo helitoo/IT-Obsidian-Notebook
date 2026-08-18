@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/3. Socket.IO.md",
+                "file": "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/2. WebSocket fallback và HTTP Streaming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Socket.IO"
+              "title": "2. WebSocket fallback và HTTP Streaming"
             }
           }
         ]
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/3. Socket.IO.md",
+                "file": "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/2. WebSocket fallback và HTTP Streaming.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -173,8 +173,9 @@
   },
   "active": "b1dd38a1d4f4aded",
   "lastOpenFiles": [
-    "2. Phát triển ứng dụng Web/3. Blockchain và Web3/1. Blockchain & Basic Terminology.md",
+    "1. Kiến thức đại cương/2. Mạng máy tính/4.1. Địa chỉ IP.md",
     "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/3. Socket.IO.md",
+    "2. Phát triển ứng dụng Web/3. Blockchain và Web3/1. Blockchain & Basic Terminology.md",
     "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/1. Nhập môn WebSocket.md",
     "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/2. WebSocket fallback và HTTP Streaming.md",
     "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/2. Một số vấn đề nâng cao dùng trong WebSocket.md",
