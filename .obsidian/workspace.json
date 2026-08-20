@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "45ca71cf451edd83",
+        "id": "4e5f9788d0d3684f",
         "type": "tabs",
         "children": [
           {
-            "id": "b1dd38a1d4f4aded",
+            "id": "f082bbb1db5c22d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/2. WebSocket fallback và HTTP Streaming.md",
+                "file": "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/3. Socket.IO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. WebSocket fallback và HTTP Streaming"
+              "title": "3. Socket.IO"
             }
           }
         ]
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/2. WebSocket fallback và HTTP Streaming.md",
+                "file": "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/3. Socket.IO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -171,14 +171,14 @@
       "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "b1dd38a1d4f4aded",
+  "active": "f082bbb1db5c22d5",
   "lastOpenFiles": [
-    "1. Kiến thức đại cương/2. Mạng máy tính/4.1. Địa chỉ IP.md",
-    "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/3. Socket.IO.md",
-    "2. Phát triển ứng dụng Web/3. Blockchain và Web3/1. Blockchain & Basic Terminology.md",
-    "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/1. Nhập môn WebSocket.md",
     "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/2. WebSocket fallback và HTTP Streaming.md",
     "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/2. Một số vấn đề nâng cao dùng trong WebSocket.md",
+    "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/3. Socket.IO.md",
+    "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/1. Nhập môn WebSocket.md",
+    "1. Kiến thức đại cương/2. Mạng máy tính/4.1. Địa chỉ IP.md",
+    "2. Phát triển ứng dụng Web/3. Blockchain và Web3/1. Blockchain & Basic Terminology.md",
     "Pasted image 20260522201112.png",
     "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/3. WebRTC.md",
     "1. Kiến thức đại cương/2. Mạng máy tính/3. Transport layer.md",
