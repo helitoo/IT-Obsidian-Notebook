@@ -1524,9 +1524,15 @@
     "ext": "md"
   },
   {
-    "id": 251,
-    "path": "2. Phát triển ứng dụng mobile/Phát triển ứng dụng Android.md",
-    "name": "Phát triển ứng dụng Android.md",
+    "id": 365,
+    "path": "2. Phát triển ứng dụng Mobile/1. Android Native.md",
+    "name": "1. Android Native.md",
+    "ext": "md"
+  },
+  {
+    "id": 366,
+    "path": "2. Phát triển ứng dụng Mobile/2. React Native.md",
+    "name": "2. React Native.md",
     "ext": "md"
   },
   {
