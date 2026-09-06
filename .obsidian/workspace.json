@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2097fae153a4b7ff",
+        "id": "28770144aee39849",
         "type": "tabs",
         "children": [
           {
-            "id": "65699cb3a32c941c",
+            "id": "34500ef2a2a619d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Phát triển ứng dụng Mobile/2. React Native.md",
+                "file": "2. Data/1. Cơ sở dữ liệu (Database)/3. Kho dữ liệu và OLAP/2. Mô hình hóa dữ liệu đa chiều (Multi-dimensional data modeling).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. React Native"
+              "title": "2. Mô hình hóa dữ liệu đa chiều (Multi-dimensional data modeling)"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.7342300415039
+    "width": 363.95813751220703
   },
   "right": {
     "id": "fef15c42c46c132c",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Phát triển ứng dụng Mobile/2. React Native.md",
+                "file": "2. Data/1. Cơ sở dữ liệu (Database)/3. Kho dữ liệu và OLAP/2. Mô hình hóa dữ liệu đa chiều (Multi-dimensional data modeling).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -172,34 +172,36 @@
       "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "65699cb3a32c941c",
+  "active": "34500ef2a2a619d2",
   "lastOpenFiles": [
-    "2. Phát triển ứng dụng Web/2. Fullstack frameworks/Next.JS/2.1. Routing & Navigation.md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/3. Kho dữ liệu và OLAP/4. MDX.md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/3. Kho dữ liệu và OLAP/3. OLAP.md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/3. Kho dữ liệu và OLAP/2. Mô hình hóa dữ liệu đa chiều (Multi-dimensional data modeling).md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/3. Kho dữ liệu và OLAP/1. Kho dữ liệu (DWH - Data warehouse).md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. SQL/3. Ngôn ngữ truy vấn dữ liệu (SQL).md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. SQL/3.1. Phép chia.md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. SQL/3.1. Recursive JOIN.md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. SQL/4. Ngôn ngữ điều khiển dữ liệu (DCL).md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. SQL/5. Lập trình thủ tục trong SQL.md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. SQL/5.1. Set-based trigger.md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/2. SQL/Ôn thi giữa kỳ.md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/5. Nhập môn Trí tuệ kinh doanh (Business Intelligence, BI).md",
+    "2. Phát triển ứng dụng Mobile/1. Android Native.md",
     "2. Phát triển ứng dụng Mobile/2. React Native.md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/5. Nhập môn data pipelining.md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/3. MongoDB/2. Sử dụng MongoDB.md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/3. MongoDB/1. Giới thiệu MongoDB.md",
+    "2. Data/1. Cơ sở dữ liệu (Database)/3. Kho dữ liệu và OLAP",
+    "2. Data/Chưa đặt tên",
+    "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số/Google Search và SEO/2. SEO.md",
+    "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số/Facebook for business.md",
+    "2. Phát triển ứng dụng Web/2. Fullstack frameworks/Next.JS/2.1. Routing & Navigation.md",
     "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/3. Agile & Scrum.md",
     "1. Kiến thức đại cương/3. Nhập môn lập trình Java/2.1. Cú pháp cơ bản.md",
     "1. Kiến thức đại cương/3. Nhập môn lập trình Java/2.2 Collection framework.md",
     "1. Kiến thức đại cương/3. Nhập môn lập trình Java/2.3. Những lỗi thường gặp của người học từ C++ sang Java.md",
     "1. Kiến thức đại cương/3. Nhập môn lập trình Java/5. Swing.md",
     "1. Kiến thức đại cương/3. Nhập môn lập trình Java/5. LangChain4j.md",
-    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/5. JDBC (Java Database Connectivity).md",
-    "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/2. WebSocket fallback và HTTP Streaming.md",
-    "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/1. Nhập môn WebSocket.md",
-    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/1. Tổng quan về PTTK HTTT.md",
-    "2. Data/4. Data analysis/2. Geospatial analysis.md",
-    "2. Data/4. Data analysis/1. Statsmodels.md",
-    "2. Data/4. Data analysis/2. Timeseries analysis.md",
-    "2. Data/4. Data analysis/1. Nhập môn Data analysis.md",
-    "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3.3. Softmax regression.md",
-    "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/4.1. Decision tree.md",
-    "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/4.2. Random forest.md",
-    "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/1. Linear models.md",
-    "2. Data/2. Data visualization/Python Seaborn (sns).md",
-    "2. Data/2. Data visualization/Microsoft Power BI.md",
-    "2. Data/2. Data visualization/Matplotlib (plt).md",
-    "2. Data/2. Data pipeline/2. Pandas (pd)/1. Khởi tạo Series và DataFrame.md",
-    "2. Data/2. Data pipeline/2. Apache Spark (PySpark)/2. Sử dụng Spark.md",
-    "2. Data/2. Data pipeline/1. Apache Airflow/3. Cài đặt dependencies cho Airflow container.md",
     "2. Phát triển ứng dụng Mobile",
     "Pasted image 20260522201112.png",
     "2. Phát triển ứng dụng Web/3. Blockchain và Web3",
@@ -209,8 +211,6 @@
     "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime",
     "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số/Google Search và SEO",
     "1. Quản lý dự án công nghệ thông tin (Project management) và Phát triển doanh nghiệp công nghệ thông tin/4. Phát triển các chiến dịch truyền thông dựa trên các nền tảng số",
-    "Chưa đặt tên.base",
-    "2. Phát triển ứng dụng Web/2. Front-end frameworks/1. Redux",
     "1. Kiến thức đại cương/1. Git & Github/0. Assets/merge.svg",
     "1. Kiến thức đại cương/1. Git & Github/0. Assets/rebase.svg",
     "1. Kiến thức đại cương/1. Git & Github/0. Assets/1-commit-1-branch.svg",

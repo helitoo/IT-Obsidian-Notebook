@@ -690,66 +690,6 @@
     "ext": "md"
   },
   {
-    "id": 112,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/conformed.svg",
-    "name": "conformed.svg",
-    "ext": "svg"
-  },
-  {
-    "id": 113,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/degenerate.svg",
-    "name": "degenerate.svg",
-    "ext": "svg"
-  },
-  {
-    "id": 114,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/dimensional-model.png",
-    "name": "dimensional-model.png",
-    "ext": "png"
-  },
-  {
-    "id": 115,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/junk.svg",
-    "name": "junk.svg",
-    "ext": "svg"
-  },
-  {
-    "id": 116,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/multivalued.svg",
-    "name": "multivalued.svg",
-    "ext": "svg"
-  },
-  {
-    "id": 117,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/normalization-demornalization.svg",
-    "name": "normalization-demornalization.svg",
-    "ext": "svg"
-  },
-  {
-    "id": 118,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/outtrigger.svg",
-    "name": "outtrigger.svg",
-    "ext": "svg"
-  },
-  {
-    "id": 119,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/roleplaying.svg",
-    "name": "roleplaying.svg",
-    "ext": "svg"
-  },
-  {
-    "id": 120,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/snowflake_schema.svg",
-    "name": "snowflake_schema.svg",
-    "ext": "svg"
-  },
-  {
-    "id": 121,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/0. Assets/star_schema.svg",
-    "name": "star_schema.svg",
-    "ext": "svg"
-  },
-  {
     "id": 122,
     "path": "2. Data/1. Cơ sở dữ liệu (Database)/1. Nhập môn Cơ sở dữ liệu/1. Tổng quan về Dữ liệu & Cơ sở dữ liệu.md",
     "name": "1. Tổng quan về Dữ liệu & Cơ sở dữ liệu.md",
@@ -894,6 +834,90 @@
     "ext": "md"
   },
   {
+    "id": 368,
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. SQL/1. Ngôn ngữ định nghĩa dữ liệu (DDL).md",
+    "name": "1. Ngôn ngữ định nghĩa dữ liệu (DDL).md",
+    "ext": "md"
+  },
+  {
+    "id": 369,
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. SQL/2. Ngôn ngữ thao tác dữ liệu (DML).md",
+    "name": "2. Ngôn ngữ thao tác dữ liệu (DML).md",
+    "ext": "md"
+  },
+  {
+    "id": 370,
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. SQL/3. Ngôn ngữ truy vấn dữ liệu (SQL).md",
+    "name": "3. Ngôn ngữ truy vấn dữ liệu (SQL).md",
+    "ext": "md"
+  },
+  {
+    "id": 371,
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. SQL/3.1. Categorical JOIN.md",
+    "name": "3.1. Categorical JOIN.md",
+    "ext": "md"
+  },
+  {
+    "id": 372,
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. SQL/3.1. Phép chia.md",
+    "name": "3.1. Phép chia.md",
+    "ext": "md"
+  },
+  {
+    "id": 373,
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. SQL/3.1. Recursive JOIN.md",
+    "name": "3.1. Recursive JOIN.md",
+    "ext": "md"
+  },
+  {
+    "id": 374,
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. SQL/4. Ngôn ngữ điều khiển dữ liệu (DCL).md",
+    "name": "4. Ngôn ngữ điều khiển dữ liệu (DCL).md",
+    "ext": "md"
+  },
+  {
+    "id": 375,
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. SQL/5. Lập trình thủ tục trong SQL.md",
+    "name": "5. Lập trình thủ tục trong SQL.md",
+    "ext": "md"
+  },
+  {
+    "id": 376,
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. SQL/5.1. Set-based trigger.md",
+    "name": "5.1. Set-based trigger.md",
+    "ext": "md"
+  },
+  {
+    "id": 377,
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/2. SQL/Ôn thi giữa kỳ.md",
+    "name": "Ôn thi giữa kỳ.md",
+    "ext": "md"
+  },
+  {
+    "id": 378,
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. Kho dữ liệu và OLAP/1. Kho dữ liệu (DWH - Data warehouse).md",
+    "name": "1. Kho dữ liệu (DWH - Data warehouse).md",
+    "ext": "md"
+  },
+  {
+    "id": 379,
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. Kho dữ liệu và OLAP/2. Mô hình hóa dữ liệu đa chiều (Multi-dimensional data modeling).md",
+    "name": "2. Mô hình hóa dữ liệu đa chiều (Multi-dimensional data modeling).md",
+    "ext": "md"
+  },
+  {
+    "id": 380,
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. Kho dữ liệu và OLAP/3. OLAP.md",
+    "name": "3. OLAP.md",
+    "ext": "md"
+  },
+  {
+    "id": 381,
+    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. Kho dữ liệu và OLAP/4. MDX.md",
+    "name": "4. MDX.md",
+    "ext": "md"
+  },
+  {
     "id": 146,
     "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. MongoDB/1. Giới thiệu MongoDB.md",
     "name": "1. Giới thiệu MongoDB.md",
@@ -903,78 +927,6 @@
     "id": 147,
     "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. MongoDB/2. Sử dụng MongoDB.md",
     "name": "2. Sử dụng MongoDB.md",
-    "ext": "md"
-  },
-  {
-    "id": 148,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/1. Ngôn ngữ định nghĩa dữ liệu (DDL).md",
-    "name": "1. Ngôn ngữ định nghĩa dữ liệu (DDL).md",
-    "ext": "md"
-  },
-  {
-    "id": 149,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/2. Ngôn ngữ thao tác dữ liệu (DML).md",
-    "name": "2. Ngôn ngữ thao tác dữ liệu (DML).md",
-    "ext": "md"
-  },
-  {
-    "id": 150,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/3. Ngôn ngữ truy vấn dữ liệu (SQL).md",
-    "name": "3. Ngôn ngữ truy vấn dữ liệu (SQL).md",
-    "ext": "md"
-  },
-  {
-    "id": 151,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/3.1. Categorical JOIN.md",
-    "name": "3.1. Categorical JOIN.md",
-    "ext": "md"
-  },
-  {
-    "id": 152,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/3.1. Phép chia.md",
-    "name": "3.1. Phép chia.md",
-    "ext": "md"
-  },
-  {
-    "id": 153,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/3.1. Recursive JOIN.md",
-    "name": "3.1. Recursive JOIN.md",
-    "ext": "md"
-  },
-  {
-    "id": 154,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/4. Ngôn ngữ điều khiển dữ liệu (DCL).md",
-    "name": "4. Ngôn ngữ điều khiển dữ liệu (DCL).md",
-    "ext": "md"
-  },
-  {
-    "id": 155,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/5. Lập trình thủ tục trong SQL.md",
-    "name": "5. Lập trình thủ tục trong SQL.md",
-    "ext": "md"
-  },
-  {
-    "id": 156,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/5.1. Set-based trigger.md",
-    "name": "5.1. Set-based trigger.md",
-    "ext": "md"
-  },
-  {
-    "id": 157,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. SQL/Ôn thi giữa kỳ.md",
-    "name": "Ôn thi giữa kỳ.md",
-    "ext": "md"
-  },
-  {
-    "id": 158,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/5. Nhập môn data pipelining.md",
-    "name": "5. Nhập môn data pipelining.md",
-    "ext": "md"
-  },
-  {
-    "id": 159,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/5. Nhập môn Trí tuệ kinh doanh (Business Intelligence, BI).md",
-    "name": "5. Nhập môn Trí tuệ kinh doanh (Business Intelligence, BI).md",
     "ext": "md"
   },
   {
