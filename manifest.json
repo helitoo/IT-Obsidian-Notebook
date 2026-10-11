@@ -204,6 +204,12 @@
     "ext": "md"
   },
   {
+    "id": 382,
+    "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/Cài đặt hệ điều hành/WSL (Windows Subsystem for Linux).md",
+    "name": "WSL (Windows Subsystem for Linux).md",
+    "ext": "md"
+  },
+  {
     "id": 35,
     "path": "1. Kiến thức đại cương/2. Hệ điều hành (OS)/Ubuntu/1. Giới thiệu & Cài đặt Ubuntu trên máy ảo VMWare.md",
     "name": "1. Giới thiệu & Cài đặt Ubuntu trên máy ảo VMWare.md",
@@ -894,30 +900,6 @@
     "ext": "md"
   },
   {
-    "id": 378,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. Kho dữ liệu và OLAP/1. Kho dữ liệu (DWH - Data warehouse).md",
-    "name": "1. Kho dữ liệu (DWH - Data warehouse).md",
-    "ext": "md"
-  },
-  {
-    "id": 379,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. Kho dữ liệu và OLAP/2. Mô hình hóa dữ liệu đa chiều (Multi-dimensional data modeling).md",
-    "name": "2. Mô hình hóa dữ liệu đa chiều (Multi-dimensional data modeling).md",
-    "ext": "md"
-  },
-  {
-    "id": 380,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. Kho dữ liệu và OLAP/3. OLAP.md",
-    "name": "3. OLAP.md",
-    "ext": "md"
-  },
-  {
-    "id": 381,
-    "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. Kho dữ liệu và OLAP/4. MDX.md",
-    "name": "4. MDX.md",
-    "ext": "md"
-  },
-  {
     "id": 146,
     "path": "2. Data/1. Cơ sở dữ liệu (Database)/3. MongoDB/1. Giới thiệu MongoDB.md",
     "name": "1. Giới thiệu MongoDB.md",
@@ -948,429 +930,483 @@
     "ext": "md"
   },
   {
-    "id": 163,
-    "path": "2. Data/2. Data pipeline/0. Chiến lược xây dựng Data pipeline/Chiến lược xây dựng data pipeline.md",
-    "name": "Chiến lược xây dựng data pipeline.md",
+    "id": 383,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/0. Kiến thức nền tảng/Dữ liệu lớn (Big data).md",
+    "name": "Dữ liệu lớn (Big data).md",
     "ext": "md"
   },
   {
-    "id": 164,
-    "path": "2. Data/2. Data pipeline/1. Apache Airflow/0. Assets/airflow-architecture.png",
+    "id": 384,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Airflow/0. Assets/airflow-architecture.png",
     "name": "airflow-architecture.png",
     "ext": "png"
   },
   {
-    "id": 165,
-    "path": "2. Data/2. Data pipeline/1. Apache Airflow/0. Assets/happy-task-lifecycle.png",
+    "id": 385,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Airflow/0. Assets/happy-task-lifecycle.png",
     "name": "happy-task-lifecycle.png",
     "ext": "png"
   },
   {
-    "id": 166,
-    "path": "2. Data/2. Data pipeline/1. Apache Airflow/0. Assets/task-lifecycle.png",
+    "id": 386,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Airflow/0. Assets/task-lifecycle.png",
     "name": "task-lifecycle.png",
     "ext": "png"
   },
   {
-    "id": 167,
-    "path": "2. Data/2. Data pipeline/1. Apache Airflow/1. Giới thiệu & Cài đặt Apache Airflow.md",
+    "id": 387,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Airflow/1. Giới thiệu & Cài đặt Apache Airflow.md",
     "name": "1. Giới thiệu & Cài đặt Apache Airflow.md",
     "ext": "md"
   },
   {
-    "id": 168,
-    "path": "2. Data/2. Data pipeline/1. Apache Airflow/2. Cài đặt & Sử dụng Airflow.md",
+    "id": 388,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Airflow/2. Cài đặt & Sử dụng Airflow.md",
     "name": "2. Cài đặt & Sử dụng Airflow.md",
     "ext": "md"
   },
   {
-    "id": 169,
-    "path": "2. Data/2. Data pipeline/1. Apache Airflow/3. Cài đặt dependencies cho Airflow container.md",
+    "id": 389,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Airflow/3. Cài đặt dependencies cho Airflow container.md",
     "name": "3. Cài đặt dependencies cho Airflow container.md",
     "ext": "md"
   },
   {
-    "id": 170,
-    "path": "2. Data/2. Data pipeline/2. Apache Spark (PySpark)/1. Giới thiệu Apache Spark và PySpark.md",
+    "id": 390,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/0. Assets/map-reduce-sample.png",
+    "name": "map-reduce-sample.png",
+    "ext": "png"
+  },
+  {
+    "id": 391,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/1. Giới thiệu Apache Hadoop.md",
+    "name": "1. Giới thiệu Apache Hadoop.md",
+    "ext": "md"
+  },
+  {
+    "id": 392,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/2. HDFS (Hadoop Distributes File System).md",
+    "name": "2. HDFS (Hadoop Distributes File System).md",
+    "ext": "md"
+  },
+  {
+    "id": 393,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/3. MapReduce.md",
+    "name": "3. MapReduce.md",
+    "ext": "md"
+  },
+  {
+    "id": 394,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Spark (PySpark)/1. Giới thiệu Apache Spark và PySpark.md",
     "name": "1. Giới thiệu Apache Spark và PySpark.md",
     "ext": "md"
   },
   {
-    "id": 171,
-    "path": "2. Data/2. Data pipeline/2. Apache Spark (PySpark)/2. Sử dụng Spark.md",
+    "id": 395,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Spark (PySpark)/2. Sử dụng Spark.md",
     "name": "2. Sử dụng Spark.md",
     "ext": "md"
   },
   {
-    "id": 172,
-    "path": "2. Data/2. Data pipeline/2. Data build tool (dbt)/1. Giới thiệu & Cài đặt dbt.md",
+    "id": 396,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Data build tool (dbt)/1. Giới thiệu & Cài đặt dbt.md",
     "name": "1. Giới thiệu & Cài đặt dbt.md",
     "ext": "md"
   },
   {
-    "id": 173,
-    "path": "2. Data/2. Data pipeline/2. Pandas (pd)/0. Assets/boolean-indexing.png",
+    "id": 397,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Pandas (pd)/0. Assets/boolean-indexing.png",
     "name": "boolean-indexing.png",
     "ext": "png"
   },
   {
-    "id": 174,
-    "path": "2. Data/2. Data pipeline/2. Pandas (pd)/0. Giới thiệu & Cài đặt Pandas.md",
+    "id": 398,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Pandas (pd)/0. Giới thiệu & Cài đặt Pandas.md",
     "name": "0. Giới thiệu & Cài đặt Pandas.md",
     "ext": "md"
   },
   {
-    "id": 175,
-    "path": "2. Data/2. Data pipeline/2. Pandas (pd)/1. Khởi tạo Series và DataFrame.md",
+    "id": 399,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Pandas (pd)/1. Khởi tạo Series và DataFrame.md",
     "name": "1. Khởi tạo Series và DataFrame.md",
     "ext": "md"
   },
   {
-    "id": 176,
-    "path": "2. Data/2. Data pipeline/2. Pandas (pd)/2. Khảo sát Series và DataFrame.md",
+    "id": 400,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Pandas (pd)/2. Khảo sát Series và DataFrame.md",
     "name": "2. Khảo sát Series và DataFrame.md",
     "ext": "md"
   },
   {
-    "id": 177,
-    "path": "2. Data/2. Data pipeline/2. Pandas (pd)/3. Chỉnh sửa cấu trúc DataFrame.md",
+    "id": 401,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Pandas (pd)/3. Chỉnh sửa cấu trúc DataFrame.md",
     "name": "3. Chỉnh sửa cấu trúc DataFrame.md",
     "ext": "md"
   },
   {
-    "id": 178,
-    "path": "2. Data/2. Data pipeline/2. Pandas (pd)/4. Thống kê trên DataFrame.md",
+    "id": 402,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Pandas (pd)/4. Thống kê trên DataFrame.md",
     "name": "4. Thống kê trên DataFrame.md",
     "ext": "md"
   },
   {
-    "id": 179,
-    "path": "2. Data/2. Data pipeline/2. Pandas (pd)/5. Data cleaning.md",
+    "id": 403,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Pandas (pd)/5. Data cleaning.md",
     "name": "5. Data cleaning.md",
     "ext": "md"
   },
   {
-    "id": 180,
-    "path": "2. Data/2. Data pipeline/2. Pandas (pd)/5. Pandas for SQL users.md",
+    "id": 404,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Pandas (pd)/5. Pandas for SQL users.md",
     "name": "5. Pandas for SQL users.md",
     "ext": "md"
   },
   {
-    "id": 181,
-    "path": "2. Data/2. Data visualization/0. Chiến lược Trực quan hóa dữ liệu.md",
+    "id": 405,
+    "path": "2. Data/2. Trực quan hóa dữ liệu (Data visualization)/0. Chiến lược Trực quan hóa dữ liệu.md",
     "name": "0. Chiến lược Trực quan hóa dữ liệu.md",
     "ext": "md"
   },
   {
-    "id": 182,
-    "path": "2. Data/2. Data visualization/Matplotlib (plt).md",
+    "id": 406,
+    "path": "2. Data/2. Trực quan hóa dữ liệu (Data visualization)/Matplotlib (plt).md",
     "name": "Matplotlib (plt).md",
     "ext": "md"
   },
   {
-    "id": 183,
-    "path": "2. Data/2. Data visualization/Microsoft Power BI.md",
+    "id": 407,
+    "path": "2. Data/2. Trực quan hóa dữ liệu (Data visualization)/Microsoft Power BI.md",
     "name": "Microsoft Power BI.md",
     "ext": "md"
   },
   {
-    "id": 184,
-    "path": "2. Data/2. Data visualization/Python Seaborn (sns).md",
+    "id": 408,
+    "path": "2. Data/2. Trực quan hóa dữ liệu (Data visualization)/Python Seaborn (sns).md",
     "name": "Python Seaborn (sns).md",
     "ext": "md"
   },
   {
-    "id": 185,
-    "path": "2. Data/3. Machine learning/0. References/Bài toán phân tích dữ liệu chứng khoán & Hệ thống giao dịch tự động.pdf",
+    "id": 409,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/0. References/Bài toán phân tích dữ liệu chứng khoán & Hệ thống giao dịch tự động.pdf",
     "name": "Bài toán phân tích dữ liệu chứng khoán & Hệ thống giao dịch tự động.pdf",
     "ext": "pdf"
   },
   {
-    "id": 186,
-    "path": "2. Data/3. Machine learning/0. References/Machine learning cơ bản.pdf",
+    "id": 410,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/0. References/Machine learning cơ bản.pdf",
     "name": "Machine learning cơ bản.pdf",
     "ext": "pdf"
   },
   {
-    "id": 187,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/bias.png",
+    "id": 411,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/0. Assets/bias.png",
     "name": "bias.png",
     "ext": "png"
   },
   {
-    "id": 188,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/differences-model-families.png",
+    "id": 412,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/0. Assets/differences-model-families.png",
     "name": "differences-model-families.png",
     "ext": "png"
   },
   {
-    "id": 189,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/hyperparameter-tunning-randomforest.png",
+    "id": 413,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/0. Assets/hyperparameter-tunning-randomforest.png",
     "name": "hyperparameter-tunning-randomforest.png",
     "ext": "png"
   },
   {
-    "id": 190,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/log-transform-wind.png",
+    "id": 414,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/0. Assets/log-transform-wind.png",
     "name": "log-transform-wind.png",
     "ext": "png"
   },
   {
-    "id": 191,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/mi-score-automobile-.png",
+    "id": 415,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/0. Assets/mi-score-automobile-.png",
     "name": "mi-score-automobile-.png",
     "ext": "png"
   },
   {
-    "id": 192,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/min-max-scaling.png",
+    "id": 416,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/0. Assets/min-max-scaling.png",
     "name": "min-max-scaling.png",
     "ext": "png"
   },
   {
-    "id": 193,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/normalization.png",
+    "id": 417,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/0. Assets/normalization.png",
     "name": "normalization.png",
     "ext": "png"
   },
   {
-    "id": 194,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/one-hot-encoder.png",
+    "id": 418,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/0. Assets/one-hot-encoder.png",
     "name": "one-hot-encoder.png",
     "ext": "png"
   },
   {
-    "id": 195,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/ordinal-encoder.png",
+    "id": 419,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/0. Assets/ordinal-encoder.png",
     "name": "ordinal-encoder.png",
     "ext": "png"
   },
   {
-    "id": 196,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/plot-variance-automobile.png",
+    "id": 420,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/0. Assets/plot-variance-automobile.png",
     "name": "plot-variance-automobile.png",
     "ext": "png"
   },
   {
-    "id": 197,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/preprocessing.svg",
+    "id": 421,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/0. Assets/preprocessing.svg",
     "name": "preprocessing.svg",
     "ext": "svg"
   },
   {
-    "id": 198,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/smoothing-movielens.png",
+    "id": 422,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/0. Assets/smoothing-movielens.png",
     "name": "smoothing-movielens.png",
     "ext": "png"
   },
   {
-    "id": 199,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/training-process.svg",
+    "id": 423,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/0. Assets/training-process.svg",
     "name": "training-process.svg",
     "ext": "svg"
   },
   {
-    "id": 200,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/training-testing-error.png",
+    "id": 424,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/0. Assets/training-testing-error.png",
     "name": "training-testing-error.png",
     "ext": "png"
   },
   {
-    "id": 201,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/variance.png",
+    "id": 425,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/0. Assets/variance.png",
     "name": "variance.png",
     "ext": "png"
   },
   {
-    "id": 202,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/0. Assets/varying-sample-size.png",
+    "id": 426,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/0. Assets/varying-sample-size.png",
     "name": "varying-sample-size.png",
     "ext": "png"
   },
   {
-    "id": 203,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/1. Basic concepts.md",
+    "id": 427,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/1. Basic concepts.md",
     "name": "1. Basic concepts.md",
     "ext": "md"
   },
   {
-    "id": 204,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/2. Data leakage.md",
+    "id": 428,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/2. Data leakage.md",
     "name": "2. Data leakage.md",
     "ext": "md"
   },
   {
-    "id": 205,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/2. Feature engineering.md",
+    "id": 429,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/2. Feature engineering.md",
     "name": "2. Feature engineering.md",
     "ext": "md"
   },
   {
-    "id": 206,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/2. Gradient descent.md",
+    "id": 430,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/2. Gradient descent.md",
     "name": "2. Gradient descent.md",
     "ext": "md"
   },
   {
-    "id": 207,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/2. Overfiting & Underfiting.md",
+    "id": 431,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/2. Overfiting & Underfiting.md",
     "name": "2. Overfiting & Underfiting.md",
     "ext": "md"
   },
   {
-    "id": 208,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/3. Gradient boosting.md",
+    "id": 432,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/3. Gradient boosting.md",
     "name": "3. Gradient boosting.md",
     "ext": "md"
   },
   {
-    "id": 209,
-    "path": "2. Data/3. Machine learning/1. Giới thiệu về ML/3. Hyperparameters tunning.md",
+    "id": 433,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/3. Hyperparameters tunning.md",
     "name": "3. Hyperparameters tunning.md",
     "ext": "md"
   },
   {
-    "id": 210,
-    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/1. Linear models.md",
+    "id": 434,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/1. Linear models.md",
     "name": "1. Linear models.md",
     "ext": "md"
   },
   {
-    "id": 211,
-    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/2.1. Nearest neighbors.md",
+    "id": 435,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/2.1. Nearest neighbors.md",
     "name": "2.1. Nearest neighbors.md",
     "ext": "md"
   },
   {
-    "id": 212,
-    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/2.2. Naive Bayes Classifier (NBC).md",
+    "id": 436,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/2.2. Naive Bayes Classifier (NBC).md",
     "name": "2.2. Naive Bayes Classifier (NBC).md",
     "ext": "md"
   },
   {
-    "id": 213,
-    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3. Phân lớp nhị phân, Phân lớp đa lớp & Tổng quan về Neural network.md",
+    "id": 437,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3. Phân lớp nhị phân, Phân lớp đa lớp & Tổng quan về Neural network.md",
     "name": "3. Phân lớp nhị phân, Phân lớp đa lớp & Tổng quan về Neural network.md",
     "ext": "md"
   },
   {
-    "id": 214,
-    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3.1. Perceptron learning algorithm (PLA).md",
+    "id": 438,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3.1. Perceptron learning algorithm (PLA).md",
     "name": "3.1. Perceptron learning algorithm (PLA).md",
     "ext": "md"
   },
   {
-    "id": 215,
-    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3.2. Logistic regression.md",
+    "id": 439,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3.2. Logistic regression.md",
     "name": "3.2. Logistic regression.md",
     "ext": "md"
   },
   {
-    "id": 216,
-    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3.3. Softmax regression.md",
+    "id": 440,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/3.3. Softmax regression.md",
     "name": "3.3. Softmax regression.md",
     "ext": "md"
   },
   {
-    "id": 217,
-    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/4.1. Decision tree.md",
+    "id": 441,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/4.1. Decision tree.md",
     "name": "4.1. Decision tree.md",
     "ext": "md"
   },
   {
-    "id": 218,
-    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/4.2. Random forest.md",
+    "id": 442,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/2. Các bài toán trong ML/Bài toán hồi quy (Regression) và Phân lớp (Classification))/4.2. Random forest.md",
     "name": "4.2. Random forest.md",
     "ext": "md"
   },
   {
-    "id": 219,
-    "path": "2. Data/3. Machine learning/2. Các bài toán trong ML/Bài toán phân cụm (Clustering)/1. Thuật toán K-means.md",
+    "id": 443,
+    "path": "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/2. Các bài toán trong ML/Bài toán phân cụm (Clustering)/1. Thuật toán K-means.md",
     "name": "1. Thuật toán K-means.md",
     "ext": "md"
   },
   {
-    "id": 220,
-    "path": "2. Data/4. Data analysis/0. Assets/flu-trends-lags.png",
+    "id": 444,
+    "path": "2. Data/3. Kho dữ liệu (Data warehouse) và OLAP/1. Kho dữ liệu (DWH - Data warehouse).md",
+    "name": "1. Kho dữ liệu (DWH - Data warehouse).md",
+    "ext": "md"
+  },
+  {
+    "id": 445,
+    "path": "2. Data/3. Kho dữ liệu (Data warehouse) và OLAP/2. Mô hình hóa dữ liệu đa chiều (Multi-dimensional data modeling).md",
+    "name": "2. Mô hình hóa dữ liệu đa chiều (Multi-dimensional data modeling).md",
+    "ext": "md"
+  },
+  {
+    "id": 446,
+    "path": "2. Data/3. Kho dữ liệu (Data warehouse) và OLAP/3. OLAP.md",
+    "name": "3. OLAP.md",
+    "ext": "md"
+  },
+  {
+    "id": 447,
+    "path": "2. Data/3. Kho dữ liệu (Data warehouse) và OLAP/4. MDX.md",
+    "name": "4. MDX.md",
+    "ext": "md"
+  },
+  {
+    "id": 448,
+    "path": "2. Data/4. Phân tích dữ liệu (Data analysis)/0. Assets/flu-trends-lags.png",
     "name": "flu-trends-lags.png",
     "ext": "png"
   },
   {
-    "id": 221,
-    "path": "2. Data/4. Data analysis/0. Assets/flu-trends-leading-feature.png",
+    "id": 449,
+    "path": "2. Data/4. Phân tích dữ liệu (Data analysis)/0. Assets/flu-trends-leading-feature.png",
     "name": "flu-trends-leading-feature.png",
     "ext": "png"
   },
   {
-    "id": 222,
-    "path": "2. Data/4. Data analysis/0. Assets/flu-trends-prediction.png",
+    "id": 450,
+    "path": "2. Data/4. Phân tích dữ liệu (Data analysis)/0. Assets/flu-trends-prediction.png",
     "name": "flu-trends-prediction.png",
     "ext": "png"
   },
   {
-    "id": 223,
-    "path": "2. Data/4. Data analysis/0. Assets/flu-trends.png",
+    "id": 451,
+    "path": "2. Data/4. Phân tích dữ liệu (Data analysis)/0. Assets/flu-trends.png",
     "name": "flu-trends.png",
     "ext": "png"
   },
   {
-    "id": 224,
-    "path": "2. Data/4. Data analysis/0. Assets/tunel-traffic-linear-regression-with-lag.png",
+    "id": 452,
+    "path": "2. Data/4. Phân tích dữ liệu (Data analysis)/0. Assets/tunel-traffic-linear-regression-with-lag.png",
     "name": "tunel-traffic-linear-regression-with-lag.png",
     "ext": "png"
   },
   {
-    "id": 225,
-    "path": "2. Data/4. Data analysis/0. Assets/tunel-traffic-linear-regression.png",
+    "id": 453,
+    "path": "2. Data/4. Phân tích dữ liệu (Data analysis)/0. Assets/tunel-traffic-linear-regression.png",
     "name": "tunel-traffic-linear-regression.png",
     "ext": "png"
   },
   {
-    "id": 226,
-    "path": "2. Data/4. Data analysis/0. Assets/tunel-traffic-linear-trend.png",
+    "id": 454,
+    "path": "2. Data/4. Phân tích dữ liệu (Data analysis)/0. Assets/tunel-traffic-linear-trend.png",
     "name": "tunel-traffic-linear-trend.png",
     "ext": "png"
   },
   {
-    "id": 227,
-    "path": "2. Data/4. Data analysis/0. Assets/tunel-traffic-moving-avg.png",
+    "id": 455,
+    "path": "2. Data/4. Phân tích dữ liệu (Data analysis)/0. Assets/tunel-traffic-moving-avg.png",
     "name": "tunel-traffic-moving-avg.png",
     "ext": "png"
   },
   {
-    "id": 228,
-    "path": "2. Data/4. Data analysis/0. Assets/tunel-traffic-out-of-sample.png",
+    "id": 456,
+    "path": "2. Data/4. Phân tích dữ liệu (Data analysis)/0. Assets/tunel-traffic-out-of-sample.png",
     "name": "tunel-traffic-out-of-sample.png",
     "ext": "png"
   },
   {
-    "id": 229,
-    "path": "2. Data/4. Data analysis/0. Assets/tunel-traffic-sesonal-plots.png",
+    "id": 457,
+    "path": "2. Data/4. Phân tích dữ liệu (Data analysis)/0. Assets/tunel-traffic-sesonal-plots.png",
     "name": "tunel-traffic-sesonal-plots.png",
     "ext": "png"
   },
   {
-    "id": 230,
-    "path": "2. Data/4. Data analysis/1. Nhập môn Data analysis.md",
+    "id": 458,
+    "path": "2. Data/4. Phân tích dữ liệu (Data analysis)/1. Nhập môn Data analysis.md",
     "name": "1. Nhập môn Data analysis.md",
     "ext": "md"
   },
   {
-    "id": 231,
-    "path": "2. Data/4. Data analysis/1. Statsmodels.md",
+    "id": 459,
+    "path": "2. Data/4. Phân tích dữ liệu (Data analysis)/1. Statsmodels.md",
     "name": "1. Statsmodels.md",
     "ext": "md"
   },
   {
-    "id": 232,
-    "path": "2. Data/4. Data analysis/2. Geospatial analysis.md",
+    "id": 460,
+    "path": "2. Data/4. Phân tích dữ liệu (Data analysis)/2. Geospatial analysis.md",
     "name": "2. Geospatial analysis.md",
     "ext": "md"
   },
   {
-    "id": 233,
-    "path": "2. Data/4. Data analysis/2. Timeseries analysis.md",
+    "id": 461,
+    "path": "2. Data/4. Phân tích dữ liệu (Data analysis)/2. Timeseries analysis.md",
     "name": "2. Timeseries analysis.md",
+    "ext": "md"
+  },
+  {
+    "id": 462,
+    "path": "2. Hệ thống thông tin (Information systems)/Hoạch định nguồn lực doanh nghiệp (ERP - Enterprise Resource Planning)/Tổng quan về ERP.md",
+    "name": "Tổng quan về ERP.md",
     "ext": "md"
   },
   {
@@ -1488,129 +1524,99 @@
     "ext": "md"
   },
   {
-    "id": 252,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/1. HTML.md",
-    "name": "1. HTML.md",
+    "id": 463,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/1. Nhập môn lập trình web.md",
+    "name": "1. Nhập môn lập trình web.md",
     "ext": "md"
   },
   {
-    "id": 253,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/2. CSS/0. Assets/.$transform.svg.bkp",
+    "id": 464,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/2. HTML.md",
+    "name": "2. HTML.md",
+    "ext": "md"
+  },
+  {
+    "id": 465,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. CSS/0. Assets/.$transform.svg.bkp",
     "name": ".$transform.svg.bkp",
     "ext": "bkp"
   },
   {
-    "id": 254,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/2. CSS/0. Assets/flex.png",
+    "id": 466,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. CSS/0. Assets/flex.png",
     "name": "flex.png",
     "ext": "png"
   },
   {
-    "id": 255,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/2. CSS/0. Assets/self-flex.png",
+    "id": 467,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. CSS/0. Assets/self-flex.png",
     "name": "self-flex.png",
     "ext": "png"
   },
   {
-    "id": 256,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/2. CSS/0. Assets/text-layout.png",
+    "id": 468,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. CSS/0. Assets/text-layout.png",
     "name": "text-layout.png",
     "ext": "png"
   },
   {
-    "id": 257,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/2. CSS/0. Assets/transform.svg",
+    "id": 469,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. CSS/0. Assets/transform.svg",
     "name": "transform.svg",
     "ext": "svg"
   },
   {
-    "id": 258,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/2. CSS/1. CSS.md",
+    "id": 470,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. CSS/1. CSS.md",
     "name": "1. CSS.md",
     "ext": "md"
   },
   {
-    "id": 259,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/1. Giới thiệu & Cài đặt JavaScript.md",
+    "id": 471,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. JavaScript (Vanilla)/1. Giới thiệu & Cài đặt JavaScript.md",
     "name": "1. Giới thiệu & Cài đặt JavaScript.md",
     "ext": "md"
   },
   {
-    "id": 260,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/2. Cú pháp cơ bản của JS.md",
+    "id": 472,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. JavaScript (Vanilla)/2. Cú pháp cơ bản của JS.md",
     "name": "2. Cú pháp cơ bản của JS.md",
     "ext": "md"
   },
   {
-    "id": 261,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/3. Kiểu dữ liệu và toán tử.md",
+    "id": 473,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. JavaScript (Vanilla)/3. Kiểu dữ liệu và toán tử.md",
     "name": "3. Kiểu dữ liệu và toán tử.md",
     "ext": "md"
   },
   {
-    "id": 262,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/3. Điều khiển luồng logic.md",
+    "id": 474,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. JavaScript (Vanilla)/3. Điều khiển luồng logic.md",
     "name": "3. Điều khiển luồng logic.md",
     "ext": "md"
   },
   {
-    "id": 263,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/4. Callback và Promise.md",
+    "id": 475,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. JavaScript (Vanilla)/4. Callback và Promise.md",
     "name": "4. Callback và Promise.md",
     "ext": "md"
   },
   {
-    "id": 264,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/4. Fetch API.md",
+    "id": 476,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. JavaScript (Vanilla)/4. Fetch API.md",
     "name": "4. Fetch API.md",
     "ext": "md"
   },
   {
-    "id": 265,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/4. Module.md",
+    "id": 477,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. JavaScript (Vanilla)/4. Module.md",
     "name": "4. Module.md",
     "ext": "md"
   },
   {
-    "id": 266,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. JavaScript (Vanilla)/4. Một số API của browser.md",
+    "id": 478,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. JavaScript (Vanilla)/4. Một số API của browser.md",
     "name": "4. Một số API của browser.md",
-    "ext": "md"
-  },
-  {
-    "id": 267,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. Node.js/1. Node.js.md",
-    "name": "1. Node.js.md",
-    "ext": "md"
-  },
-  {
-    "id": 268,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. Node.js/2. Vite.md",
-    "name": "2. Vite.md",
-    "ext": "md"
-  },
-  {
-    "id": 269,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. Node.js/3. ESLint.md",
-    "name": "3. ESLint.md",
-    "ext": "md"
-  },
-  {
-    "id": 270,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. Node.js/3. HTTP client wrapper.md",
-    "name": "3. HTTP client wrapper.md",
-    "ext": "md"
-  },
-  {
-    "id": 271,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. Node.js/3. TypeScript.md",
-    "name": "3. TypeScript.md",
-    "ext": "md"
-  },
-  {
-    "id": 272,
-    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. Node.js/3. Zod.md",
-    "name": "3. Zod.md",
     "ext": "md"
   },
   {
@@ -1620,27 +1626,45 @@
     "ext": "md"
   },
   {
+    "id": 479,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/5. Node.js/1. Node.js.md",
+    "name": "1. Node.js.md",
+    "ext": "md"
+  },
+  {
+    "id": 480,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/5. Node.js/2. Vite.md",
+    "name": "2. Vite.md",
+    "ext": "md"
+  },
+  {
+    "id": 481,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/5. Node.js/3. ESLint.md",
+    "name": "3. ESLint.md",
+    "ext": "md"
+  },
+  {
+    "id": 482,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/5. Node.js/3. HTTP client wrapper.md",
+    "name": "3. HTTP client wrapper.md",
+    "ext": "md"
+  },
+  {
+    "id": 483,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/5. Node.js/3. TypeScript.md",
+    "name": "3. TypeScript.md",
+    "ext": "md"
+  },
+  {
+    "id": 484,
+    "path": "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/5. Node.js/3. Zod.md",
+    "name": "3. Zod.md",
+    "ext": "md"
+  },
+  {
     "id": 274,
     "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Express JS.md",
     "name": "Express JS.md",
-    "ext": "md"
-  },
-  {
-    "id": 275,
-    "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Message broker/0. Giới thiệu về Message broker.md",
-    "name": "0. Giới thiệu về Message broker.md",
-    "ext": "md"
-  },
-  {
-    "id": 276,
-    "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Message broker/Apache Kafka.md",
-    "name": "Apache Kafka.md",
-    "ext": "md"
-  },
-  {
-    "id": 277,
-    "path": "2. Phát triển ứng dụng Web/2. Back-end frameworks/Message broker/RabbitMQ.md",
-    "name": "RabbitMQ.md",
     "ext": "md"
   },
   {
@@ -1812,6 +1836,12 @@
     "ext": "md"
   },
   {
+    "id": 485,
+    "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/jQuery.md",
+    "name": "jQuery.md",
+    "ext": "md"
+  },
+  {
     "id": 307,
     "path": "2. Phát triển ứng dụng Web/2. Front-end frameworks/Xây dựng mockup server bằng json-server và faker-js.md",
     "name": "Xây dựng mockup server bằng json-server và faker-js.md",
@@ -1881,6 +1911,36 @@
     "id": 318,
     "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/Next.JS/5. Image optimization.md",
     "name": "5. Image optimization.md",
+    "ext": "md"
+  },
+  {
+    "id": 486,
+    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/PHP/1. Nhập môn PHP.md",
+    "name": "1. Nhập môn PHP.md",
+    "ext": "md"
+  },
+  {
+    "id": 487,
+    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/PHP/2. OOP trong PHP.md",
+    "name": "2. OOP trong PHP.md",
+    "ext": "md"
+  },
+  {
+    "id": 488,
+    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/PHP/3. PHP và MySQL.md",
+    "name": "3. PHP và MySQL.md",
+    "ext": "md"
+  },
+  {
+    "id": 489,
+    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/PHP/4. Truyền dữ liệu.md",
+    "name": "4. Truyền dữ liệu.md",
+    "ext": "md"
+  },
+  {
+    "id": 490,
+    "path": "2. Phát triển ứng dụng Web/2. Fullstack frameworks/PHP/5. Laravel.md",
+    "name": "5. Laravel.md",
     "ext": "md"
   },
   {

@@ -1,35 +1,5 @@
 Bài viết này được dựa trên [Kaggle learn | Python](https://www.kaggle.com/learn/python) và nó khá ngắn. Chỉ dành cho *những ai có kinh nghiệm lập trình và học Python cho Data science*.
 
-```insta-toc
----
-title:
-  name: Mục lục
-  level: 1
-  center: false
-exclude: ""
-style:
-  listType: number
-omit: []
-levels:
-  min: 1
-  max: 6
----
-
-# Mục lục
-
-1. Variables
-2. Operators
-3. Code blocks
-4. Data structures
-    1. Lists
-    2. Tuples
-    3. Strings
-    4. Dictionaries
-5. Loop structure
-6. List compehensions
-7. Modules
-```
-
 # Variables
 
 When you declares a variable, no need to mention the data type.
