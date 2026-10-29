@@ -1,0 +1,132 @@
+
+>[!note]
+>Nội dung này được soạn qua TailwindCSS.
+
+# Layout
+
+### Positioning
+
+Positioning là thay đổi vị trí element một chút vì ý đồ thiết kế nào đó.
+
+| Tailwind   | Ý nghĩa                                                                                                        |
+| ---------- | -------------------------------------------------------------------------------------------------------------- |
+| `relative` | Element được định vị dựa trên **vị trí ban đầu của nó**.                                                       |
+| `absolute` | Element được định vị dựa trên **vị trí của cha trực tiếp**.                                                    |
+| `fixed`    | Hiển thị element **cố định trên màn hình**, không bị cuộn đi.                                                  |
+| `sticky`   | Hiển thị element như `relative`, khi đạt đến ngưỡng chỉ định (`top`, `bottom`,...) thì sẽ chuyển sang `fixed`. |
+| `bottom-n` | Dịch element lên trên `npx` so với vị trí định vị của nó. Tương tự với `left`, `right`, `top`.                 |
+| `z-n`      | Đưa element lên layer thứ `n`.                                                                                 |
+
+Tham khảo thêm:
+- https://tailwindcss.com/docs/position
+
+### Flex
+
+Flex (Flexible box - Flexbox) cho phép bạn dễ dàng sắp xếp các element con từ trái sang phải, từ trên xuống dưới, đồng thời kiểm soát khoảng cách và thứ tự của các items trong container.
+
+>[!quote]
+>Flex là một giải pháp bố cục hoàn hảo, hiện đại cho các trang web.
+
+Chú ý về thuật ngữ:
+- **Container**: Là element có `display: flex`.
+- **Item**: Là các element con trực tiếp của container.
+
+>[!important]
+>Nếu text là item thì vẫn có thể dùng flex để căn chỉnh.
+
+| Tailwind    | Ý nghĩa |
+| ----------- | ------- |
+| `flex`      |         |
+| `flex-row`  |         |
+| `flex-wrap` |         |
+
+#### Các thuộc tính định nghĩa tại container
+
+Khi định nghĩa các thuộc tính này tại container, các item trong container đó sẽ được sắp xếp lại tùy theo kiểu thuộc tính:
+
+| Tailwind class    | CSS                               | Ý nghĩa                                                                   |
+| ----------------- | --------------------------------- | ------------------------------------------------------------------------- |
+| `justify-start`   | `justify-content: flex-start;`    | Dồn các phần tử về đầu trục chính.                                        |
+| `justify-center`  | `justify-content: center;`        | Căn giữa các phần tử.                                                     |
+| `justify-between` | `justify-content: space-between;` | Phần tử đầu và cuối sát mép, khoảng trống chia đều giữa các phần tử.      |
+| `justify-around`  | `justify-content: space-around;`  | Mỗi phần tử có khoảng trống đều hai bên (giữa các phần tử gấp đôi ở mép). |
+| `justify-evenly`  | `justify-content: space-evenly;`  | Khoảng trống bằng nhau ở mép và giữa các phần tử.                         |
+| `justify-stretch` | `justify-content: stretch;`       | Kéo giãn các phần tử `auto` để lấp đầy (hình cuối cột 1, 02 giãn ra).     |
+| `items-start`     | `align-items: flex-start;`        | Căn các phần tử sát đầu trục chéo.                                        |
+| `items-center`    | `align-items: center;`            | Căn giữa theo trục chéo.                                                  |
+| `items-baseline`  | `align-items: baseline;`          | Căn theo đường cơ sở của văn bản.                                         |
+| `content-start`   | `align-content: flex-start;`      | Dồn các dòng về đầu trục chéo.                                            |
+| `content-center`  | `align-content: center;`          | Căn giữa các dòng.                                                        |
+| `content-between` | `align-content: space-between;`   | Dòng đầu và dòng cuối sát mép, khoảng trống chia đều giữa các dòng.       |
+| `content-around`  | `align-content: space-around;`    | Khoảng trống đều quanh mỗi dòng.                                          |
+| `content-evenly`  | `align-content: space-evenly;`    | Khoảng trống bằng nhau ở mép và giữa các dòng.                            |
+| `content-stretch` | `align-content: stretch;`         | Kéo giãn các dòng để lấp đầy container.                                   |
+
+Dưới đây là bảng ánh xạ từ CSS sang class Tailwind, theo đúng các nhóm trong hình.
+
+#### Justify (`justify-content`, trục chính)
+
+| Tailwind class          | CSS                               | Ý nghĩa                                                                   |
+| ----------------------- | --------------------------------- | ------------------------------------------------------------------------- |
+| `justify-start`         | `justify-content: flex-start;`    | Dồn các phần tử về đầu trục chính.                                        |
+| `justify-center`        | `justify-content: center;`        | Căn giữa các phần tử.                                                     |
+| `justify-between`       | `justify-content: space-between;` | Phần tử đầu và cuối sát mép, khoảng trống chia đều giữa các phần tử.      |
+| `justify-around`        | `justify-content: space-around;`  | Mỗi phần tử có khoảng trống đều hai bên (giữa các phần tử gấp đôi ở mép). |
+| `justify-evenly`        | `justify-content: space-evenly;`  | Khoảng trống bằng nhau ở mép và giữa các phần tử.                         |
+| `justify-stretch`       | `justify-content: stretch;`       | Kéo giãn các phần tử `auto` để lấp đầy (hình cuối cột 1, 02 giãn ra).     |
+| `place-content-start`   | `place-content: start;`           | Dồn các ô về góc trên bên trái.                                           |
+| `place-content-center`  | `place-content: center;`          | Căn giữa theo cả hai chiều.                                               |
+| `place-content-between` | `place-content: space-between;`   | Đẩy các ô ra bốn góc, khoảng trống chia đều ở giữa.                       |
+| `place-content-around`  | `place-content: space-around;`    | Khoảng trống đều quanh mỗi ô theo cả hai chiều.                           |
+| `place-content-evenly`  | `place-content: space-evenly;`    | Khoảng trống bằng nhau ở mép và giữa các ô.                               |
+| `place-content-stretch` | `place-content: stretch;`         | Kéo giãn các ô lấp đầy container theo cả hai chiều.                       |
+
+![[flex.png]]
+- `flex-row`: Hướng căn chỉnh *từ trái sang phải*. Tương tự với `col`, `row-reverse`, `col-reverse`.
+- `flex-wrap`: Khi container không đủ chỗ chứa các item thì các item sẽ được xuống dòng theo chiều của `flex-direction`. Tương tự với `nowrap` và `wrap-reverse`.
+
+#### Các thuộc tính định nghĩa tại item
+
+Khi bạn muốn có một số item không tuân theo bố cục của container, thì thêm tiền tố `self` phía trước các giá trị.
+
+![[self-flex.png]]
+- `grow`: Chỉ định item này sẽ phình to nhất có thể.
+- `gap-n`: Khoảng cách giữa các item.
+
+#### Các thuộc tính căn chỉnh văn bản
+
+![[text-layout.png]]
+
+### Grid
+
+Grid là kiểu bố cục dựa vào chia màn hình thành 1 lưới ô, các element nằm trong 1 hay 1 vài ô.
+- `grid`: Bật chế độ grid.
+
+**Các thuộc tính trên container**:
+- `grid-cols-n`: Chia container thành `n` cột.
+- `grid-rows-n`: Chia container thành `n` hàng.
+
+**Các thuộc tính trên item**:
+- `col-span-n`: Chiếm `n` cột, mặc định là `1`, tương tự với `row`.
+- `col-start-s`: Bắt đầu từ cột thứ `s` (1-based), tương tự với `row`.
+- `col-start-e`: Kết thúc ở cột thứ `e` (1-based), tương tự với `row`.
+
+# Transform
+
+![[transform.svg]]
+
+# Transition
+
+Transition là chuyển đổi đặc điểm của element, từ đặc điểm gốc sang đặc điểm mới.
+
+
+
+
+
+
+
+
+
+
+
+

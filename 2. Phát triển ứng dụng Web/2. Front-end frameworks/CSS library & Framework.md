@@ -9,7 +9,7 @@ Nhìn chung, ta có 2 cách để nhúng CSS vào HTML:
 2. Muốn HTML element nào có style nào thì chỉ cần viết class, không cần nhúng CSS vất vả như thường.
 3. Hầu hết các cấu hình CSS đã được chuyển hóa thành các Tailwind class.
 
-Trong chuỗi bài viết nói về [[1. CSS]], chúng ta đã tìm hiểu về các class này.
+Trong chuỗi bài viết nói về [[CSS - TailwindCSS view]], chúng ta đã tìm hiểu về các class này.
 
 # Framework
 

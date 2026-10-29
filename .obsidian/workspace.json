@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "34f4a9e122999a07",
+        "id": "029f40ac40f63de6",
         "type": "tabs",
         "children": [
           {
-            "id": "78b39f3119953dbb",
+            "id": "a5b34f4a291d91fe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "2. Phát triển ứng dụng Mobile/2. React Native.md",
-                "mode": "source",
-                "source": false
+                "file": "2. Data/3. Kho dữ liệu (Data warehouse) và OLAP/0. Bài tập/CK2_2023-2024_questions.pdf"
               },
-              "icon": "lucide-file",
-              "title": "2. React Native"
+              "icon": "lucide-file-text",
+              "title": "CK2_2023-2024_questions"
             }
           }
         ]
@@ -55,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "fold",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.0574722290039
+    "width": 285.08609771728516
   },
   "right": {
     "id": "fef15c42c46c132c",
@@ -144,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/MapReduce.md",
+                "file": "2. Data/3. Kho dữ liệu (Data warehouse) và OLAP/0. Bài tập/CK2_2023-2024_questions.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -158,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 292.9832763671875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,52 +169,52 @@
       "command-palette:Mở khay lệnh": false
     }
   },
-  "active": "78b39f3119953dbb",
+  "active": "a5b34f4a291d91fe",
   "lastOpenFiles": [
-    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/3. MapReduce.md",
-    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/0. Assets/map-reduce-sample.png",
-    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/0. Assets",
-    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Spark (PySpark)/1. Giới thiệu Apache Spark và PySpark.md",
-    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Spark (PySpark)/2. Sử dụng Spark.md",
-    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/2. HDFS (Hadoop Distributes File System).md",
-    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/1. Giới thiệu Apache Hadoop.md",
-    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/0. Kiến thức nền tảng/Dữ liệu lớn (Big data).md",
-    "2. Phát triển ứng dụng Mobile/1. Android Native.md",
-    "2. Hệ thống thông tin (Information systems)/Hoạch định nguồn lực doanh nghiệp (ERP - Enterprise Resource Planning)/Tổng quan về ERP.md",
-    "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/2. Feature engineering.md",
-    "1. Kiến thức đại cương/2. Hệ điều hành (OS)/Cài đặt hệ điều hành/WSL (Windows Subsystem for Linux).md",
-    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/1. Giới thiệu & Cài đặt Java SE.md",
-    "1. Kiến thức đại cương/2. Hệ điều hành (OS)/Ubuntu/2. Các lệnh cơ bản quản lý file.md",
-    "1. Kiến thức đại cương/2. Hệ điều hành (OS)/Cài đặt hệ điều hành",
-    "1. Kiến thức đại cương/2. Hệ điều hành (OS)/Ubuntu/1. Giới thiệu & Cài đặt Ubuntu trên máy ảo VMWare.md",
-    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop.md",
-    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop",
-    "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/2. WebSocket fallback và HTTP Streaming.md",
-    "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/2. Một số vấn đề nâng cao dùng trong WebSocket.md",
-    "2. Phát triển ứng dụng Web/2. Front-end frameworks/2. Interactive Websites/Framer Motion.md",
-    "2. Phát triển ứng dụng Web/2. Front-end frameworks/2. Interactive Websites/GSAP.md",
-    "2. Phát triển ứng dụng Web/3. Xây dựng ứng dụng realtime/1. Nhập môn WebSocket.md",
+    "2. Data/3. Kho dữ liệu (Data warehouse) và OLAP/0. Bài tập/CK2_2023-2024-solution.md",
+    "2. Data/3. Kho dữ liệu (Data warehouse) và OLAP/0. Bài tập/CK2_2023-2024_questions.pdf",
+    "2. Data/3. Kho dữ liệu (Data warehouse) và OLAP/0. Bài tập/CK1_2017-2018_1_solution.md",
+    "2. Data/3. Kho dữ liệu (Data warehouse) và OLAP/0. Bài tập/CK1_2017-2018_1_questions.pdf",
+    "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. JavaScript (Vanilla)/4. RegEx.md",
+    "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. JavaScript (Vanilla)/4. Một số API của browser.md",
+    "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. JavaScript (Vanilla)/4. Module.md",
+    "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. JavaScript (Vanilla)/4. Fetch API.md",
+    "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. JavaScript (Vanilla)/4. Callback và Promise.md",
+    "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. JavaScript (Vanilla)/3. Kiểu dữ liệu và toán tử.md",
+    "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. JavaScript (Vanilla)/3. Điều khiển luồng logic.md",
     "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. JavaScript (Vanilla)/2. Cú pháp cơ bản của JS.md",
     "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. JavaScript (Vanilla)/1. Giới thiệu & Cài đặt JavaScript.md",
-    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/0. Kiến thức nền tảng/MapReduce.md",
-    "2. Phát triển ứng dụng Web/2. Front-end frameworks/Xây dựng mockup server bằng json-server và faker-js.md",
-    "2. Hệ thống thông tin (Information systems)/Phân tích thiết kế hệ thống thông tin (Business analysis))/2. UML.md",
-    "2. Phát triển ứng dụng Web/2. Fullstack frameworks/PHP/1. Nhập môn PHP.md",
-    "2. Hệ thống thông tin (Information systems)/Hoạch định nguồn lực doanh nghiệp (ERP - Enterprise Resource Planning)",
-    "2. Data/3. Dữ liệu lớn (Big data)",
-    "2. Phát triển ứng dụng Web/2. Fullstack frameworks/PHP",
-    "2. Phát triển ứng dụng Web/2. Fullstack frameworks/PHP",
-    "2. Data/3. Kho dữ liệu (Data warehouse) và OLAP",
-    "2. Phát triển ứng dụng Mobile",
+    "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/1. Nhập môn lập trình web.md",
+    "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. CSS/CSS - TailwindCSS view.md",
+    "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/3. CSS/CSS.md",
+    "2. Phát triển ứng dụng Mobile/1. Android Native.md",
+    "2. Phát triển ứng dụng Mobile/2. React Native.md",
+    "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/2. HTML.md",
+    "2. Phát triển ứng dụng Web/2. Front-end frameworks/jQuery.md",
+    "2. Phát triển ứng dụng Web/1. Nhập môn lập trình web/4. SSR và CSR.md",
+    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/2. YARN.md",
+    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/2. HDFS (Hadoop Distributes File System).md",
+    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/3. MapReduce.md",
+    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/1. Giới thiệu Apache Hadoop.md",
+    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/0. Assets/map-reduce-word-count-sample-view2.png",
+    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/0. Assets/Screenshot 2026-10-23 145238.png",
+    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/0. Assets/map-reduce-word-count-sample-view1.png",
+    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/0. Assets/Screenshot 2026-10-23 144858.png",
+    "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/2. Data leakage.md",
+    "2. Data/3. Học máy (Machine learning) và Học sâu (Deep learning)/1. Giới thiệu về ML/2. Feature engineering.md",
+    "Chưa đặt tên.base",
+    "Chưa đặt tên 1.base",
+    "2. Data/3. Kho dữ liệu (Data warehouse) và OLAP/0. Bài tập/CK1_2017-2018_1_db.svg",
+    "2. Data/3. Kho dữ liệu (Data warehouse) và OLAP/0. Bài tập/CK2_2023-2024_db.svg",
     "Pasted image 20260522201112.png",
-    "2. Phát triển ứng dụng Web/3. Blockchain và Web3",
-    "1. Kiến thức đại cương/1. Git & Github/0. Assets/merge.svg",
-    "1. Kiến thức đại cương/1. Git & Github/0. Assets/rebase.svg",
-    "1. Kiến thức đại cương/1. Git & Github/0. Assets/1-commit-1-branch.svg",
-    "1. Kiến thức đại cương/1. Git & Github/0. Assets/1-commit-n-branches.svg",
-    "Pasted image 20260420150603.png",
-    "Pasted image 20260420140817.png",
-    "Pasted image 20260420140746.png",
-    "Pasted image 20260420140537.png"
+    "Pasted image 20261021171656.png",
+    "1. Kiến thức đại cương/3. Nhập môn lập trình Java/0. Bài tập/CK2_2022-2023_questions.pdf",
+    "2. Data/3. Kho dữ liệu (Data warehouse) và OLAP/0. Bài tập/Không được xác nhận 766966.crdownload",
+    "2. Data/3. Kho dữ liệu (Data warehouse) và OLAP/0. Bài tập/Không được xác nhận 513096.crdownload",
+    "2. Data/3. Kho dữ liệu (Data warehouse) và OLAP/0. Bài tập",
+    "1. Kiến thức đại cương/2. Cấu trúc dữ liệu & Giải thuật (DSA)/Cấu trúc dữ liệu & Giải thuật.pdf",
+    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/0. Assets/map-reduce-sample.png",
+    "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/0. Assets",
+    "1. Kiến thức đại cương/1. Git & Github/0. Assets/merge.svg"
   ]
 }

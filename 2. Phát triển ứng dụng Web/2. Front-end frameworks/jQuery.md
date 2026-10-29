@@ -16,44 +16,6 @@ $('#myBtn').on('click', function(event) {
 });
 ```
 
-### Một số selector
-
-| Cú pháp                     | Ý nghĩa                                              |
-| --------------------------- | ---------------------------------------------------- |
-| **`'*'`** / **`document`**  | Tất cả element.                                      |
-| **`elementName`**           | Chọn theo tên tag.                                   |
-| **`#id`**                   | Chọn theo ID.                                        |
-| **`.className`**            | Chọn theo class.                                     |
-| **`elementName.className`** | Chọn theo element và class.                          |
-| **`selector1,selector2**    | Ngăn cách bởi dấu `,`, chọn nhiều selector cùng lúc. |
-
-### Attribute selector
-
-| Cú pháp                  | Ý nghĩa                                                                                                                                                                                                                                                                                                                                     |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **`input[name]`**        | Chọn mọi thẻ `input` có thuộc tính `name`.                                                                                                                                                                                                                                                                                                  |
-| **`input[name='text']`** | Chọn mọi thẻ `input` có thuộc tính `name` với giá trị là `'text'`, tương tự với các toán tử:<br>- **`!=...`**: Khác `...`.<br>- **`*=...`**: Chứa chuỗi `...`.<br>- **`~=...`**: Chứa chuỗi `...`, giữa các ký tự của `...` có thể có khoảng cách.<br>- **`^=...`**: Bắt đầu bằng chuỗi `...`.<br>- **`$=...`**: Kết thúc bằng chuỗi `...`. |
-
-### Pseudo selector
-
-| Cú pháp         | Ý nghĩa                                |
-| --------------- | -------------------------------------- |
-| **`:button`**   | Chọn mọi element có `type`=`'button'`. |
-| **`:checkbox`** | ...                                    |
-| **`:checked`**  | ...                                    |
-| **`:disabled`** | ...                                    |
-| **`:enabled`**  | ...                                    |
-| **`:focus`**    | ...                                    |
-| **`:password`** | ...                                    |
-| **`:radio`**    | ...                                    |
-| **`:selected`** | ...                                    |
-| **`:reset`**    | ...                                    |
-| **`:text`**     | ...                                    |
-| **`:submit`**   | ...                                    |
-| **`:file`**     | ...                                    |
-| **`:header`**   | Chọn các element từ `h1` đến `h6`.     |
-| **`:hidden`**   | Chọn các element bị ẩn.                |
-
 # Methods
 
 ### Lấy và đặt giá trị vào element
