@@ -1,7 +1,7 @@
 [
   {
-    "id": 491,
-    "path": ".github/workflow/sync-to-iton.yml",
+    "id": 519,
+    "path": ".github/workflows/sync-to-iton.yml",
     "name": "sync-to-iton.yml",
     "ext": "yml"
   },
@@ -978,46 +978,64 @@
     "ext": "md"
   },
   {
-    "id": 390,
-    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/0. Assets/map-reduce-sample.png",
+    "id": 520,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop (Java)/0. Assets/map-reduce-sample.png",
     "name": "map-reduce-sample.png",
     "ext": "png"
   },
   {
-    "id": 505,
-    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/0. Assets/map-reduce-word-count-sample-view1.png",
+    "id": 521,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop (Java)/0. Assets/map-reduce-word-count-sample-view1.png",
     "name": "map-reduce-word-count-sample-view1.png",
     "ext": "png"
   },
   {
-    "id": 506,
-    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/0. Assets/map-reduce-word-count-sample-view2.png",
+    "id": 522,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop (Java)/0. Assets/map-reduce-word-count-sample-view2.png",
     "name": "map-reduce-word-count-sample-view2.png",
     "ext": "png"
   },
   {
-    "id": 391,
-    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/1. Giới thiệu Apache Hadoop.md",
+    "id": 523,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop (Java)/0. References/Hướng dẫn cài đặt Hadoop và Spark trên môi trường Linux.pdf",
+    "name": "Hướng dẫn cài đặt Hadoop và Spark trên môi trường Linux.pdf",
+    "ext": "pdf"
+  },
+  {
+    "id": 524,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop (Java)/1. Giới thiệu Apache Hadoop.md",
     "name": "1. Giới thiệu Apache Hadoop.md",
     "ext": "md"
   },
   {
-    "id": 392,
-    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/2. HDFS (Hadoop Distributes File System).md",
+    "id": 525,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop (Java)/2. HDFS (Hadoop Distributes File System).md",
     "name": "2. HDFS (Hadoop Distributes File System).md",
     "ext": "md"
   },
   {
-    "id": 507,
-    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/2. YARN.md",
+    "id": 526,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop (Java)/2. YARN.md",
     "name": "2. YARN.md",
     "ext": "md"
   },
   {
-    "id": 393,
-    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop/3. MapReduce.md",
+    "id": 527,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Hadoop (Java)/3. MapReduce.md",
     "name": "3. MapReduce.md",
     "ext": "md"
+  },
+  {
+    "id": 528,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Spark (PySpark)/0. Assets/spark-physical-architecture.png",
+    "name": "spark-physical-architecture.png",
+    "ext": "png"
+  },
+  {
+    "id": 529,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Spark (PySpark)/0. Assets/spark-software-architecture.png",
+    "name": "spark-software-architecture.png",
+    "ext": "png"
   },
   {
     "id": 394,
@@ -1026,9 +1044,27 @@
     "ext": "md"
   },
   {
-    "id": 395,
-    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Spark (PySpark)/2. Sử dụng Spark.md",
-    "name": "2. Sử dụng Spark.md",
+    "id": 530,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Spark (PySpark)/2. Các cấu trúc dữ liệu của Spark.md",
+    "name": "2. Các cấu trúc dữ liệu của Spark.md",
+    "ext": "md"
+  },
+  {
+    "id": 531,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Spark (PySpark)/3. GraphX.md",
+    "name": "3. GraphX.md",
+    "ext": "md"
+  },
+  {
+    "id": 532,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Spark (PySpark)/3. Lập lịch (Scheduling).md",
+    "name": "3. Lập lịch (Scheduling).md",
+    "ext": "md"
+  },
+  {
+    "id": 533,
+    "path": "2. Data/2. Dữ liệu lớn (Big data) và Luồng dữ liệu (Data pipeline)/Apache Spark (PySpark)/3. MLlib.md",
+    "name": "3. MLlib.md",
     "ext": "md"
   },
   {
@@ -2158,12 +2194,6 @@
     "path": "2. Điện toán đám mây (Cloud computing)/HashiCorp Terraform/1. Giới thiệu & Cài đặt Terraform.md",
     "name": "1. Giới thiệu & Cài đặt Terraform.md",
     "ext": "md"
-  },
-  {
-    "id": 518,
-    "path": "ct2mnf.js",
-    "name": "ct2mnf.js",
-    "ext": "js"
   },
   {
     "id": 339,
