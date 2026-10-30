@@ -33,7 +33,7 @@ jobs:
           # Xóa sạch nội dung cũ trong public/content (tránh lưu file đã bị xóa từ source)
           rm -rf target-repo/public/content/*
 
-         # Copy tất cả các file/folder từ source-repo (loại trừ .git, .github, .obsidian, ct2mnf.js, content2manifest.js)
+          # Copy tất cả các file/folder từ source-repo (loại trừ .git, .github, .obsidian, ct2mnf.js, content2manifest.js)
           rsync -av \
             --exclude='.git' \
             --exclude='.github' \
